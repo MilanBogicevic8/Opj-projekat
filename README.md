@@ -5,7 +5,7 @@ Tema projekta u školskoj 2024/2025. godini je **prepoznavanje imenovanih entite
 Cilj je implementacija **baseline pristupa** i evaluacija **naprednijih otvorenih rešenja** za NER zadatak.
 
 Projekat se izrađuje u programskom jeziku **Python**.
-Članovi grupe su:
+Članovi tima su:
 - Aleksa Vučković 2024/3040
 - Milan Bogićević 2024/3056
 - Milica Jevtović 2024/3113
@@ -39,4 +39,4 @@ Projekat se izrađuje u programskom jeziku **Python**.
 - HuggingFace modeli  
 
 ## Mentor
-**Vuk Batanović**
+**dr Vuk Batanović**

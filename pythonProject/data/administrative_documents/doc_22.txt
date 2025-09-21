@@ -1,0 +1,46 @@
+Ovim članom određuje se poreski obveznik isključivo za svrhu primene pravila koja se odnose na određivanje mesta prometa usluga.
+Kada uslugu pruža lice koje je obveznik PDV u skladu sa ovim zakonom, poreskim obveznikom kojem se pruža usluga smatra se:
+1) svako lice koje obavlja delatnost kao trajnu aktivnost bez obzira na cilj obavljanja te delatnosti;
+2) pravna lica, državni organi, organi teritorijalne autonomije i lokalne samouprave sa sedištem u Republici;
+3) strana pravna lica, državni organi, organi teritorijalne autonomije i lokalne samouprave, registrovani za plaćanje poreza na potrošnju u državi u kojoj imaju sedište.
+Kada uslugu pruža strano lice koje se nije evidentiralo za obavezu plaćanja PDV u skladu sa ovim zakonom, poreskim obveznikom kojem se pruža usluga smatra se:
+1) svako lice koje obavlja delatnost kao trajnu aktivnost bez obzira na cilj obavljanja te delatnosti;
+2) pravna lica, državni organi, organi teritorijalne autonomije i lokalne samouprave.
+Ako se promet usluga vrši poreskom obvezniku, mestom prometa usluga smatra se mesto u kojem primalac usluga ima sedište ili stalnu poslovnu jedinicu ako se promet usluga vrši stalnoj poslovnoj jedinici koja se ne nalazi u mestu u kojem primalac usluga ima sedište, odnosno mesto u kojem primalac usluga ima prebivalište ili boravište.
+Ako se promet usluga vrši licu koje nije poreski obveznik, mestom prometa usluga smatra se mesto u kojem pružalac usluga ima sedište ili stalnu poslovnu jedinicu ako se promet usluga vrši iz stalne poslovne jedinice koja se ne nalazi u mestu u kojem pružalac usluga ima sedište, odnosno mesto u kojem pružalac usluga ima prebivalište ili boravište.
+Izuzetno od st. 4. i 5. ovog člana, mestom prometa usluga:
+1) u vezi sa nepokretnostima, uključujući i usluge posredovanja kod prometa nepokretnosti, smatra se mesto u kojem se nalazi nepokretnost;
+2) prevoza lica, smatra se mesto gde se obavlja prevoz, a ako se prevoz obavlja i u Republici i u inostranstvu, odredbe ovog zakona primenjuju se samo na deo prevoza izvršen u Republici;
+3) prevoza dobara koja se pruža licu koje nije poreski obveznik, smatra se mesto gde se obavlja prevoz, a ako se prevoz obavlja i u Republici i u inostranstvu, odredbe ovog zakona primenjuju se samo na deo prevoza izvršen u Republici;
+4) smatra se mesto gde su usluge stvarno pružene, ako se radi o:
+(1) uslugama koje se odnose na prisustvovanje kulturnim, umetničkim, sportskim, naučnim, obrazovnim, zabavnim ili sličnim događajima (sajmovi, izložbe i dr.), uključujući i pomoćne usluge u vezi sa prisustvovanjem tim događajima;
+(2) uslugama organizatora događaja iz podtačke (1) ove tačke, pruženih licu koje nije poreski obveznik;
+(3) pomoćnim uslugama u vezi sa prevozom, kao što su utovar, istovar, pretovar i slično, pruženih licu koje nije poreski obveznik;
+(4) uslugama procene pokretnih stvari, odnosno radova na pokretnim stvarima pruženih licu koje nije poreski obveznik;
+(5) uslugama predaje jela i pića za konzumaciju na licu mesta;
+5) iznajmljivanja prevoznih sredstava na kraći vremenski period, smatra se mesto u kojem se prevozno sredstvo stvarno stavlja na korišćenje primaocu usluge;
+6) iznajmljivanja prevoznih sredstava, osim iz tačke 5) ovog stava, pruženih licu koje nije poreski obveznik, smatra se mesto u kojem to lice ima sedište, prebivalište ili boravište;
+7) koje se pružaju licu koje nije poreski obveznik, smatra se mesto sedišta, prebivališta ili boravišta primaoca usluga, ako se radi o uslugama:
+(1) prenosa, ustupanja i davanja na korišćenje autorskih i srodnih prava, prava na patente, licence, zaštitne znakove i druga prava intelektualne svojine;
+(2) oglašavanja;
+(3) savetnika, inženjera, advokata, revizora i sličnih usluga, kao i prevodilaca za usluge prevođenja, uključujući i prevođenje u pisanom obliku;
+(4) obrade podataka i ustupanja, odnosno davanja informacija, uključujući i informacije o poslovnim postupcima i iskustvu;
+(5) preuzimanja obaveze da se u potpunosti ili delimično odustane od obavljanja neke delatnosti ili od korišćenja nekog prava iz ove tačke;
+(6) bankarskog i finansijskog poslovanja i poslovanja u oblasti osiguranja, uključujući reosiguranje, osim iznajmljivanja sefova;
+(7) stavljanja na raspolaganje osoblja;
+(8) iznajmljivanja pokretnih stvari, osim prevoznih sredstava;
+(9) omogućavanja pristupa mreži prirodnog gasa, mreži za prenos električne energije i mreži za grejanje, odnosno hlađenje, transporta i distribucije putem tih mreža, kao i drugih usluga koje su neposredno povezane sa tim uslugama;
+(10) telekomunikacija;
+(11) radijskog i televizijskog emitovanja;
+(12) pruženih elektronskim putem;
+8) posredovanja kod prometa dobara ili usluga koja se pruža licu koje nije poreski obveznik, smatra se mesto u kojem je izvršen promet dobara ili usluga koji je predmet posredovanja.
+Mesto prometa usluge posredovanja koja se pruža poreskom obvezniku, osim usluga posredovanja iz stava 6. tačka 1) ovog člana, određuje se u skladu sa stavom 4. ovog člana.
+Kraćim vremenskim periodom iz stava 6. tačka 5) ovog člana smatra se neprekidni vremenski period koji nije duži od 30 dana, a ako se radi o plovilima od 90 dana.
+Izuzetno od stava 6. tačka 4) podtačka (5) ovog člana, ako se usluge predaje jela i pića za konzumaciju na licu mesta faktički pružaju na brodu, odnosno u letilici ili vozu u toku prevoza putnika, mestom prometa smatra se mesto polaska broda, letilice ili voza.
+Ako se prevoz putnika vrši u oba smera, povratna vožnja smatra se posebnim prevozom.
+Mestom polaska iz stava 9. ovog člana smatra se prvo voznim redom planirano mesto ukrcavanja putnika.
+Ako prebivalište i boravište pružaoca, odnosno primaoca usluge nisu u istom mestu, mesto prometa usluge određuje se prema mestu boravišta.
+Za promet usluga telekomunikacija, radijskog i televizijskog emitovanja i usluga pruženih elektronskim putem, mestom sedišta, stalne poslovne jedinice, prebivališta ili boravišta primaoca usluga smatra se mesto određeno na osnovu kriterijuma i pretpostavki za određivanje mesta sedišta, stalne poslovne jedinice, prebivališta ili boravišta primaoca tih usluga.
+Ministar bliže uređuje šta se smatra uslugama iz stava 6. tačka 1), tačka 4) podtačka (5), prevoznim sredstvima iz tač. 5), 6) i tačka 7) podtačka (8), uslugama iz tačke 7) podtač. (10) i (12) ovog člana, kao i kriterijum i pretpostavke za određivanje mesta sedišta, stalne poslovne jedinice, prebivališta ili boravišta primaoca usluga iz stava 13. ovog člana, uključujući i način njihove primene.
+Ovde možete pročitati ceo tekst Zakona o PDV-u.
+Some text in the modal.

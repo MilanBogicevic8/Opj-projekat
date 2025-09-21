@@ -1,0 +1,20 @@
+Obveznik je dužan da izda račun za svaki promet dobara i usluga.
+U slučaju pružanja vremenski ograničenih ili neograničenih usluga čije je trajanje duže od godinu dana, obavezno se izdaje periodični račun, s tim što period za koji se izdaje taj račun ne može biti duži od godinu dana.
+Obaveza izdavanja računa iz st. 1. i 2. ovog člana postoji i ako obveznik naplati naknadu ili deo naknade pre nego što je izvršen promet dobara i usluga (avansno plaćanje), s tim što se u konačnom računu odbijaju avansna plaćanja u kojima je sadržan PDV.
+Račun naročito sadrži sledeće podatke:
+1) naziv, adresu i PIB obveznika - izdavaoca računa;
+2) mesto i datum izdavanja i redni broj računa;
+3) naziv, adresu i PIB obveznika - primaoca računa;
+4) vrstu i količinu isporučenih dobara ili vrstu i obim usluga;
+5) datum prometa dobara i usluga i visinu avansnih plaćanja;
+6) iznos osnovice;
+7) poresku stopu koja se primenjuje;
+8) iznos PDV koji je obračunat na osnovicu;
+9) napomenu o odredbi ovog zakona na osnovu koje nije obračunat PDV;
+10) napomenu da se za promet dobara i usluga primenjuje sistem naplate.
+Obveznik može da izda račun u papirnom, odnosno u elektronskom obliku ako postoji saglasnost primaoca da prihvata račun u elektronskom obliku, osim u slučaju obaveze izdavanja računa u elektronskom obliku u skladu sa zakonom kada saglasnost primaoca nije potrebna.
+Račun u papirnom obliku izdaje se u najmanje dva primerka, od kojih jedan zadržava izdavalac računa, a ostali se daju primaocu dobara i usluga.
+Račun u elektronskom obliku izdaje se kao elektronski dokument u skladu sa zakonom.
+Obveznik PDV ne izdaje račun za promet dobara i usluga za koji je rešenjem utvrđena obaveza plaćanja PDV od strane poreskog organa.
+Ovde možete pročitati ceo tekst Zakona o PDV-u.
+Some text in the modal.

@@ -2,9 +2,9 @@ import reldi_tokeniser
 import os
 import pandas as pd
 
-INPUT_FOLDER = "izvuceno_latinica"
-OUTPUT_CONLLU = "../../tokenized_files/adminstrative_texts.conllu"
-OUTPUT_XLSX = "../../tokenized_files/administrative_texts.xlsx"
+INPUT_FOLDER = "./"
+OUTPUT_CONLLU = "../../tokenized_files/literature.conllu"
+OUTPUT_XLSX = "../../tokenized_files/literature.xlsx"
 
 
 def to_conllu():

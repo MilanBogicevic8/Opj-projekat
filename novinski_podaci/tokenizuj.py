@@ -2,7 +2,7 @@ import reldi_tokeniser
 import os
 import pandas as pd
 
-INPUT_FOLDER = "izvuceno_latinica"
+INPUT_FOLDER = "newspapers"
 OUTPUT_CONLLU = "tokeni.conllu"
 OUTPUT_XLSX = "tokeni.xlsx"
 
@@ -10,6 +10,7 @@ OUTPUT_XLSX = "tokeni.xlsx"
 def to_conllu():
     if os.path.exists(OUTPUT_CONLLU):
         os.remove(OUTPUT_CONLLU)
+
     with open(OUTPUT_CONLLU, "a", encoding="utf-8") as fout:
         for filename in os.listdir(INPUT_FOLDER):
             if filename.endswith(".txt"):
@@ -38,10 +39,10 @@ def to_csv():
             rows.append(parts)
 
     df = pd.DataFrame(rows)
-    df.to_excel(OUTPUT_XLSX, header=False, index=False)
+    df.to_excel(OUTPUT_XLSX, index=False)
 
     print(f"Converted to exel")
 
 
-#to_conllu()
+to_conllu()
 to_csv()

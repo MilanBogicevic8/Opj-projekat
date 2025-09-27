@@ -2,8 +2,8 @@ import os
 from transliterate import translit
 
 # folder gde se nalaze txt fajlovi
-INPUT_FOLDER = "izvuceno"
-OUTPUT_FOLDER = "izvuceno_latinica"
+INPUT_FOLDER = "../../data/administrative_documents/izvuceno"
+OUTPUT_FOLDER = "../../data/administrative_documents/izvuceno_latinica"
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 

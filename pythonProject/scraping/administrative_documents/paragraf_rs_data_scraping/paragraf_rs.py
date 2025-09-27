@@ -6,7 +6,7 @@ import shutil
 URL = "https://www.paragraf.rs/propisi/clanovi/"
 LINKS_FILE = "administrative_texts_links.txt"
 METADATA_FILE = "metadata.txt"
-OUTPUT_FOLDER = "../../data/administrative_documents"
+OUTPUT_FOLDER = "../../../data/administrative_documents/paragraf_rs"
 
 def scrape_admin_links():
 

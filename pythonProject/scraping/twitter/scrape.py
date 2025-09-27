@@ -5,6 +5,8 @@ import json
 from transliterate import translit
 import reldi_tokeniser
 import re
+import pandas
+from scraping.twitter.const import *
 
 class ParsedTweet(TypedDict):
     timestamp: float
@@ -13,8 +15,6 @@ class ParsedTweet(TypedDict):
     id: str
 
 RAW_DATA = Path(__file__).parent/"raw_data"
-DATA = Path(__file__).parent.parent.parent / "data" / "twitter"
-
 EMOJI_PATTERN = re.compile(
     "["
     "\U00010000-\U0010FFFF"
@@ -66,13 +66,16 @@ for raw_file in RAW_DATA.iterdir():
 
 
 DATA.mkdir(parents=True, exist_ok=True)
-metadata = DATA/"metadata.json"
-input = DATA/"input.txt"
-tokenized = DATA/"tokenized.conllu"
-temp = DATA/"temp.tsv"
-metadata.write_text(json.dumps(all_tweets, indent=3, ensure_ascii=False))
-input.write_text("\n".join(it["content"] for it in all_tweets))
-tokenized.write_text(reldi_tokeniser.run(input.read_text(), 'sr', conllu=True, nonstandard=True, tag=True))
+METADATA.write_text(json.dumps(all_tweets, indent=3, ensure_ascii=False))
+INPUT.write_text("\n".join(it["content"] for it in all_tweets))
+TOKENS_CONLLU.write_text(reldi_tokeniser.run(INPUT.read_text(), 'sr', conllu=True, nonstandard=True, tag=True))
 
-total_tokens = len([it for it in tokenized.read_text().split("\n") if not it.startswith("#") and not len(it) == 0])
+table = [it.split("\t") if not it.startswith("#") and not len(it) == 0 else [it] for it in TOKENS_CONLLU.read_text().split("\n")]
+for it in table:
+    if len(it) != 10 and len(it) != 1:
+        print(f"Faulty line {it}")
+df = pandas.DataFrame(table)
+df.to_excel(TOKENS_EXCEL)
+
+total_tokens = len([it for it in TOKENS_CONLLU.read_text().split("\n") if not it.startswith("#") and not len(it) == 0])
 print(f"TOTAL TOKENS: {total_tokens}")

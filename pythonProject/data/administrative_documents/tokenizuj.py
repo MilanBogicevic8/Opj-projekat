@@ -3,8 +3,8 @@ import os
 import pandas as pd
 
 INPUT_FOLDER = "izvuceno_latinica"
-OUTPUT_CONLLU = "tokeni.conllu"
-OUTPUT_XLSX = "tokeni.xlsx"
+OUTPUT_CONLLU = "../../tokenized_files/adminstrative_texts.conllu"
+OUTPUT_XLSX = "../../tokenized_files/administrative_texts.xlsx"
 
 
 def to_conllu():
@@ -43,5 +43,5 @@ def to_csv():
     print(f"Converted to exel")
 
 
-#to_conllu()
+to_conllu()
 to_csv()

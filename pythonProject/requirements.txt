@@ -1,3 +1,5 @@
 reldi_tokeniser
 requests
 beautifulsoup4
+transliterate
+openpyxl

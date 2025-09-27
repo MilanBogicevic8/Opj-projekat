@@ -63,17 +63,12 @@ for raw_file in RAW_DATA.iterdir():
     except Exception as e:
         print(f"Skipping file {raw_file.name}: {e}")
 
-
-
 DATA.mkdir(parents=True, exist_ok=True)
 METADATA.write_text(json.dumps(all_tweets, indent=3, ensure_ascii=False))
 INPUT.write_text("\n".join(it["content"] for it in all_tweets))
 TOKENS_CONLLU.write_text(reldi_tokeniser.run(INPUT.read_text(), 'sr', conllu=True, nonstandard=True, tag=True))
 
 table = [it.split("\t") if not it.startswith("#") and not len(it) == 0 else [it] for it in TOKENS_CONLLU.read_text().split("\n")]
-for it in table:
-    if len(it) != 10 and len(it) != 1:
-        print(f"Faulty line {it}")
 df = pandas.DataFrame(table)
 df.to_excel(TOKENS_EXCEL)
 

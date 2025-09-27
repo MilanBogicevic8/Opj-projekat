@@ -3,4 +3,5 @@ requests
 beautifulsoup4
 transliterate
 openpyxl
+pandas
 classla

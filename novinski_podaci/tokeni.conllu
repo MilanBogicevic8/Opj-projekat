@@ -1,0 +1,5838 @@
+# newpar id = 1
+# sent_id = 1.1
+# text = Danas je održana Vojna parada na prostoru oko Palate Srbija, u kojoj je, prema najavama Ministarstva odbrane, učestvovalo 10 000 učesnika, prikazano oko 2.500 sredstava naoružanja i vojne opreme, više od 600 vozila, 70 vazduhoplova i 20 plovnih objekata.
+1	Danas	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	održana	_	_	_	_	_	_	_	_
+4	Vojna	_	_	_	_	_	_	_	_
+5	parada	_	_	_	_	_	_	_	_
+6	na	_	_	_	_	_	_	_	_
+7	prostoru	_	_	_	_	_	_	_	_
+8	oko	_	_	_	_	_	_	_	_
+9	Palate	_	_	_	_	_	_	_	_
+10	Srbija	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	u	_	_	_	_	_	_	_	_
+13	kojoj	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	prema	_	_	_	_	_	_	_	_
+17	najavama	_	_	_	_	_	_	_	_
+18	Ministarstva	_	_	_	_	_	_	_	_
+19	odbrane	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	Z	_	_	_	_	_
+21	učestvovalo	_	_	_	_	_	_	_	_
+22	10	_	_	_	_	_	_	_	_
+23	000	_	_	_	_	_	_	_	_
+24	učesnika	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	,	PUNCT	Z	_	_	_	_	_
+26	prikazano	_	_	_	_	_	_	_	_
+27	oko	_	_	_	_	_	_	_	_
+28	2.500	_	_	_	_	_	_	_	_
+29	sredstava	_	_	_	_	_	_	_	_
+30	naoružanja	_	_	_	_	_	_	_	_
+31	i	_	_	_	_	_	_	_	_
+32	vojne	_	_	_	_	_	_	_	_
+33	opreme	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	,	PUNCT	Z	_	_	_	_	_
+35	više	_	_	_	_	_	_	_	_
+36	od	_	_	_	_	_	_	_	_
+37	600	_	_	_	_	_	_	_	_
+38	vozila	_	_	_	_	_	_	_	SpaceAfter=No
+39	,	,	PUNCT	Z	_	_	_	_	_
+40	70	_	_	_	_	_	_	_	_
+41	vazduhoplova	_	_	_	_	_	_	_	_
+42	i	_	_	_	_	_	_	_	_
+43	20	_	_	_	_	_	_	_	_
+44	plovnih	_	_	_	_	_	_	_	_
+45	objekata	_	_	_	_	_	_	_	SpaceAfter=No
+46	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Ipak, iako nisu uspeli da prisustvuju samoj svečanosti, uspeli su da vide defile ešelona jedinica svih rodova i službi u Vojsci Srbije i kadeta Vojne akademije, jedinica na vozilima, plovnih objekata Rečne flotile i nalet vazduhoplova.
+1	Ipak	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	iako	_	_	_	_	_	_	_	_
+4	nisu	_	_	_	_	_	_	_	_
+5	uspeli	_	_	_	_	_	_	_	_
+6	da	_	_	_	_	_	_	_	_
+7	prisustvuju	_	_	_	_	_	_	_	_
+8	samoj	_	_	_	_	_	_	_	_
+9	svečanosti	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	uspeli	_	_	_	_	_	_	_	_
+12	su	_	_	_	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_
+14	vide	_	_	_	_	_	_	_	_
+15	defile	_	_	_	_	_	_	_	_
+16	ešelona	_	_	_	_	_	_	_	_
+17	jedinica	_	_	_	_	_	_	_	_
+18	svih	_	_	_	_	_	_	_	_
+19	rodova	_	_	_	_	_	_	_	_
+20	i	_	_	_	_	_	_	_	_
+21	službi	_	_	_	_	_	_	_	_
+22	u	_	_	_	_	_	_	_	_
+23	Vojsci	_	_	_	_	_	_	_	_
+24	Srbije	_	_	_	_	_	_	_	_
+25	i	_	_	_	_	_	_	_	_
+26	kadeta	_	_	_	_	_	_	_	_
+27	Vojne	_	_	_	_	_	_	_	_
+28	akademije	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	,	PUNCT	Z	_	_	_	_	_
+30	jedinica	_	_	_	_	_	_	_	_
+31	na	_	_	_	_	_	_	_	_
+32	vozilima	_	_	_	_	_	_	_	SpaceAfter=No
+33	,	,	PUNCT	Z	_	_	_	_	_
+34	plovnih	_	_	_	_	_	_	_	_
+35	objekata	_	_	_	_	_	_	_	_
+36	Rečne	_	_	_	_	_	_	_	_
+37	flotile	_	_	_	_	_	_	_	_
+38	i	_	_	_	_	_	_	_	_
+39	nalet	_	_	_	_	_	_	_	_
+40	vazduhoplova	_	_	_	_	_	_	_	SpaceAfter=No
+41	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = To je ozbiljan domet i to srpskoj Vojsci daje ofanzivni kapacitet koji je najveći u regionu.
+1	To	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	ozbiljan	_	_	_	_	_	_	_	_
+4	domet	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	to	_	_	_	_	_	_	_	_
+7	srpskoj	_	_	_	_	_	_	_	_
+8	Vojsci	_	_	_	_	_	_	_	_
+9	daje	_	_	_	_	_	_	_	_
+10	ofanzivni	_	_	_	_	_	_	_	_
+11	kapacitet	_	_	_	_	_	_	_	_
+12	koji	_	_	_	_	_	_	_	_
+13	je	_	_	_	_	_	_	_	_
+14	najveći	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16	regionu	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 3.2
+# text = Ali Vučićeva publika želi da čuje kako je to pretnja Hrvatima, Vučićevi glasači žele da čuju da smo mi jači od Hrvata.
+1	Ali	_	_	_	_	_	_	_	_
+2	Vučićeva	_	_	_	_	_	_	_	_
+3	publika	_	_	_	_	_	_	_	_
+4	želi	_	_	_	_	_	_	_	_
+5	da	_	_	_	_	_	_	_	_
+6	čuje	_	_	_	_	_	_	_	_
+7	kako	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	to	_	_	_	_	_	_	_	_
+10	pretnja	_	_	_	_	_	_	_	_
+11	Hrvatima	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	Vučićevi	_	_	_	_	_	_	_	_
+14	glasači	_	_	_	_	_	_	_	_
+15	žele	_	_	_	_	_	_	_	_
+16	da	_	_	_	_	_	_	_	_
+17	čuju	_	_	_	_	_	_	_	_
+18	da	_	_	_	_	_	_	_	_
+19	smo	_	_	_	_	_	_	_	_
+20	mi	_	_	_	_	_	_	_	_
+21	jači	_	_	_	_	_	_	_	_
+22	od	_	_	_	_	_	_	_	_
+23	Hrvata	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 3.3
+# text = To je zapravo obratan sistem vrednosti“, kaže Radić, pa dodaje:
+1	To	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	zapravo	_	_	_	_	_	_	_	_
+4	obratan	_	_	_	_	_	_	_	_
+5	sistem	_	_	_	_	_	_	_	_
+6	vrednosti	_	_	_	_	_	_	_	SpaceAfter=No
+7	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	kaže	_	_	_	_	_	_	_	_
+10	Radić	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	pa	_	_	_	_	_	_	_	_
+13	dodaje	_	_	_	_	_	_	_	SpaceAfter=No
+14	:	:	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = "S obzirom na to da su na okruglom stolu u Strazburu usvojeni zajednički zaključci koji najavljuju veću aktivnost najpre Evropskog parlamenta, verujem da je iz straha od toga da bi EU mogla da stane na stranu građana Srbije, Laki postao malo nervozan.
+1	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	S	_	_	_	_	_	_	_	_
+3	obzirom	_	_	_	_	_	_	_	_
+4	na	_	_	_	_	_	_	_	_
+5	to	_	_	_	_	_	_	_	_
+6	da	_	_	_	_	_	_	_	_
+7	su	_	_	_	_	_	_	_	_
+8	na	_	_	_	_	_	_	_	_
+9	okruglom	_	_	_	_	_	_	_	_
+10	stolu	_	_	_	_	_	_	_	_
+11	u	_	_	_	_	_	_	_	_
+12	Strazburu	_	_	_	_	_	_	_	_
+13	usvojeni	_	_	_	_	_	_	_	_
+14	zajednički	_	_	_	_	_	_	_	_
+15	zaključci	_	_	_	_	_	_	_	_
+16	koji	_	_	_	_	_	_	_	_
+17	najavljuju	_	_	_	_	_	_	_	_
+18	veću	_	_	_	_	_	_	_	_
+19	aktivnost	_	_	_	_	_	_	_	_
+20	najpre	_	_	_	_	_	_	_	_
+21	Evropskog	_	_	_	_	_	_	_	_
+22	parlamenta	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	verujem	_	_	_	_	_	_	_	_
+25	da	_	_	_	_	_	_	_	_
+26	je	_	_	_	_	_	_	_	_
+27	iz	_	_	_	_	_	_	_	_
+28	straha	_	_	_	_	_	_	_	_
+29	od	_	_	_	_	_	_	_	_
+30	toga	_	_	_	_	_	_	_	_
+31	da	_	_	_	_	_	_	_	_
+32	bi	_	_	_	_	_	_	_	_
+33	EU	_	_	_	_	_	_	_	_
+34	mogla	_	_	_	_	_	_	_	_
+35	da	_	_	_	_	_	_	_	_
+36	stane	_	_	_	_	_	_	_	_
+37	na	_	_	_	_	_	_	_	_
+38	stranu	_	_	_	_	_	_	_	_
+39	građana	_	_	_	_	_	_	_	_
+40	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+41	,	,	PUNCT	Z	_	_	_	_	_
+42	Laki	_	_	_	_	_	_	_	_
+43	postao	_	_	_	_	_	_	_	_
+44	malo	_	_	_	_	_	_	_	_
+45	nervozan	_	_	_	_	_	_	_	SpaceAfter=No
+46	.	.	PUNCT	Z	_	_	_	_	SpaceAfter=No
+
+# sent_id = 1.2
+# text = ", kaže u intervjuu za Novu Biljana Đorđević iz Zeleno levog fronta.
+1	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	kaže	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	intervjuu	_	_	_	_	_	_	_	_
+6	za	_	_	_	_	_	_	_	_
+7	Novu	_	_	_	_	_	_	_	_
+8	Biljana	_	_	_	_	_	_	_	_
+9	Đorđević	_	_	_	_	_	_	_	_
+10	iz	_	_	_	_	_	_	_	_
+11	Zeleno	_	_	_	_	_	_	_	_
+12	levog	_	_	_	_	_	_	_	_
+13	fronta	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Jedino što se dogodilo u poslednjem trenutku je zajednička konferencija Evropske partije Zelenih, kopredsednika Zelenih u Evropskom parlamentu i nas iz ZLF kojom je započeo taj dan posvećen Srbiji, jer je svega nekoliko dana pre naše posete Vučić uvredio kopredsednicu evropskih Zelenih Vulu Ceci i evroposlanika Rasmusa Nordkvista koji su bili u poseti Beogradu i Novom Sadu, gde su prisustvovali protestu, nazvavši ih “evropskim ološem sa dna kace”.
+1	Jedino	_	_	_	_	_	_	_	_
+2	što	_	_	_	_	_	_	_	_
+3	se	_	_	_	_	_	_	_	_
+4	dogodilo	_	_	_	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	poslednjem	_	_	_	_	_	_	_	_
+7	trenutku	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	zajednička	_	_	_	_	_	_	_	_
+10	konferencija	_	_	_	_	_	_	_	_
+11	Evropske	_	_	_	_	_	_	_	_
+12	partije	_	_	_	_	_	_	_	_
+13	Zelenih	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	_	_	_	_
+15	kopredsednika	_	_	_	_	_	_	_	_
+16	Zelenih	_	_	_	_	_	_	_	_
+17	u	_	_	_	_	_	_	_	_
+18	Evropskom	_	_	_	_	_	_	_	_
+19	parlamentu	_	_	_	_	_	_	_	_
+20	i	_	_	_	_	_	_	_	_
+21	nas	_	_	_	_	_	_	_	_
+22	iz	_	_	_	_	_	_	_	_
+23	ZLF	_	_	_	_	_	_	_	_
+24	kojom	_	_	_	_	_	_	_	_
+25	je	_	_	_	_	_	_	_	_
+26	započeo	_	_	_	_	_	_	_	_
+27	taj	_	_	_	_	_	_	_	_
+28	dan	_	_	_	_	_	_	_	_
+29	posvećen	_	_	_	_	_	_	_	_
+30	Srbiji	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	,	PUNCT	Z	_	_	_	_	_
+32	jer	_	_	_	_	_	_	_	_
+33	je	_	_	_	_	_	_	_	_
+34	svega	_	_	_	_	_	_	_	_
+35	nekoliko	_	_	_	_	_	_	_	_
+36	dana	_	_	_	_	_	_	_	_
+37	pre	_	_	_	_	_	_	_	_
+38	naše	_	_	_	_	_	_	_	_
+39	posete	_	_	_	_	_	_	_	_
+40	Vučić	_	_	_	_	_	_	_	_
+41	uvredio	_	_	_	_	_	_	_	_
+42	kopredsednicu	_	_	_	_	_	_	_	_
+43	evropskih	_	_	_	_	_	_	_	_
+44	Zelenih	_	_	_	_	_	_	_	_
+45	Vulu	_	_	_	_	_	_	_	_
+46	Ceci	_	_	_	_	_	_	_	_
+47	i	_	_	_	_	_	_	_	_
+48	evroposlanika	_	_	_	_	_	_	_	_
+49	Rasmusa	_	_	_	_	_	_	_	_
+50	Nordkvista	_	_	_	_	_	_	_	_
+51	koji	_	_	_	_	_	_	_	_
+52	su	_	_	_	_	_	_	_	_
+53	bili	_	_	_	_	_	_	_	_
+54	u	_	_	_	_	_	_	_	_
+55	poseti	_	_	_	_	_	_	_	_
+56	Beogradu	_	_	_	_	_	_	_	_
+57	i	_	_	_	_	_	_	_	_
+58	Novom	_	_	_	_	_	_	_	_
+59	Sadu	_	_	_	_	_	_	_	SpaceAfter=No
+60	,	,	PUNCT	Z	_	_	_	_	_
+61	gde	_	_	_	_	_	_	_	_
+62	su	_	_	_	_	_	_	_	_
+63	prisustvovali	_	_	_	_	_	_	_	_
+64	protestu	_	_	_	_	_	_	_	SpaceAfter=No
+65	,	,	PUNCT	Z	_	_	_	_	_
+66	nazvavši	_	_	_	_	_	_	_	_
+67	ih	_	_	_	_	_	_	_	_
+68	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+69	evropskim	_	_	_	_	_	_	_	_
+70	ološem	_	_	_	_	_	_	_	_
+71	sa	_	_	_	_	_	_	_	_
+72	dna	_	_	_	_	_	_	_	_
+73	kace	_	_	_	_	_	_	_	SpaceAfter=No
+74	”	”	PUNCT	Z	_	_	_	_	SpaceAfter=No
+75	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Što se tiče Komisije, izbor Marte Kos je, kako u odnosu na prethodnika Varheljija, tako i u odnosu na Ursulu fon der Lajen, osveženje i brojni su pozivi da predsednica Komisije isprati pristup Marte Kos jer ovo što je bilo do sada ne funkcioniše.
+1	Što	_	_	_	_	_	_	_	_
+2	se	_	_	_	_	_	_	_	_
+3	tiče	_	_	_	_	_	_	_	_
+4	Komisije	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	izbor	_	_	_	_	_	_	_	_
+7	Marte	_	_	_	_	_	_	_	_
+8	Kos	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	kako	_	_	_	_	_	_	_	_
+12	u	_	_	_	_	_	_	_	_
+13	odnosu	_	_	_	_	_	_	_	_
+14	na	_	_	_	_	_	_	_	_
+15	prethodnika	_	_	_	_	_	_	_	_
+16	Varheljija	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	tako	_	_	_	_	_	_	_	_
+19	i	_	_	_	_	_	_	_	_
+20	u	_	_	_	_	_	_	_	_
+21	odnosu	_	_	_	_	_	_	_	_
+22	na	_	_	_	_	_	_	_	_
+23	Ursulu	_	_	_	_	_	_	_	_
+24	fon	_	_	_	_	_	_	_	_
+25	der	_	_	_	_	_	_	_	_
+26	Lajen	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	osveženje	_	_	_	_	_	_	_	_
+29	i	_	_	_	_	_	_	_	_
+30	brojni	_	_	_	_	_	_	_	_
+31	su	_	_	_	_	_	_	_	_
+32	pozivi	_	_	_	_	_	_	_	_
+33	da	_	_	_	_	_	_	_	_
+34	predsednica	_	_	_	_	_	_	_	_
+35	Komisije	_	_	_	_	_	_	_	_
+36	isprati	_	_	_	_	_	_	_	_
+37	pristup	_	_	_	_	_	_	_	_
+38	Marte	_	_	_	_	_	_	_	_
+39	Kos	_	_	_	_	_	_	_	_
+40	jer	_	_	_	_	_	_	_	_
+41	ovo	_	_	_	_	_	_	_	_
+42	što	_	_	_	_	_	_	_	_
+43	je	_	_	_	_	_	_	_	_
+44	bilo	_	_	_	_	_	_	_	_
+45	do	_	_	_	_	_	_	_	_
+46	sada	_	_	_	_	_	_	_	_
+47	ne	_	_	_	_	_	_	_	_
+48	funkcioniše	_	_	_	_	_	_	_	SpaceAfter=No
+49	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Možda je to u EU trenutno nemoguće sprovesti zbog Orbanove Mađarske, ali dozvolite da primetim da se Orbanu ozbiljno klima pozicija u Mađarskoj pred izbore u proleće 2026. godine.
+1	Možda	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	EU	_	_	_	_	_	_	_	_
+6	trenutno	_	_	_	_	_	_	_	_
+7	nemoguće	_	_	_	_	_	_	_	_
+8	sprovesti	_	_	_	_	_	_	_	_
+9	zbog	_	_	_	_	_	_	_	_
+10	Orbanove	_	_	_	_	_	_	_	_
+11	Mađarske	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	ali	_	_	_	_	_	_	_	_
+14	dozvolite	_	_	_	_	_	_	_	_
+15	da	_	_	_	_	_	_	_	_
+16	primetim	_	_	_	_	_	_	_	_
+17	da	_	_	_	_	_	_	_	_
+18	se	_	_	_	_	_	_	_	_
+19	Orbanu	_	_	_	_	_	_	_	_
+20	ozbiljno	_	_	_	_	_	_	_	_
+21	klima	_	_	_	_	_	_	_	_
+22	pozicija	_	_	_	_	_	_	_	_
+23	u	_	_	_	_	_	_	_	_
+24	Mađarskoj	_	_	_	_	_	_	_	_
+25	pred	_	_	_	_	_	_	_	_
+26	izbore	_	_	_	_	_	_	_	_
+27	u	_	_	_	_	_	_	_	_
+28	proleće	_	_	_	_	_	_	_	_
+29	2026.	_	_	_	_	_	_	_	_
+30	godine	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Oko prostora Palate viđen je Novak Nedić koji je, kako je Nova.rs ranije javila, nakon iznenadne smene sa pozicije generalnog sekretara u Vladi Srbije i funkcije predsednika Nadzornog odbora Službenog glasnika, angažovan u kabinetu premijera Đura Macuta.
+1	Oko	_	_	_	_	_	_	_	_
+2	prostora	_	_	_	_	_	_	_	_
+3	Palate	_	_	_	_	_	_	_	_
+4	viđen	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	Novak	_	_	_	_	_	_	_	_
+7	Nedić	_	_	_	_	_	_	_	_
+8	koji	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	kako	_	_	_	_	_	_	_	_
+12	je	_	_	_	_	_	_	_	_
+13	Nova.rs	Nova.rs	SYM	Xw	_	_	_	_	_
+14	ranije	_	_	_	_	_	_	_	_
+15	javila	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	nakon	_	_	_	_	_	_	_	_
+18	iznenadne	_	_	_	_	_	_	_	_
+19	smene	_	_	_	_	_	_	_	_
+20	sa	_	_	_	_	_	_	_	_
+21	pozicije	_	_	_	_	_	_	_	_
+22	generalnog	_	_	_	_	_	_	_	_
+23	sekretara	_	_	_	_	_	_	_	_
+24	u	_	_	_	_	_	_	_	_
+25	Vladi	_	_	_	_	_	_	_	_
+26	Srbije	_	_	_	_	_	_	_	_
+27	i	_	_	_	_	_	_	_	_
+28	funkcije	_	_	_	_	_	_	_	_
+29	predsednika	_	_	_	_	_	_	_	_
+30	Nadzornog	_	_	_	_	_	_	_	_
+31	odbora	_	_	_	_	_	_	_	_
+32	Službenog	_	_	_	_	_	_	_	_
+33	glasnika	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	,	PUNCT	Z	_	_	_	_	_
+35	angažovan	_	_	_	_	_	_	_	_
+36	u	_	_	_	_	_	_	_	_
+37	kabinetu	_	_	_	_	_	_	_	_
+38	premijera	_	_	_	_	_	_	_	_
+39	Đura	_	_	_	_	_	_	_	_
+40	Macuta	_	_	_	_	_	_	_	SpaceAfter=No
+41	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Nedić je, podsetimo, 11 godina bio je generalni sekretar Vlade Srbije, da bi u aprilu bio smenjen sa te funkcije.
+1	Nedić	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	podsetimo	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	11	_	_	_	_	_	_	_	_
+7	godina	_	_	_	_	_	_	_	_
+8	bio	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	generalni	_	_	_	_	_	_	_	_
+11	sekretar	_	_	_	_	_	_	_	_
+12	Vlade	_	_	_	_	_	_	_	_
+13	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	_	_	_	_
+15	da	_	_	_	_	_	_	_	_
+16	bi	_	_	_	_	_	_	_	_
+17	u	_	_	_	_	_	_	_	_
+18	aprilu	_	_	_	_	_	_	_	_
+19	bio	_	_	_	_	_	_	_	_
+20	smenjen	_	_	_	_	_	_	_	_
+21	sa	_	_	_	_	_	_	_	_
+22	te	_	_	_	_	_	_	_	_
+23	funkcije	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Njegovo razrešenje nije bilo očekivano, mada se u javnosti dovodilo u vezu sa Skaj prepiskama koje su u to vreme stigle u srpsko tužilaštvo.
+1	Njegovo	_	_	_	_	_	_	_	_
+2	razrešenje	_	_	_	_	_	_	_	_
+3	nije	_	_	_	_	_	_	_	_
+4	bilo	_	_	_	_	_	_	_	_
+5	očekivano	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	mada	_	_	_	_	_	_	_	_
+8	se	_	_	_	_	_	_	_	_
+9	u	_	_	_	_	_	_	_	_
+10	javnosti	_	_	_	_	_	_	_	_
+11	dovodilo	_	_	_	_	_	_	_	_
+12	u	_	_	_	_	_	_	_	_
+13	vezu	_	_	_	_	_	_	_	_
+14	sa	_	_	_	_	_	_	_	_
+15	Skaj	_	_	_	_	_	_	_	_
+16	prepiskama	_	_	_	_	_	_	_	_
+17	koje	_	_	_	_	_	_	_	_
+18	su	_	_	_	_	_	_	_	_
+19	u	_	_	_	_	_	_	_	_
+20	to	_	_	_	_	_	_	_	_
+21	vreme	_	_	_	_	_	_	_	_
+22	stigle	_	_	_	_	_	_	_	_
+23	u	_	_	_	_	_	_	_	_
+24	srpsko	_	_	_	_	_	_	_	_
+25	tužilaštvo	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Sudeći po podacima sa sajta Agencije za sprečavanje korupcije, svega jedan dan od njegovog razrešenja, on je sklopio ugovor o delu sa Generalnim sekretarijatom Vlade, koji je na mesečnom nivou vredan svega 20.000 dinara.
+1	Sudeći	_	_	_	_	_	_	_	_
+2	po	_	_	_	_	_	_	_	_
+3	podacima	_	_	_	_	_	_	_	_
+4	sa	_	_	_	_	_	_	_	_
+5	sajta	_	_	_	_	_	_	_	_
+6	Agencije	_	_	_	_	_	_	_	_
+7	za	_	_	_	_	_	_	_	_
+8	sprečavanje	_	_	_	_	_	_	_	_
+9	korupcije	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	svega	_	_	_	_	_	_	_	_
+12	jedan	_	_	_	_	_	_	_	_
+13	dan	_	_	_	_	_	_	_	_
+14	od	_	_	_	_	_	_	_	_
+15	njegovog	_	_	_	_	_	_	_	_
+16	razrešenja	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	on	_	_	_	_	_	_	_	_
+19	je	_	_	_	_	_	_	_	_
+20	sklopio	_	_	_	_	_	_	_	_
+21	ugovor	_	_	_	_	_	_	_	_
+22	o	_	_	_	_	_	_	_	_
+23	delu	_	_	_	_	_	_	_	_
+24	sa	_	_	_	_	_	_	_	_
+25	Generalnim	_	_	_	_	_	_	_	_
+26	sekretarijatom	_	_	_	_	_	_	_	_
+27	Vlade	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	,	PUNCT	Z	_	_	_	_	_
+29	koji	_	_	_	_	_	_	_	_
+30	je	_	_	_	_	_	_	_	_
+31	na	_	_	_	_	_	_	_	_
+32	mesečnom	_	_	_	_	_	_	_	_
+33	nivou	_	_	_	_	_	_	_	_
+34	vredan	_	_	_	_	_	_	_	_
+35	svega	_	_	_	_	_	_	_	_
+36	20.000	_	_	_	_	_	_	_	_
+37	dinara	_	_	_	_	_	_	_	SpaceAfter=No
+38	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Nakon svežeg jutra, danas će tokom dana biti pretežno sunčano i toplo, saopštio je Republički hidrometeorološki zavod.
+1	Nakon	_	_	_	_	_	_	_	_
+2	svežeg	_	_	_	_	_	_	_	_
+3	jutra	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	danas	_	_	_	_	_	_	_	_
+6	će	_	_	_	_	_	_	_	_
+7	tokom	_	_	_	_	_	_	_	_
+8	dana	_	_	_	_	_	_	_	_
+9	biti	_	_	_	_	_	_	_	_
+10	pretežno	_	_	_	_	_	_	_	_
+11	sunčano	_	_	_	_	_	_	_	_
+12	i	_	_	_	_	_	_	_	_
+13	toplo	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	_	_	_	_
+15	saopštio	_	_	_	_	_	_	_	_
+16	je	_	_	_	_	_	_	_	_
+17	Republički	_	_	_	_	_	_	_	_
+18	hidrometeorološki	_	_	_	_	_	_	_	_
+19	zavod	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Četiri osobe su poginule u napadu ukrajinskog drona u Samarskoj oblasti, koja se nalazi na jugozapadu Rusije, više od 800 kilometara od fronta, izjavio je danas guverner te oblasti.
+1	Četiri	_	_	_	_	_	_	_	_
+2	osobe	_	_	_	_	_	_	_	_
+3	su	_	_	_	_	_	_	_	_
+4	poginule	_	_	_	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	napadu	_	_	_	_	_	_	_	_
+7	ukrajinskog	_	_	_	_	_	_	_	_
+8	drona	_	_	_	_	_	_	_	_
+9	u	_	_	_	_	_	_	_	_
+10	Samarskoj	_	_	_	_	_	_	_	_
+11	oblasti	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	koja	_	_	_	_	_	_	_	_
+14	se	_	_	_	_	_	_	_	_
+15	nalazi	_	_	_	_	_	_	_	_
+16	na	_	_	_	_	_	_	_	_
+17	jugozapadu	_	_	_	_	_	_	_	_
+18	Rusije	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	više	_	_	_	_	_	_	_	_
+21	od	_	_	_	_	_	_	_	_
+22	800	_	_	_	_	_	_	_	_
+23	kilometara	_	_	_	_	_	_	_	_
+24	od	_	_	_	_	_	_	_	_
+25	fronta	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	,	PUNCT	Z	_	_	_	_	_
+27	izjavio	_	_	_	_	_	_	_	_
+28	je	_	_	_	_	_	_	_	_
+29	danas	_	_	_	_	_	_	_	_
+30	guverner	_	_	_	_	_	_	_	_
+31	te	_	_	_	_	_	_	_	_
+32	oblasti	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = To je objavio guverner te ruske oblasti Vjačeslav Fedoriščev i naveo da je u tom noćnom napadu ranjena jedna osoba.
+1	To	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	objavio	_	_	_	_	_	_	_	_
+4	guverner	_	_	_	_	_	_	_	_
+5	te	_	_	_	_	_	_	_	_
+6	ruske	_	_	_	_	_	_	_	_
+7	oblasti	_	_	_	_	_	_	_	_
+8	Vjačeslav	_	_	_	_	_	_	_	_
+9	Fedoriščev	_	_	_	_	_	_	_	_
+10	i	_	_	_	_	_	_	_	_
+11	naveo	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_
+13	je	_	_	_	_	_	_	_	_
+14	u	_	_	_	_	_	_	_	_
+15	tom	_	_	_	_	_	_	_	_
+16	noćnom	_	_	_	_	_	_	_	_
+17	napadu	_	_	_	_	_	_	_	_
+18	ranjena	_	_	_	_	_	_	_	_
+19	jedna	_	_	_	_	_	_	_	_
+20	osoba	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = S druge strane fronta, po podacima iz Kijeva, u ruskim napadima u Ukrajini su tokom noći poginule najmanje tri osobe.
+1	S	_	_	_	_	_	_	_	_
+2	druge	_	_	_	_	_	_	_	_
+3	strane	_	_	_	_	_	_	_	_
+4	fronta	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	po	_	_	_	_	_	_	_	_
+7	podacima	_	_	_	_	_	_	_	_
+8	iz	_	_	_	_	_	_	_	_
+9	Kijeva	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	u	_	_	_	_	_	_	_	_
+12	ruskim	_	_	_	_	_	_	_	_
+13	napadima	_	_	_	_	_	_	_	_
+14	u	_	_	_	_	_	_	_	_
+15	Ukrajini	_	_	_	_	_	_	_	_
+16	su	_	_	_	_	_	_	_	_
+17	tokom	_	_	_	_	_	_	_	_
+18	noc	_	_	_	_	_	_	_	SpaceAfter=No
+19	́	_	_	_	_	_	_	_	SpaceAfter=No
+20	i	_	_	_	_	_	_	_	_
+21	poginule	_	_	_	_	_	_	_	_
+22	najmanje	_	_	_	_	_	_	_	_
+23	tri	_	_	_	_	_	_	_	_
+24	osobe	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Vojna parada pod nazivom "Snaga jedinstva" najavljena je za danas od 11 časova ispred Palate Srbije na Novom Beogradu povodom obeležavanja Dana srpskog jedinstva, slobode i nacionalne zastave.
+1	Vojna	_	_	_	_	_	_	_	_
+2	parada	_	_	_	_	_	_	_	_
+3	pod	_	_	_	_	_	_	_	_
+4	nazivom	_	_	_	_	_	_	_	_
+5	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+6	Snaga	_	_	_	_	_	_	_	_
+7	jedinstva	_	_	_	_	_	_	_	SpaceAfter=No
+8	"	"	PUNCT	Z	_	_	_	_	_
+9	najavljena	_	_	_	_	_	_	_	_
+10	je	_	_	_	_	_	_	_	_
+11	za	_	_	_	_	_	_	_	_
+12	danas	_	_	_	_	_	_	_	_
+13	od	_	_	_	_	_	_	_	_
+14	11	_	_	_	_	_	_	_	_
+15	časova	_	_	_	_	_	_	_	_
+16	ispred	_	_	_	_	_	_	_	_
+17	Palate	_	_	_	_	_	_	_	_
+18	Srbije	_	_	_	_	_	_	_	_
+19	na	_	_	_	_	_	_	_	_
+20	Novom	_	_	_	_	_	_	_	_
+21	Beogradu	_	_	_	_	_	_	_	_
+22	povodom	_	_	_	_	_	_	_	_
+23	obeležavanja	_	_	_	_	_	_	_	_
+24	Dana	_	_	_	_	_	_	_	_
+25	srpskog	_	_	_	_	_	_	_	_
+26	jedinstva	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	slobode	_	_	_	_	_	_	_	_
+29	i	_	_	_	_	_	_	_	_
+30	nacionalne	_	_	_	_	_	_	_	_
+31	zastave	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Saobraćaj u Terazijskom tunelu, u ulicama Zeleni venac i Brankovoj, kao i na Brankovom mostu i u Ulici Sajmište i na svim raskrsnicama prilaznih saobraćajnica, biće obustavljen danas od 10 do 14 časova.
+1	Saobraćaj	_	_	_	_	_	_	_	_
+2	u	_	_	_	_	_	_	_	_
+3	Terazijskom	_	_	_	_	_	_	_	_
+4	tunelu	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	ulicama	_	_	_	_	_	_	_	_
+8	Zeleni	_	_	_	_	_	_	_	_
+9	venac	_	_	_	_	_	_	_	_
+10	i	_	_	_	_	_	_	_	_
+11	Brankovoj	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	kao	_	_	_	_	_	_	_	_
+14	i	_	_	_	_	_	_	_	_
+15	na	_	_	_	_	_	_	_	_
+16	Brankovom	_	_	_	_	_	_	_	_
+17	mostu	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	u	_	_	_	_	_	_	_	_
+20	Ulici	_	_	_	_	_	_	_	_
+21	Sajmište	_	_	_	_	_	_	_	_
+22	i	_	_	_	_	_	_	_	_
+23	na	_	_	_	_	_	_	_	_
+24	svim	_	_	_	_	_	_	_	_
+25	raskrsnicama	_	_	_	_	_	_	_	_
+26	prilaznih	_	_	_	_	_	_	_	_
+27	saobraćajnica	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	,	PUNCT	Z	_	_	_	_	_
+29	biće	_	_	_	_	_	_	_	_
+30	obustavljen	_	_	_	_	_	_	_	_
+31	danas	_	_	_	_	_	_	_	_
+32	od	_	_	_	_	_	_	_	_
+33	10	_	_	_	_	_	_	_	_
+34	do	_	_	_	_	_	_	_	_
+35	14	_	_	_	_	_	_	_	_
+36	časova	_	_	_	_	_	_	_	SpaceAfter=No
+37	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Prvi put biće prikazan višecevni lanser raketa velikog dometa PULS, nabavljen iz Izraela, bespilotne letelice iz te zemlje, dronovi samoubice i ruski sistemi za protivelektronsko ratovanje i ometanje dronova Krasuha i Repelent.
+1	Prvi	_	_	_	_	_	_	_	_
+2	put	_	_	_	_	_	_	_	_
+3	biće	_	_	_	_	_	_	_	_
+4	prikazan	_	_	_	_	_	_	_	_
+5	višecevni	_	_	_	_	_	_	_	_
+6	lanser	_	_	_	_	_	_	_	_
+7	raketa	_	_	_	_	_	_	_	_
+8	velikog	_	_	_	_	_	_	_	_
+9	dometa	_	_	_	_	_	_	_	_
+10	PULS	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	nabavljen	_	_	_	_	_	_	_	_
+13	iz	_	_	_	_	_	_	_	_
+14	Izraela	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	bespilotne	_	_	_	_	_	_	_	_
+17	letelice	_	_	_	_	_	_	_	_
+18	iz	_	_	_	_	_	_	_	_
+19	te	_	_	_	_	_	_	_	_
+20	zemlje	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	_	_	_	_
+22	dronovi	_	_	_	_	_	_	_	_
+23	samoubice	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	ruski	_	_	_	_	_	_	_	_
+26	sistemi	_	_	_	_	_	_	_	_
+27	za	_	_	_	_	_	_	_	_
+28	protivelektronsko	_	_	_	_	_	_	_	_
+29	ratovanje	_	_	_	_	_	_	_	_
+30	i	_	_	_	_	_	_	_	_
+31	ometanje	_	_	_	_	_	_	_	_
+32	dronova	_	_	_	_	_	_	_	_
+33	Krasuha	_	_	_	_	_	_	_	_
+34	i	_	_	_	_	_	_	_	_
+35	Repelent	_	_	_	_	_	_	_	SpaceAfter=No
+36	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Publika će videti defile ešelona jedinica svih rodova i službi u Vojsci Srbije, kadeta Vojne akademije, jedinica na vozilima i plovnih objekata Rečne flotile.
+1	Publika	_	_	_	_	_	_	_	_
+2	će	_	_	_	_	_	_	_	_
+3	videti	_	_	_	_	_	_	_	_
+4	defile	_	_	_	_	_	_	_	_
+5	ešelona	_	_	_	_	_	_	_	_
+6	jedinica	_	_	_	_	_	_	_	_
+7	svih	_	_	_	_	_	_	_	_
+8	rodova	_	_	_	_	_	_	_	_
+9	i	_	_	_	_	_	_	_	_
+10	službi	_	_	_	_	_	_	_	_
+11	u	_	_	_	_	_	_	_	_
+12	Vojsci	_	_	_	_	_	_	_	_
+13	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	_	_	_	_
+15	kadeta	_	_	_	_	_	_	_	_
+16	Vojne	_	_	_	_	_	_	_	_
+17	akademije	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	jedinica	_	_	_	_	_	_	_	_
+20	na	_	_	_	_	_	_	_	_
+21	vozilima	_	_	_	_	_	_	_	_
+22	i	_	_	_	_	_	_	_	_
+23	plovnih	_	_	_	_	_	_	_	_
+24	objekata	_	_	_	_	_	_	_	_
+25	Rečne	_	_	_	_	_	_	_	_
+26	flotile	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Program parade obuhvata i prikaz dela sposobnosti Odreda vojne policije specijalne namene „Kobre“, egzercir pripadnika Garde, kao i padobranski skok pripadnika 63. padobranske brigade.
+1	Program	_	_	_	_	_	_	_	_
+2	parade	_	_	_	_	_	_	_	_
+3	obuhvata	_	_	_	_	_	_	_	_
+4	i	_	_	_	_	_	_	_	_
+5	prikaz	_	_	_	_	_	_	_	_
+6	dela	_	_	_	_	_	_	_	_
+7	sposobnosti	_	_	_	_	_	_	_	_
+8	Odreda	_	_	_	_	_	_	_	_
+9	vojne	_	_	_	_	_	_	_	_
+10	policije	_	_	_	_	_	_	_	_
+11	specijalne	_	_	_	_	_	_	_	_
+12	namene	_	_	_	_	_	_	_	_
+13	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+14	Kobre	_	_	_	_	_	_	_	SpaceAfter=No
+15	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	egzercir	_	_	_	_	_	_	_	_
+18	pripadnika	_	_	_	_	_	_	_	_
+19	Garde	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	Z	_	_	_	_	_
+21	kao	_	_	_	_	_	_	_	_
+22	i	_	_	_	_	_	_	_	_
+23	padobranski	_	_	_	_	_	_	_	_
+24	skok	_	_	_	_	_	_	_	_
+25	pripadnika	_	_	_	_	_	_	_	_
+26	63.	_	_	_	_	_	_	_	_
+27	padobranske	_	_	_	_	_	_	_	_
+28	brigade	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Najavljeno je prisustvo predsednika Srbije Aleksandra Vučića.
+1	Najavljeno	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	prisustvo	_	_	_	_	_	_	_	_
+4	predsednika	_	_	_	_	_	_	_	_
+5	Srbije	_	_	_	_	_	_	_	_
+6	Aleksandra	_	_	_	_	_	_	_	_
+7	Vučića	_	_	_	_	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 6.2
+# text = Očekuje se prisustvo komandanta Nacionalne garde Ohaja Metjua Vudrafa kao i visokih starešina i predstavnika ministarstava odbrane Kine, Mađarske, Kipra, Francuske i Azerbejdžana.
+1	Očekuje	_	_	_	_	_	_	_	_
+2	se	_	_	_	_	_	_	_	_
+3	prisustvo	_	_	_	_	_	_	_	_
+4	komandanta	_	_	_	_	_	_	_	_
+5	Nacionalne	_	_	_	_	_	_	_	_
+6	garde	_	_	_	_	_	_	_	_
+7	Ohaja	_	_	_	_	_	_	_	_
+8	Metjua	_	_	_	_	_	_	_	_
+9	Vudrafa	_	_	_	_	_	_	_	_
+10	kao	_	_	_	_	_	_	_	_
+11	i	_	_	_	_	_	_	_	_
+12	visokih	_	_	_	_	_	_	_	_
+13	starešina	_	_	_	_	_	_	_	_
+14	i	_	_	_	_	_	_	_	_
+15	predstavnika	_	_	_	_	_	_	_	_
+16	ministarstava	_	_	_	_	_	_	_	_
+17	odbrane	_	_	_	_	_	_	_	_
+18	Kine	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	Mađarske	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	_	_	_	_
+22	Kipra	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	Francuske	_	_	_	_	_	_	_	_
+25	i	_	_	_	_	_	_	_	_
+26	Azerbejdžana	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 7
+# sent_id = 7.1
+# text = Posetioci će moći da dođu na prostor izvođenja parade od 8.30 časova, a ulazak će biti omogućen na dve lokacije i to u blizini kružnog toka kod Tržnog centra „Ušće“ prema Brankovom mostu i na raskrsnici ulice Trešnjinog cveta i Bulevara Nikole Tesle, iz pravca Novog Beograda i pravca Zemuna.
+1	Posetioci	_	_	_	_	_	_	_	_
+2	će	_	_	_	_	_	_	_	_
+3	moći	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	dođu	_	_	_	_	_	_	_	_
+6	na	_	_	_	_	_	_	_	_
+7	prostor	_	_	_	_	_	_	_	_
+8	izvođenja	_	_	_	_	_	_	_	_
+9	parade	_	_	_	_	_	_	_	_
+10	od	_	_	_	_	_	_	_	_
+11	8.30	_	_	_	_	_	_	_	_
+12	časova	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	a	_	_	_	_	_	_	_	_
+15	ulazak	_	_	_	_	_	_	_	_
+16	će	_	_	_	_	_	_	_	_
+17	biti	_	_	_	_	_	_	_	_
+18	omogućen	_	_	_	_	_	_	_	_
+19	na	_	_	_	_	_	_	_	_
+20	dve	_	_	_	_	_	_	_	_
+21	lokacije	_	_	_	_	_	_	_	_
+22	i	_	_	_	_	_	_	_	_
+23	to	_	_	_	_	_	_	_	_
+24	u	_	_	_	_	_	_	_	_
+25	blizini	_	_	_	_	_	_	_	_
+26	kružnog	_	_	_	_	_	_	_	_
+27	toka	_	_	_	_	_	_	_	_
+28	kod	_	_	_	_	_	_	_	_
+29	Tržnog	_	_	_	_	_	_	_	_
+30	centra	_	_	_	_	_	_	_	_
+31	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+32	Ušće	_	_	_	_	_	_	_	SpaceAfter=No
+33	“	“	PUNCT	Z	_	_	_	_	_
+34	prema	_	_	_	_	_	_	_	_
+35	Brankovom	_	_	_	_	_	_	_	_
+36	mostu	_	_	_	_	_	_	_	_
+37	i	_	_	_	_	_	_	_	_
+38	na	_	_	_	_	_	_	_	_
+39	raskrsnici	_	_	_	_	_	_	_	_
+40	ulice	_	_	_	_	_	_	_	_
+41	Trešnjinog	_	_	_	_	_	_	_	_
+42	cveta	_	_	_	_	_	_	_	_
+43	i	_	_	_	_	_	_	_	_
+44	Bulevara	_	_	_	_	_	_	_	_
+45	Nikole	_	_	_	_	_	_	_	_
+46	Tesle	_	_	_	_	_	_	_	SpaceAfter=No
+47	,	,	PUNCT	Z	_	_	_	_	_
+48	iz	_	_	_	_	_	_	_	_
+49	pravca	_	_	_	_	_	_	_	_
+50	Novog	_	_	_	_	_	_	_	_
+51	Beograda	_	_	_	_	_	_	_	_
+52	i	_	_	_	_	_	_	_	_
+53	pravca	_	_	_	_	_	_	_	_
+54	Zemuna	_	_	_	_	_	_	_	SpaceAfter=No
+55	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 8
+# sent_id = 8.1
+# text = Kako je saopšteno iz Sekretarijata za javni prevoz, saobraćaj će danas tokom celog dana biti potpuno obustavljen u pojedinim delovima Novog Beograda.
+1	Kako	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	saopšteno	_	_	_	_	_	_	_	_
+4	iz	_	_	_	_	_	_	_	_
+5	Sekretarijata	_	_	_	_	_	_	_	_
+6	za	_	_	_	_	_	_	_	_
+7	javni	_	_	_	_	_	_	_	_
+8	prevoz	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	saobraćaj	_	_	_	_	_	_	_	_
+11	će	_	_	_	_	_	_	_	_
+12	danas	_	_	_	_	_	_	_	_
+13	tokom	_	_	_	_	_	_	_	_
+14	celog	_	_	_	_	_	_	_	_
+15	dana	_	_	_	_	_	_	_	_
+16	biti	_	_	_	_	_	_	_	_
+17	potpuno	_	_	_	_	_	_	_	_
+18	obustavljen	_	_	_	_	_	_	_	_
+19	u	_	_	_	_	_	_	_	_
+20	pojedinim	_	_	_	_	_	_	_	_
+21	delovima	_	_	_	_	_	_	_	_
+22	Novog	_	_	_	_	_	_	_	_
+23	Beograda	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 9
+# sent_id = 9.1
+# text = Od 11 do 13 časova biće povremeno zauzete pešačke staze na Brankovom mostu, najavio je Sekretarijat za saobraćaj Beograda.
+1	Od	_	_	_	_	_	_	_	_
+2	11	_	_	_	_	_	_	_	_
+3	do	_	_	_	_	_	_	_	_
+4	13	_	_	_	_	_	_	_	_
+5	časova	_	_	_	_	_	_	_	_
+6	biće	_	_	_	_	_	_	_	_
+7	povremeno	_	_	_	_	_	_	_	_
+8	zauzete	_	_	_	_	_	_	_	_
+9	pešačke	_	_	_	_	_	_	_	_
+10	staze	_	_	_	_	_	_	_	_
+11	na	_	_	_	_	_	_	_	_
+12	Brankovom	_	_	_	_	_	_	_	_
+13	mostu	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	_	_	_	_
+15	najavio	_	_	_	_	_	_	_	_
+16	je	_	_	_	_	_	_	_	_
+17	Sekretarijat	_	_	_	_	_	_	_	_
+18	za	_	_	_	_	_	_	_	_
+19	saobraćaj	_	_	_	_	_	_	_	_
+20	Beograda	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 10
+# sent_id = 10.1
+# text = Totalna obustava biće u Bulevaru Nikole Tesle (od kružnog toka kod TC „Ušće“ do Ulice Džona Kenedija), u Ulici Džona Kenedija (od Bulevara Nikole Tesle do Bulevara Mihajla Pupina), u Bulevaru Mihajla Pupina (od kružnog toka kod TC “Ušće“ do Ulice Džona Kenedija, u oba smera), u Ulici ušće, (od Bulevara Mihajla Pupina do Bulevara Nikole Tesle), u Aleksinačkih rudara kao i u Ulici trešnjinog cveta.
+1	Totalna	_	_	_	_	_	_	_	_
+2	obustava	_	_	_	_	_	_	_	_
+3	biće	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	Bulevaru	_	_	_	_	_	_	_	_
+6	Nikole	_	_	_	_	_	_	_	_
+7	Tesle	_	_	_	_	_	_	_	_
+8	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+9	od	_	_	_	_	_	_	_	_
+10	kružnog	_	_	_	_	_	_	_	_
+11	toka	_	_	_	_	_	_	_	_
+12	kod	_	_	_	_	_	_	_	_
+13	TC	_	_	_	_	_	_	_	_
+14	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+15	Ušće	_	_	_	_	_	_	_	SpaceAfter=No
+16	“	“	PUNCT	Z	_	_	_	_	_
+17	do	_	_	_	_	_	_	_	_
+18	Ulice	_	_	_	_	_	_	_	_
+19	Džona	_	_	_	_	_	_	_	_
+20	Kenedija	_	_	_	_	_	_	_	SpaceAfter=No
+21	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	Z	_	_	_	_	_
+23	u	_	_	_	_	_	_	_	_
+24	Ulici	_	_	_	_	_	_	_	_
+25	Džona	_	_	_	_	_	_	_	_
+26	Kenedija	_	_	_	_	_	_	_	_
+27	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+28	od	_	_	_	_	_	_	_	_
+29	Bulevara	_	_	_	_	_	_	_	_
+30	Nikole	_	_	_	_	_	_	_	_
+31	Tesle	_	_	_	_	_	_	_	_
+32	do	_	_	_	_	_	_	_	_
+33	Bulevara	_	_	_	_	_	_	_	_
+34	Mihajla	_	_	_	_	_	_	_	_
+35	Pupina	_	_	_	_	_	_	_	SpaceAfter=No
+36	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No
+37	,	,	PUNCT	Z	_	_	_	_	_
+38	u	_	_	_	_	_	_	_	_
+39	Bulevaru	_	_	_	_	_	_	_	_
+40	Mihajla	_	_	_	_	_	_	_	_
+41	Pupina	_	_	_	_	_	_	_	_
+42	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+43	od	_	_	_	_	_	_	_	_
+44	kružnog	_	_	_	_	_	_	_	_
+45	toka	_	_	_	_	_	_	_	_
+46	kod	_	_	_	_	_	_	_	_
+47	TC	_	_	_	_	_	_	_	_
+48	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+49	Ušće	_	_	_	_	_	_	_	SpaceAfter=No
+50	“	“	PUNCT	Z	_	_	_	_	_
+51	do	_	_	_	_	_	_	_	_
+52	Ulice	_	_	_	_	_	_	_	_
+53	Džona	_	_	_	_	_	_	_	_
+54	Kenedija	_	_	_	_	_	_	_	SpaceAfter=No
+55	,	,	PUNCT	Z	_	_	_	_	_
+56	u	_	_	_	_	_	_	_	_
+57	oba	_	_	_	_	_	_	_	_
+58	smera	_	_	_	_	_	_	_	SpaceAfter=No
+59	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No
+60	,	,	PUNCT	Z	_	_	_	_	_
+61	u	_	_	_	_	_	_	_	_
+62	Ulici	_	_	_	_	_	_	_	_
+63	ušće	_	_	_	_	_	_	_	SpaceAfter=No
+64	,	,	PUNCT	Z	_	_	_	_	_
+65	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+66	od	_	_	_	_	_	_	_	_
+67	Bulevara	_	_	_	_	_	_	_	_
+68	Mihajla	_	_	_	_	_	_	_	_
+69	Pupina	_	_	_	_	_	_	_	_
+70	do	_	_	_	_	_	_	_	_
+71	Bulevara	_	_	_	_	_	_	_	_
+72	Nikole	_	_	_	_	_	_	_	_
+73	Tesle	_	_	_	_	_	_	_	SpaceAfter=No
+74	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No
+75	,	,	PUNCT	Z	_	_	_	_	_
+76	u	_	_	_	_	_	_	_	_
+77	Aleksinačkih	_	_	_	_	_	_	_	_
+78	rudara	_	_	_	_	_	_	_	_
+79	kao	_	_	_	_	_	_	_	_
+80	i	_	_	_	_	_	_	_	_
+81	u	_	_	_	_	_	_	_	_
+82	Ulici	_	_	_	_	_	_	_	_
+83	trešnjinog	_	_	_	_	_	_	_	_
+84	cveta	_	_	_	_	_	_	_	SpaceAfter=No
+85	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 11
+# sent_id = 11.1
+# text = Vozila sa linije 16 će u oba smera saobraćati trasom: Bulevar Mihajla Pupina – Milentija Popovića – Bulevar Zorana Đinđića – Narodnih heroja – Pariske komune – Bulevar maršala Tolbuhina – Luja Adamiča do okretnice „Novi Beograd /Paviljoni“.
+1	Vozila	_	_	_	_	_	_	_	_
+2	sa	_	_	_	_	_	_	_	_
+3	linije	_	_	_	_	_	_	_	_
+4	16	_	_	_	_	_	_	_	_
+5	će	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	oba	_	_	_	_	_	_	_	_
+8	smera	_	_	_	_	_	_	_	_
+9	saobraćati	_	_	_	_	_	_	_	_
+10	trasom	_	_	_	_	_	_	_	SpaceAfter=No
+11	:	:	PUNCT	Z	_	_	_	_	_
+12	Bulevar	_	_	_	_	_	_	_	_
+13	Mihajla	_	_	_	_	_	_	_	_
+14	Pupina	_	_	_	_	_	_	_	_
+15	–	–	PUNCT	Z	_	_	_	_	_
+16	Milentija	_	_	_	_	_	_	_	_
+17	Popovića	_	_	_	_	_	_	_	_
+18	–	–	PUNCT	Z	_	_	_	_	_
+19	Bulevar	_	_	_	_	_	_	_	_
+20	Zorana	_	_	_	_	_	_	_	_
+21	Đinđića	_	_	_	_	_	_	_	_
+22	–	–	PUNCT	Z	_	_	_	_	_
+23	Narodnih	_	_	_	_	_	_	_	_
+24	heroja	_	_	_	_	_	_	_	_
+25	–	–	PUNCT	Z	_	_	_	_	_
+26	Pariske	_	_	_	_	_	_	_	_
+27	komune	_	_	_	_	_	_	_	_
+28	–	–	PUNCT	Z	_	_	_	_	_
+29	Bulevar	_	_	_	_	_	_	_	_
+30	maršala	_	_	_	_	_	_	_	_
+31	Tolbuhina	_	_	_	_	_	_	_	_
+32	–	–	PUNCT	Z	_	_	_	_	_
+33	Luja	_	_	_	_	_	_	_	_
+34	Adamiča	_	_	_	_	_	_	_	_
+35	do	_	_	_	_	_	_	_	_
+36	okretnice	_	_	_	_	_	_	_	_
+37	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+38	Novi	_	_	_	_	_	_	_	_
+39	Beograd	_	_	_	_	_	_	_	_
+40	/	/	PUNCT	Z	_	_	_	_	SpaceAfter=No
+41	Paviljoni	_	_	_	_	_	_	_	SpaceAfter=No
+42	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+43	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 12
+# sent_id = 12.1
+# text = Vozila sa linije 17 će u oba smera saobraćati trasom: Bulevar Zorana Đinđića – Tošin bunar – Ivićeva – Vrtlarska – 22. oktobra – Avijatičarski trg – Glavna i dalje redovnom trasom.
+1	Vozila	_	_	_	_	_	_	_	_
+2	sa	_	_	_	_	_	_	_	_
+3	linije	_	_	_	_	_	_	_	_
+4	17	_	_	_	_	_	_	_	_
+5	će	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	oba	_	_	_	_	_	_	_	_
+8	smera	_	_	_	_	_	_	_	_
+9	saobraćati	_	_	_	_	_	_	_	_
+10	trasom	_	_	_	_	_	_	_	SpaceAfter=No
+11	:	:	PUNCT	Z	_	_	_	_	_
+12	Bulevar	_	_	_	_	_	_	_	_
+13	Zorana	_	_	_	_	_	_	_	_
+14	Đinđića	_	_	_	_	_	_	_	_
+15	–	–	PUNCT	Z	_	_	_	_	_
+16	Tošin	_	_	_	_	_	_	_	_
+17	bunar	_	_	_	_	_	_	_	_
+18	–	–	PUNCT	Z	_	_	_	_	_
+19	Ivićeva	_	_	_	_	_	_	_	_
+20	–	–	PUNCT	Z	_	_	_	_	_
+21	Vrtlarska	_	_	_	_	_	_	_	_
+22	–	–	PUNCT	Z	_	_	_	_	_
+23	22.	_	_	_	_	_	_	_	_
+24	oktobra	_	_	_	_	_	_	_	_
+25	–	–	PUNCT	Z	_	_	_	_	_
+26	Avijatičarski	_	_	_	_	_	_	_	_
+27	trg	_	_	_	_	_	_	_	_
+28	–	–	PUNCT	Z	_	_	_	_	_
+29	Glavna	_	_	_	_	_	_	_	_
+30	i	_	_	_	_	_	_	_	_
+31	dalje	_	_	_	_	_	_	_	_
+32	redovnom	_	_	_	_	_	_	_	_
+33	trasom	_	_	_	_	_	_	_	SpaceAfter=No
+34	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 13
+# sent_id = 13.1
+# text = Vozila sa linije 18 će u oba smera saobraćati trasom: Omladinskih brigada – Bulevar Zorana Đinđića – Narodnih heroja – Pariske komune i dalje redovnom trasom.
+1	Vozila	_	_	_	_	_	_	_	_
+2	sa	_	_	_	_	_	_	_	_
+3	linije	_	_	_	_	_	_	_	_
+4	18	_	_	_	_	_	_	_	_
+5	će	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	oba	_	_	_	_	_	_	_	_
+8	smera	_	_	_	_	_	_	_	_
+9	saobraćati	_	_	_	_	_	_	_	_
+10	trasom	_	_	_	_	_	_	_	SpaceAfter=No
+11	:	:	PUNCT	Z	_	_	_	_	_
+12	Omladinskih	_	_	_	_	_	_	_	_
+13	brigada	_	_	_	_	_	_	_	_
+14	–	–	PUNCT	Z	_	_	_	_	_
+15	Bulevar	_	_	_	_	_	_	_	_
+16	Zorana	_	_	_	_	_	_	_	_
+17	Đinđića	_	_	_	_	_	_	_	_
+18	–	–	PUNCT	Z	_	_	_	_	_
+19	Narodnih	_	_	_	_	_	_	_	_
+20	heroja	_	_	_	_	_	_	_	_
+21	–	–	PUNCT	Z	_	_	_	_	_
+22	Pariske	_	_	_	_	_	_	_	_
+23	komune	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	dalje	_	_	_	_	_	_	_	_
+26	redovnom	_	_	_	_	_	_	_	_
+27	trasom	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = General Zdravko Ponoš, predsednik Srbija centra (SRCE), izjavio je za Dnevnik TV Nova da, ako se Vučić plaši da će doći građani na paradu da nešto dobace ili da gledaju popreko, onda je svestan da nešto ovde mnogo ne valja, saopštila je stranka.
+1	General	_	_	_	_	_	_	_	_
+2	Zdravko	_	_	_	_	_	_	_	_
+3	Ponoš	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	predsednik	_	_	_	_	_	_	_	_
+6	Srbija	_	_	_	_	_	_	_	_
+7	centra	_	_	_	_	_	_	_	_
+8	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+9	SRCE	_	_	_	_	_	_	_	SpaceAfter=No
+10	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	izjavio	_	_	_	_	_	_	_	_
+13	je	_	_	_	_	_	_	_	_
+14	za	_	_	_	_	_	_	_	_
+15	Dnevnik	_	_	_	_	_	_	_	_
+16	TV	_	_	_	_	_	_	_	_
+17	Nova	_	_	_	_	_	_	_	_
+18	da	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	ako	_	_	_	_	_	_	_	_
+21	se	_	_	_	_	_	_	_	_
+22	Vučić	_	_	_	_	_	_	_	_
+23	plaši	_	_	_	_	_	_	_	_
+24	da	_	_	_	_	_	_	_	_
+25	će	_	_	_	_	_	_	_	_
+26	doći	_	_	_	_	_	_	_	_
+27	građani	_	_	_	_	_	_	_	_
+28	na	_	_	_	_	_	_	_	_
+29	paradu	_	_	_	_	_	_	_	_
+30	da	_	_	_	_	_	_	_	_
+31	nešto	_	_	_	_	_	_	_	_
+32	dobace	_	_	_	_	_	_	_	_
+33	ili	_	_	_	_	_	_	_	_
+34	da	_	_	_	_	_	_	_	_
+35	gledaju	_	_	_	_	_	_	_	_
+36	popreko	_	_	_	_	_	_	_	SpaceAfter=No
+37	,	,	PUNCT	Z	_	_	_	_	_
+38	onda	_	_	_	_	_	_	_	_
+39	je	_	_	_	_	_	_	_	_
+40	svestan	_	_	_	_	_	_	_	_
+41	da	_	_	_	_	_	_	_	_
+42	nešto	_	_	_	_	_	_	_	_
+43	ovde	_	_	_	_	_	_	_	_
+44	mnogo	_	_	_	_	_	_	_	_
+45	ne	_	_	_	_	_	_	_	_
+46	valja	_	_	_	_	_	_	_	SpaceAfter=No
+47	,	,	PUNCT	Z	_	_	_	_	_
+48	saopštila	_	_	_	_	_	_	_	_
+49	je	_	_	_	_	_	_	_	_
+50	stranka	_	_	_	_	_	_	_	SpaceAfter=No
+51	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = O kakvom jedinstvu govori kad reaguje na saopštenje strane službe bezbednosti, u stvari njihovog marketinškog ogranka, koja kaže da je Srbija ugrožena sa Zapada.
+1	O	_	_	_	_	_	_	_	_
+2	kakvom	_	_	_	_	_	_	_	_
+3	jedinstvu	_	_	_	_	_	_	_	_
+4	govori	_	_	_	_	_	_	_	_
+5	kad	_	_	_	_	_	_	_	_
+6	reaguje	_	_	_	_	_	_	_	_
+7	na	_	_	_	_	_	_	_	_
+8	saopštenje	_	_	_	_	_	_	_	_
+9	strane	_	_	_	_	_	_	_	_
+10	službe	_	_	_	_	_	_	_	_
+11	bezbednosti	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	u	_	_	_	_	_	_	_	_
+14	stvari	_	_	_	_	_	_	_	_
+15	njihovog	_	_	_	_	_	_	_	_
+16	marketinškog	_	_	_	_	_	_	_	_
+17	ogranka	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	koja	_	_	_	_	_	_	_	_
+20	kaže	_	_	_	_	_	_	_	_
+21	da	_	_	_	_	_	_	_	_
+22	je	_	_	_	_	_	_	_	_
+23	Srbija	_	_	_	_	_	_	_	_
+24	ugrožena	_	_	_	_	_	_	_	_
+25	sa	_	_	_	_	_	_	_	_
+26	Zapada	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 2.2
+# text = Ako je to tako, onda zašto Orlić prima platu, ako Rusi treba da nam kažu da imamo neki problem“, rekao je Ponoš i dodao da je zato dobro što su studenti rekli „ne, mi se toga ne plašimo, to je naša vojska, nije tvoja“.
+1	Ako	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_
+4	tako	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	onda	_	_	_	_	_	_	_	_
+7	zašto	_	_	_	_	_	_	_	_
+8	Orlić	_	_	_	_	_	_	_	_
+9	prima	_	_	_	_	_	_	_	_
+10	platu	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	ako	_	_	_	_	_	_	_	_
+13	Rusi	_	_	_	_	_	_	_	_
+14	treba	_	_	_	_	_	_	_	_
+15	da	_	_	_	_	_	_	_	_
+16	nam	_	_	_	_	_	_	_	_
+17	kažu	_	_	_	_	_	_	_	_
+18	da	_	_	_	_	_	_	_	_
+19	imamo	_	_	_	_	_	_	_	_
+20	neki	_	_	_	_	_	_	_	_
+21	problem	_	_	_	_	_	_	_	SpaceAfter=No
+22	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	rekao	_	_	_	_	_	_	_	_
+25	je	_	_	_	_	_	_	_	_
+26	Ponoš	_	_	_	_	_	_	_	_
+27	i	_	_	_	_	_	_	_	_
+28	dodao	_	_	_	_	_	_	_	_
+29	da	_	_	_	_	_	_	_	_
+30	je	_	_	_	_	_	_	_	_
+31	zato	_	_	_	_	_	_	_	_
+32	dobro	_	_	_	_	_	_	_	_
+33	što	_	_	_	_	_	_	_	_
+34	su	_	_	_	_	_	_	_	_
+35	studenti	_	_	_	_	_	_	_	_
+36	rekli	_	_	_	_	_	_	_	_
+37	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+38	ne	_	_	_	_	_	_	_	SpaceAfter=No
+39	,	,	PUNCT	Z	_	_	_	_	_
+40	mi	_	_	_	_	_	_	_	_
+41	se	_	_	_	_	_	_	_	_
+42	toga	_	_	_	_	_	_	_	_
+43	ne	_	_	_	_	_	_	_	_
+44	plašimo	_	_	_	_	_	_	_	SpaceAfter=No
+45	,	,	PUNCT	Z	_	_	_	_	_
+46	to	_	_	_	_	_	_	_	_
+47	je	_	_	_	_	_	_	_	_
+48	naša	_	_	_	_	_	_	_	_
+49	vojska	_	_	_	_	_	_	_	SpaceAfter=No
+50	,	,	PUNCT	Z	_	_	_	_	_
+51	nije	_	_	_	_	_	_	_	_
+52	tvoja	_	_	_	_	_	_	_	SpaceAfter=No
+53	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+54	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = „Ako pravite paradu, za vas je primerenije da vaša parada bude ćacilend.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Ako	_	_	_	_	_	_	_	_
+3	pravite	_	_	_	_	_	_	_	_
+4	paradu	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	za	_	_	_	_	_	_	_	_
+7	vas	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	primerenije	_	_	_	_	_	_	_	_
+10	da	_	_	_	_	_	_	_	_
+11	vaša	_	_	_	_	_	_	_	_
+12	parada	_	_	_	_	_	_	_	_
+13	bude	_	_	_	_	_	_	_	_
+14	ćacilend	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Ovu vojsku niste vi napravili“, dodao je, prenosi N1.
+1	Ovu	_	_	_	_	_	_	_	_
+2	vojsku	_	_	_	_	_	_	_	_
+3	niste	_	_	_	_	_	_	_	_
+4	vi	_	_	_	_	_	_	_	_
+5	napravili	_	_	_	_	_	_	_	SpaceAfter=No
+6	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	dodao	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	prenosi	_	_	_	_	_	_	_	_
+12	N1	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = „To je Beogradski univerzitet, to je naše obrazovanje i kultura.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	To	_	_	_	_	_	_	_	_
+3	je	_	_	_	_	_	_	_	_
+4	Beogradski	_	_	_	_	_	_	_	_
+5	univerzitet	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	to	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	naše	_	_	_	_	_	_	_	_
+10	obrazovanje	_	_	_	_	_	_	_	_
+11	i	_	_	_	_	_	_	_	_
+12	kultura	_	_	_	_	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Mi bi trebalo da budemo Nemačka ovog regiona, a nismo samo zato što imamo ovu vlast.
+1	Mi	_	_	_	_	_	_	_	_
+2	bi	_	_	_	_	_	_	_	_
+3	trebalo	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	budemo	_	_	_	_	_	_	_	_
+6	Nemačka	_	_	_	_	_	_	_	_
+7	ovog	_	_	_	_	_	_	_	_
+8	regiona	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_
+11	nismo	_	_	_	_	_	_	_	_
+12	samo	_	_	_	_	_	_	_	_
+13	zato	_	_	_	_	_	_	_	_
+14	što	_	_	_	_	_	_	_	_
+15	imamo	_	_	_	_	_	_	_	_
+16	ovu	_	_	_	_	_	_	_	_
+17	vlast	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 7
+# sent_id = 7.1
+# text = A ova vlast zazire od nekakvog vojnog saveza Hrvatske, Albanije i Kosova“, kaže Ponoš.
+1	A	_	_	_	_	_	_	_	_
+2	ova	_	_	_	_	_	_	_	_
+3	vlast	_	_	_	_	_	_	_	_
+4	zazire	_	_	_	_	_	_	_	_
+5	od	_	_	_	_	_	_	_	_
+6	nekakvog	_	_	_	_	_	_	_	_
+7	vojnog	_	_	_	_	_	_	_	_
+8	saveza	_	_	_	_	_	_	_	_
+9	Hrvatske	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	Albanije	_	_	_	_	_	_	_	_
+12	i	_	_	_	_	_	_	_	_
+13	Kosova	_	_	_	_	_	_	_	SpaceAfter=No
+14	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	kaže	_	_	_	_	_	_	_	_
+17	Ponoš	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 8
+# sent_id = 8.1
+# text = Ponoš je naglasio da su u EU sada spremni da čuju da Vučić ne računa na Evropu i da je ona za njega samo keš mašina.
+1	Ponoš	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	naglasio	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	su	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	EU	_	_	_	_	_	_	_	_
+8	sada	_	_	_	_	_	_	_	_
+9	spremni	_	_	_	_	_	_	_	_
+10	da	_	_	_	_	_	_	_	_
+11	čuju	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_
+13	Vučić	_	_	_	_	_	_	_	_
+14	ne	_	_	_	_	_	_	_	_
+15	računa	_	_	_	_	_	_	_	_
+16	na	_	_	_	_	_	_	_	_
+17	Evropu	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	da	_	_	_	_	_	_	_	_
+20	je	_	_	_	_	_	_	_	_
+21	ona	_	_	_	_	_	_	_	_
+22	za	_	_	_	_	_	_	_	_
+23	njega	_	_	_	_	_	_	_	_
+24	samo	_	_	_	_	_	_	_	_
+25	keš	_	_	_	_	_	_	_	_
+26	mašina	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 9
+# sent_id = 9.1
+# text = U ovom momentu, možda i dalje najviše spremnosti da mu se istoleriše ima u EPP, čiji je SNS pridruženi član.
+1	U	_	_	_	_	_	_	_	_
+2	ovom	_	_	_	_	_	_	_	_
+3	momentu	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	možda	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	dalje	_	_	_	_	_	_	_	_
+8	najviše	_	_	_	_	_	_	_	_
+9	spremnosti	_	_	_	_	_	_	_	_
+10	da	_	_	_	_	_	_	_	_
+11	mu	_	_	_	_	_	_	_	_
+12	se	_	_	_	_	_	_	_	_
+13	istoleriše	_	_	_	_	_	_	_	_
+14	ima	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16	EPP	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	čiji	_	_	_	_	_	_	_	_
+19	je	_	_	_	_	_	_	_	_
+20	SNS	_	_	_	_	_	_	_	_
+21	pridruženi	_	_	_	_	_	_	_	_
+22	član	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Tako su zajedno viđeni, kako razgovaraju i sede jedan pored drugog, gradonačelnik Beograda Aleksandar Šapić i bivši predsednik Srbije Tomislav Nikolić.
+1	Tako	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	_
+3	zajedno	_	_	_	_	_	_	_	_
+4	viđeni	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	kako	_	_	_	_	_	_	_	_
+7	razgovaraju	_	_	_	_	_	_	_	_
+8	i	_	_	_	_	_	_	_	_
+9	sede	_	_	_	_	_	_	_	_
+10	jedan	_	_	_	_	_	_	_	_
+11	pored	_	_	_	_	_	_	_	_
+12	drugog	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	gradonačelnik	_	_	_	_	_	_	_	_
+15	Beograda	_	_	_	_	_	_	_	_
+16	Aleksandar	_	_	_	_	_	_	_	_
+17	Šapić	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	bivši	_	_	_	_	_	_	_	_
+20	predsednik	_	_	_	_	_	_	_	_
+21	Srbije	_	_	_	_	_	_	_	_
+22	Tomislav	_	_	_	_	_	_	_	_
+23	Nikolić	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Prvi do Aleksandra Vučića bio je šeik Muhamed bin Zajed, dok se sa druge strane nalazio ministar odbrane Bratislav Gašić.
+1	Prvi	_	_	_	_	_	_	_	_
+2	do	_	_	_	_	_	_	_	_
+3	Aleksandra	_	_	_	_	_	_	_	_
+4	Vučića	_	_	_	_	_	_	_	_
+5	bio	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	šeik	_	_	_	_	_	_	_	_
+8	Muhamed	_	_	_	_	_	_	_	_
+9	bin	_	_	_	_	_	_	_	_
+10	Zajed	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	dok	_	_	_	_	_	_	_	_
+13	se	_	_	_	_	_	_	_	_
+14	sa	_	_	_	_	_	_	_	_
+15	druge	_	_	_	_	_	_	_	_
+16	strane	_	_	_	_	_	_	_	_
+17	nalazio	_	_	_	_	_	_	_	_
+18	ministar	_	_	_	_	_	_	_	_
+19	odbrane	_	_	_	_	_	_	_	_
+20	Bratislav	_	_	_	_	_	_	_	_
+21	Gašić	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Na paradi su i Milorad Dodik, bivši predsednik Republike Srpske, i Željka Cvijanović, srpska članica Predsedništva BiH.
+1	Na	_	_	_	_	_	_	_	_
+2	paradi	_	_	_	_	_	_	_	_
+3	su	_	_	_	_	_	_	_	_
+4	i	_	_	_	_	_	_	_	_
+5	Milorad	_	_	_	_	_	_	_	_
+6	Dodik	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	bivši	_	_	_	_	_	_	_	_
+9	predsednik	_	_	_	_	_	_	_	_
+10	Republike	_	_	_	_	_	_	_	_
+11	Srpske	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	i	_	_	_	_	_	_	_	_
+14	Željka	_	_	_	_	_	_	_	_
+15	Cvijanović	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	srpska	_	_	_	_	_	_	_	_
+18	članica	_	_	_	_	_	_	_	_
+19	Predsedništva	_	_	_	_	_	_	_	_
+20	BiH	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Tu je, naravno, i Ana Brnabić, predsednica Skupštine.
+1	Tu	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	naravno	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	Ana	_	_	_	_	_	_	_	_
+8	Brnabić	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	predsednica	_	_	_	_	_	_	_	_
+11	Skupštine	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = U Beograd na ovaj događaj došao je i glumac Stiven Sigal, koji je u maju prisustvovao i Vojnoj paradi u Moskvi.
+1	U	_	_	_	_	_	_	_	_
+2	Beograd	_	_	_	_	_	_	_	_
+3	na	_	_	_	_	_	_	_	_
+4	ovaj	_	_	_	_	_	_	_	_
+5	događaj	_	_	_	_	_	_	_	_
+6	došao	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	i	_	_	_	_	_	_	_	_
+9	glumac	_	_	_	_	_	_	_	_
+10	Stiven	_	_	_	_	_	_	_	_
+11	Sigal	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	koji	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16	maju	_	_	_	_	_	_	_	_
+17	prisustvovao	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	Vojnoj	_	_	_	_	_	_	_	_
+20	paradi	_	_	_	_	_	_	_	_
+21	u	_	_	_	_	_	_	_	_
+22	Moskvi	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 5.2
+# text = Zanimljivo je da ima i srpsko i rusko državljanstvo.
+1	Zanimljivo	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_
+4	ima	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	srpsko	_	_	_	_	_	_	_	_
+7	i	_	_	_	_	_	_	_	_
+8	rusko	_	_	_	_	_	_	_	_
+9	državljanstvo	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = „Zaustave život svaki novi dan, svome narodu nose samo jad i sram, umesto dela prazne reči nose, ništa dobro ljudima ne donose“, počinje pesma „Bolje biti Ćaci“ „Beogradskog kolektiva“ - SNS pandan „Beogradskog sindikata”.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Zaustave	_	_	_	_	_	_	_	_
+3	život	_	_	_	_	_	_	_	_
+4	svaki	_	_	_	_	_	_	_	_
+5	novi	_	_	_	_	_	_	_	_
+6	dan	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	svome	_	_	_	_	_	_	_	_
+9	narodu	_	_	_	_	_	_	_	_
+10	nose	_	_	_	_	_	_	_	_
+11	samo	_	_	_	_	_	_	_	_
+12	jad	_	_	_	_	_	_	_	_
+13	i	_	_	_	_	_	_	_	_
+14	sram	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	umesto	_	_	_	_	_	_	_	_
+17	dela	_	_	_	_	_	_	_	_
+18	prazne	_	_	_	_	_	_	_	_
+19	reči	_	_	_	_	_	_	_	_
+20	nose	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	_	_	_	_
+22	ništa	_	_	_	_	_	_	_	_
+23	dobro	_	_	_	_	_	_	_	_
+24	ljudima	_	_	_	_	_	_	_	_
+25	ne	_	_	_	_	_	_	_	_
+26	donose	_	_	_	_	_	_	_	SpaceAfter=No
+27	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+28	,	,	PUNCT	Z	_	_	_	_	_
+29	počinje	_	_	_	_	_	_	_	_
+30	pesma	_	_	_	_	_	_	_	_
+31	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+32	Bolje	_	_	_	_	_	_	_	_
+33	biti	_	_	_	_	_	_	_	_
+34	Ćaci	_	_	_	_	_	_	_	SpaceAfter=No
+35	“	“	PUNCT	Z	_	_	_	_	_
+36	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+37	Beogradskog	_	_	_	_	_	_	_	_
+38	kolektiva	_	_	_	_	_	_	_	SpaceAfter=No
+39	“	“	PUNCT	Z	_	_	_	_	_
+40	-	-	PUNCT	Z	_	_	_	_	_
+41	SNS	_	_	_	_	_	_	_	_
+42	pandan	_	_	_	_	_	_	_	_
+43	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+44	Beogradskog	_	_	_	_	_	_	_	_
+45	sindikata	_	_	_	_	_	_	_	SpaceAfter=No
+46	”	”	PUNCT	Z	_	_	_	_	SpaceAfter=No
+47	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 1.2
+# text = Srpska napredna stranka mesecima štancuje čudne AI pesme protiv blokada, a sada je, kako piše nedeljnik "Vreme", pokrenula i Jutjub kanal.
+1	Srpska	_	_	_	_	_	_	_	_
+2	napredna	_	_	_	_	_	_	_	_
+3	stranka	_	_	_	_	_	_	_	_
+4	mesecima	_	_	_	_	_	_	_	_
+5	štancuje	_	_	_	_	_	_	_	_
+6	čudne	_	_	_	_	_	_	_	_
+7	AI	_	_	_	_	_	_	_	_
+8	pesme	_	_	_	_	_	_	_	_
+9	protiv	_	_	_	_	_	_	_	_
+10	blokada	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_
+13	sada	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	kako	_	_	_	_	_	_	_	_
+17	piše	_	_	_	_	_	_	_	_
+18	nedeljnik	_	_	_	_	_	_	_	_
+19	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+20	Vreme	_	_	_	_	_	_	_	SpaceAfter=No
+21	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	Z	_	_	_	_	_
+23	pokrenula	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	Jutjub	_	_	_	_	_	_	_	_
+26	kanal	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Tako je tokom leta nastala i pesma protiv blokada „Hocu da zivim slobodno i normalno“, koju su učesnici SNS okupljanja u Leskovcu pevali u glas.
+1	Tako	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	tokom	_	_	_	_	_	_	_	_
+4	leta	_	_	_	_	_	_	_	_
+5	nastala	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	pesma	_	_	_	_	_	_	_	_
+8	protiv	_	_	_	_	_	_	_	_
+9	blokada	_	_	_	_	_	_	_	_
+10	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+11	Hocu	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_
+13	zivim	_	_	_	_	_	_	_	_
+14	slobodno	_	_	_	_	_	_	_	_
+15	i	_	_	_	_	_	_	_	_
+16	normalno	_	_	_	_	_	_	_	SpaceAfter=No
+17	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	koju	_	_	_	_	_	_	_	_
+20	su	_	_	_	_	_	_	_	_
+21	učesnici	_	_	_	_	_	_	_	_
+22	SNS	_	_	_	_	_	_	_	_
+23	okupljanja	_	_	_	_	_	_	_	_
+24	u	_	_	_	_	_	_	_	_
+25	Leskovcu	_	_	_	_	_	_	_	_
+26	pevali	_	_	_	_	_	_	_	_
+27	u	_	_	_	_	_	_	_	_
+28	glas	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Spot „Živela Srbija“ nastao je uz upotrebu veštačke inteligencije, hvale se iz „Beogradskog kolektiva“, a pominje se i da su reči pesama protiv blokada skovane uz pomoć ChatGPT-a.
+1	Spot	_	_	_	_	_	_	_	_
+2	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+3	Živela	_	_	_	_	_	_	_	_
+4	Srbija	_	_	_	_	_	_	_	SpaceAfter=No
+5	“	“	PUNCT	Z	_	_	_	_	_
+6	nastao	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	uz	_	_	_	_	_	_	_	_
+9	upotrebu	_	_	_	_	_	_	_	_
+10	veštačke	_	_	_	_	_	_	_	_
+11	inteligencije	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	hvale	_	_	_	_	_	_	_	_
+14	se	_	_	_	_	_	_	_	_
+15	iz	_	_	_	_	_	_	_	_
+16	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+17	Beogradskog	_	_	_	_	_	_	_	_
+18	kolektiva	_	_	_	_	_	_	_	SpaceAfter=No
+19	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	Z	_	_	_	_	_
+21	a	_	_	_	_	_	_	_	_
+22	pominje	_	_	_	_	_	_	_	_
+23	se	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	da	_	_	_	_	_	_	_	_
+26	su	_	_	_	_	_	_	_	_
+27	reči	_	_	_	_	_	_	_	_
+28	pesama	_	_	_	_	_	_	_	_
+29	protiv	_	_	_	_	_	_	_	_
+30	blokada	_	_	_	_	_	_	_	_
+31	skovane	_	_	_	_	_	_	_	_
+32	uz	_	_	_	_	_	_	_	_
+33	pomoć	_	_	_	_	_	_	_	_
+34	ChatGPT-a	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Ovaj pristup neodoljivo seća na vlasnika Pink Medija grupe, Željka Mitrovića, koji odavno gaji strast prema spotovima nastalim uz pomoć veštačke inteligencije.
+1	Ovaj	_	_	_	_	_	_	_	_
+2	pristup	_	_	_	_	_	_	_	_
+3	neodoljivo	_	_	_	_	_	_	_	_
+4	seća	_	_	_	_	_	_	_	_
+5	na	_	_	_	_	_	_	_	_
+6	vlasnika	_	_	_	_	_	_	_	_
+7	Pink	_	_	_	_	_	_	_	_
+8	Medija	_	_	_	_	_	_	_	_
+9	grupe	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	Željka	_	_	_	_	_	_	_	_
+12	Mitrovića	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	koji	_	_	_	_	_	_	_	_
+15	odavno	_	_	_	_	_	_	_	_
+16	gaji	_	_	_	_	_	_	_	_
+17	strast	_	_	_	_	_	_	_	_
+18	prema	_	_	_	_	_	_	_	_
+19	spotovima	_	_	_	_	_	_	_	_
+20	nastalim	_	_	_	_	_	_	_	_
+21	uz	_	_	_	_	_	_	_	_
+22	pomoć	_	_	_	_	_	_	_	_
+23	veštačke	_	_	_	_	_	_	_	_
+24	inteligencije	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Golim rukama odupire se DJ Žeks sveobuhvatnoj i prejakoj morskoj nemani, polu hobotnici-polu zmiji, u mračnim dubinama vode propalog i potopljenog grada.
+1	Golim	_	_	_	_	_	_	_	_
+2	rukama	_	_	_	_	_	_	_	_
+3	odupire	_	_	_	_	_	_	_	_
+4	se	_	_	_	_	_	_	_	_
+5	DJ	_	_	_	_	_	_	_	_
+6	Žeks	_	_	_	_	_	_	_	_
+7	sveobuhvatnoj	_	_	_	_	_	_	_	_
+8	i	_	_	_	_	_	_	_	_
+9	prejakoj	_	_	_	_	_	_	_	_
+10	morskoj	_	_	_	_	_	_	_	_
+11	nemani	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	polu	_	_	_	_	_	_	_	_
+14	hobotnici-polu	_	_	_	_	_	_	_	_
+15	zmiji	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	u	_	_	_	_	_	_	_	_
+18	mračnim	_	_	_	_	_	_	_	_
+19	dubinama	_	_	_	_	_	_	_	_
+20	vode	_	_	_	_	_	_	_	_
+21	propalog	_	_	_	_	_	_	_	_
+22	i	_	_	_	_	_	_	_	_
+23	potopljenog	_	_	_	_	_	_	_	_
+24	grada	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Vojna parada „Snaga jedinstva“ kako ju je krstila vlast Srpske napredne stranke je završena i žandarmerija je oslobodila okupljene građane.
+1	Vojna	_	_	_	_	_	_	_	_
+2	parada	_	_	_	_	_	_	_	_
+3	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+4	Snaga	_	_	_	_	_	_	_	_
+5	jedinstva	_	_	_	_	_	_	_	SpaceAfter=No
+6	“	“	PUNCT	Z	_	_	_	_	_
+7	kako	_	_	_	_	_	_	_	_
+8	ju	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	krstila	_	_	_	_	_	_	_	_
+11	vlast	_	_	_	_	_	_	_	_
+12	Srpske	_	_	_	_	_	_	_	_
+13	napredne	_	_	_	_	_	_	_	_
+14	stranke	_	_	_	_	_	_	_	_
+15	je	_	_	_	_	_	_	_	_
+16	završena	_	_	_	_	_	_	_	_
+17	i	_	_	_	_	_	_	_	_
+18	žandarmerija	_	_	_	_	_	_	_	_
+19	je	_	_	_	_	_	_	_	_
+20	oslobodila	_	_	_	_	_	_	_	_
+21	okupljene	_	_	_	_	_	_	_	_
+22	građane	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Na novobeogradskim ulicama se policija (pod komandom direktora Dragana Vasiljevića i ministra Ivice Dačića, a pre svega predsednika Aleksandra Vučića) postarala da pokaže da pomenuto jedinstvo ne postoji.
+1	Na	_	_	_	_	_	_	_	_
+2	novobeogradskim	_	_	_	_	_	_	_	_
+3	ulicama	_	_	_	_	_	_	_	_
+4	se	_	_	_	_	_	_	_	_
+5	policija	_	_	_	_	_	_	_	_
+6	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+7	pod	_	_	_	_	_	_	_	_
+8	komandom	_	_	_	_	_	_	_	_
+9	direktora	_	_	_	_	_	_	_	_
+10	Dragana	_	_	_	_	_	_	_	_
+11	Vasiljevića	_	_	_	_	_	_	_	_
+12	i	_	_	_	_	_	_	_	_
+13	ministra	_	_	_	_	_	_	_	_
+14	Ivice	_	_	_	_	_	_	_	_
+15	Dačića	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	a	_	_	_	_	_	_	_	_
+18	pre	_	_	_	_	_	_	_	_
+19	svega	_	_	_	_	_	_	_	_
+20	predsednika	_	_	_	_	_	_	_	_
+21	Aleksandra	_	_	_	_	_	_	_	_
+22	Vučića	_	_	_	_	_	_	_	SpaceAfter=No
+23	)	)	PUNCT	Z	_	_	_	_	_
+24	postarala	_	_	_	_	_	_	_	_
+25	da	_	_	_	_	_	_	_	_
+26	pokaže	_	_	_	_	_	_	_	_
+27	da	_	_	_	_	_	_	_	_
+28	pomenuto	_	_	_	_	_	_	_	_
+29	jedinstvo	_	_	_	_	_	_	_	_
+30	ne	_	_	_	_	_	_	_	_
+31	postoji	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Administracija američkog predsednika Donalda Trampa nametnula je dodatna ograničenja pristupa najstarijeg i prestižnog univerziteta u SAD Harvarda federalnim sredstvima, što je nova epizoda u toj njenoj borbi.
+1	Administracija	_	_	_	_	_	_	_	_
+2	američkog	_	_	_	_	_	_	_	_
+3	predsednika	_	_	_	_	_	_	_	_
+4	Donalda	_	_	_	_	_	_	_	_
+5	Trampa	_	_	_	_	_	_	_	_
+6	nametnula	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	dodatna	_	_	_	_	_	_	_	_
+9	ograničenja	_	_	_	_	_	_	_	_
+10	pristupa	_	_	_	_	_	_	_	_
+11	najstarijeg	_	_	_	_	_	_	_	_
+12	i	_	_	_	_	_	_	_	_
+13	prestižnog	_	_	_	_	_	_	_	_
+14	univerziteta	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16	SAD	_	_	_	_	_	_	_	_
+17	Harvarda	_	_	_	_	_	_	_	_
+18	federalnim	_	_	_	_	_	_	_	_
+19	sredstvima	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	Z	_	_	_	_	_
+21	što	_	_	_	_	_	_	_	_
+22	je	_	_	_	_	_	_	_	_
+23	nova	_	_	_	_	_	_	_	_
+24	epizoda	_	_	_	_	_	_	_	_
+25	u	_	_	_	_	_	_	_	_
+26	toj	_	_	_	_	_	_	_	_
+27	njenoj	_	_	_	_	_	_	_	_
+28	borbi	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Ministarstvo prosvete je u petak saopštilo da je stavilo Harvard pod status „pojačanog praćenja sredstava“ zbog „rastuće zabrinutosti zbog njegove finansijske situacije“.
+1	Ministarstvo	_	_	_	_	_	_	_	_
+2	prosvete	_	_	_	_	_	_	_	_
+3	je	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	petak	_	_	_	_	_	_	_	_
+6	saopštilo	_	_	_	_	_	_	_	_
+7	da	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	stavilo	_	_	_	_	_	_	_	_
+10	Harvard	_	_	_	_	_	_	_	_
+11	pod	_	_	_	_	_	_	_	_
+12	status	_	_	_	_	_	_	_	_
+13	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+14	pojačanog	_	_	_	_	_	_	_	_
+15	prac	_	_	_	_	_	_	_	SpaceAfter=No
+16	́	_	_	_	_	_	_	_	SpaceAfter=No
+17	enja	_	_	_	_	_	_	_	_
+18	sredstava	_	_	_	_	_	_	_	SpaceAfter=No
+19	“	“	PUNCT	Z	_	_	_	_	_
+20	zbog	_	_	_	_	_	_	_	_
+21	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+22	rastuc	_	_	_	_	_	_	_	SpaceAfter=No
+23	́	_	_	_	_	_	_	_	SpaceAfter=No
+24	e	_	_	_	_	_	_	_	_
+25	zabrinutosti	_	_	_	_	_	_	_	_
+26	zbog	_	_	_	_	_	_	_	_
+27	njegove	_	_	_	_	_	_	_	_
+28	finansijske	_	_	_	_	_	_	_	_
+29	situacije	_	_	_	_	_	_	_	SpaceAfter=No
+30	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+31	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = U drugom sličnom slučaju Harvard je saopštio da je počeo da dobija deo od ukupno 2,6 milijardi federalnih sredstava pošto je sudija u Bostonu, gde je Harvard, 3. septembra naložio poništenje vladinog zamrzavanja ;finansiranja tog univerziteta.
+1	U	_	_	_	_	_	_	_	_
+2	drugom	_	_	_	_	_	_	_	_
+3	sličnom	_	_	_	_	_	_	_	_
+4	slučaju	_	_	_	_	_	_	_	_
+5	Harvard	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	saopštio	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	počeo	_	_	_	_	_	_	_	_
+11	da	_	_	_	_	_	_	_	_
+12	dobija	_	_	_	_	_	_	_	_
+13	deo	_	_	_	_	_	_	_	_
+14	od	_	_	_	_	_	_	_	_
+15	ukupno	_	_	_	_	_	_	_	_
+16	2,6	_	_	_	_	_	_	_	_
+17	milijardi	_	_	_	_	_	_	_	_
+18	federalnih	_	_	_	_	_	_	_	_
+19	sredstava	_	_	_	_	_	_	_	_
+20	pošto	_	_	_	_	_	_	_	_
+21	je	_	_	_	_	_	_	_	_
+22	sudija	_	_	_	_	_	_	_	_
+23	u	_	_	_	_	_	_	_	_
+24	Bostonu	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	,	PUNCT	Z	_	_	_	_	_
+26	gde	_	_	_	_	_	_	_	_
+27	je	_	_	_	_	_	_	_	_
+28	Harvard	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	,	PUNCT	Z	_	_	_	_	_
+30	3.	_	_	_	_	_	_	_	_
+31	septembra	_	_	_	_	_	_	_	_
+32	naložio	_	_	_	_	_	_	_	_
+33	poništenje	_	_	_	_	_	_	_	_
+34	vladinog	_	_	_	_	_	_	_	_
+35	zamrzavanja	_	_	_	_	_	_	_	_
+36	;	;	PUNCT	Z	_	_	_	_	SpaceAfter=No
+37	finansiranja	_	_	_	_	_	_	_	_
+38	tog	_	_	_	_	_	_	_	_
+39	univerziteta	_	_	_	_	_	_	_	SpaceAfter=No
+40	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Trampova administracija tvrdi da je taj univerzitet „rasadnik WOKE ideologije“ inkluzivnosti protiv koje se Tramp bori i da nije adekvatno zaštitio jevrejske studente tokom pro-palestinskih protesta na Harvardu.
+1	Trampova	_	_	_	_	_	_	_	_
+2	administracija	_	_	_	_	_	_	_	_
+3	tvrdi	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	taj	_	_	_	_	_	_	_	_
+7	univerzitet	_	_	_	_	_	_	_	_
+8	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+9	rasadnik	_	_	_	_	_	_	_	_
+10	WOKE	_	_	_	_	_	_	_	_
+11	ideologije	_	_	_	_	_	_	_	SpaceAfter=No
+12	“	“	PUNCT	Z	_	_	_	_	_
+13	inkluzivnosti	_	_	_	_	_	_	_	_
+14	protiv	_	_	_	_	_	_	_	_
+15	koje	_	_	_	_	_	_	_	_
+16	se	_	_	_	_	_	_	_	_
+17	Tramp	_	_	_	_	_	_	_	_
+18	bori	_	_	_	_	_	_	_	_
+19	i	_	_	_	_	_	_	_	_
+20	da	_	_	_	_	_	_	_	_
+21	nije	_	_	_	_	_	_	_	_
+22	adekvatno	_	_	_	_	_	_	_	_
+23	zaštitio	_	_	_	_	_	_	_	_
+24	jevrejske	_	_	_	_	_	_	_	_
+25	studente	_	_	_	_	_	_	_	_
+26	tokom	_	_	_	_	_	_	_	_
+27	pro-palestinskih	_	_	_	_	_	_	_	_
+28	protesta	_	_	_	_	_	_	_	_
+29	na	_	_	_	_	_	_	_	_
+30	Harvardu	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Tako se u prvim redovima našao i Marko Kričak, komandant Jedinice za obezbeđenje određenih ličnosti i objekata (JZO) MUP-a Srbije, koji je studentkinji Nikolini Sinđelić, kako je ispričala, pretio da će je silovati, kao i da ju je šamarao i udarao glavom o zid.
+1	Tako	_	_	_	_	_	_	_	_
+2	se	_	_	_	_	_	_	_	_
+3	u	_	_	_	_	_	_	_	_
+4	prvim	_	_	_	_	_	_	_	_
+5	redovima	_	_	_	_	_	_	_	_
+6	našao	_	_	_	_	_	_	_	_
+7	i	_	_	_	_	_	_	_	_
+8	Marko	_	_	_	_	_	_	_	_
+9	Kričak	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	komandant	_	_	_	_	_	_	_	_
+12	Jedinice	_	_	_	_	_	_	_	_
+13	za	_	_	_	_	_	_	_	_
+14	obezbeđenje	_	_	_	_	_	_	_	_
+15	određenih	_	_	_	_	_	_	_	_
+16	ličnosti	_	_	_	_	_	_	_	_
+17	i	_	_	_	_	_	_	_	_
+18	objekata	_	_	_	_	_	_	_	_
+19	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+20	JZO	_	_	_	_	_	_	_	SpaceAfter=No
+21	)	)	PUNCT	Z	_	_	_	_	_
+22	MUP-a	_	_	_	_	_	_	_	_
+23	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	,	PUNCT	Z	_	_	_	_	_
+25	koji	_	_	_	_	_	_	_	_
+26	je	_	_	_	_	_	_	_	_
+27	studentkinji	_	_	_	_	_	_	_	_
+28	Nikolini	_	_	_	_	_	_	_	_
+29	Sinđelić	_	_	_	_	_	_	_	SpaceAfter=No
+30	,	,	PUNCT	Z	_	_	_	_	_
+31	kako	_	_	_	_	_	_	_	_
+32	je	_	_	_	_	_	_	_	_
+33	ispričala	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	,	PUNCT	Z	_	_	_	_	_
+35	pretio	_	_	_	_	_	_	_	_
+36	da	_	_	_	_	_	_	_	_
+37	će	_	_	_	_	_	_	_	_
+38	je	_	_	_	_	_	_	_	_
+39	silovati	_	_	_	_	_	_	_	SpaceAfter=No
+40	,	,	PUNCT	Z	_	_	_	_	_
+41	kao	_	_	_	_	_	_	_	_
+42	i	_	_	_	_	_	_	_	_
+43	da	_	_	_	_	_	_	_	_
+44	ju	_	_	_	_	_	_	_	_
+45	je	_	_	_	_	_	_	_	_
+46	šamarao	_	_	_	_	_	_	_	_
+47	i	_	_	_	_	_	_	_	_
+48	udarao	_	_	_	_	_	_	_	_
+49	glavom	_	_	_	_	_	_	_	_
+50	o	_	_	_	_	_	_	_	_
+51	zid	_	_	_	_	_	_	_	SpaceAfter=No
+52	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = U Vučićevoj blizini bio je i glavni tužilac Višeg javnog tužilaštva u Beogradu Nenad Stefanović, za kojeg je jasno da je blizak vlasti.
+1	U	_	_	_	_	_	_	_	_
+2	Vučićevoj	_	_	_	_	_	_	_	_
+3	blizini	_	_	_	_	_	_	_	_
+4	bio	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	glavni	_	_	_	_	_	_	_	_
+8	tužilac	_	_	_	_	_	_	_	_
+9	Višeg	_	_	_	_	_	_	_	_
+10	javnog	_	_	_	_	_	_	_	_
+11	tužilaštva	_	_	_	_	_	_	_	_
+12	u	_	_	_	_	_	_	_	_
+13	Beogradu	_	_	_	_	_	_	_	_
+14	Nenad	_	_	_	_	_	_	_	_
+15	Stefanović	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	za	_	_	_	_	_	_	_	_
+18	kojeg	_	_	_	_	_	_	_	_
+19	je	_	_	_	_	_	_	_	_
+20	jasno	_	_	_	_	_	_	_	_
+21	da	_	_	_	_	_	_	_	_
+22	je	_	_	_	_	_	_	_	_
+23	blizak	_	_	_	_	_	_	_	_
+24	vlasti	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Takođe, među zvanicima bio je i Danilo Vučić, sin predsednika Srbije Aleksandra Vučića.
+1	Takođe	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	među	_	_	_	_	_	_	_	_
+4	zvanicima	_	_	_	_	_	_	_	_
+5	bio	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	i	_	_	_	_	_	_	_	_
+8	Danilo	_	_	_	_	_	_	_	_
+9	Vučić	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	sin	_	_	_	_	_	_	_	_
+12	predsednika	_	_	_	_	_	_	_	_
+13	Srbije	_	_	_	_	_	_	_	_
+14	Aleksandra	_	_	_	_	_	_	_	_
+15	Vučića	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Generalni sekretar UN Antonio Gutereš izjavio je danas da svet ne treba da se oseća zastrašeno izraelskim pretnjama odmazdom zbog priznavanja palestinske državnosti ili politike koja podržava Palestince.
+1	Generalni	_	_	_	_	_	_	_	_
+2	sekretar	_	_	_	_	_	_	_	_
+3	UN	_	_	_	_	_	_	_	_
+4	Antonio	_	_	_	_	_	_	_	_
+5	Gutereš	_	_	_	_	_	_	_	_
+6	izjavio	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	danas	_	_	_	_	_	_	_	_
+9	da	_	_	_	_	_	_	_	_
+10	svet	_	_	_	_	_	_	_	_
+11	ne	_	_	_	_	_	_	_	_
+12	treba	_	_	_	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_
+14	se	_	_	_	_	_	_	_	_
+15	oseća	_	_	_	_	_	_	_	_
+16	zastrašeno	_	_	_	_	_	_	_	_
+17	izraelskim	_	_	_	_	_	_	_	_
+18	pretnjama	_	_	_	_	_	_	_	_
+19	odmazdom	_	_	_	_	_	_	_	_
+20	zbog	_	_	_	_	_	_	_	_
+21	priznavanja	_	_	_	_	_	_	_	_
+22	palestinske	_	_	_	_	_	_	_	_
+23	državnosti	_	_	_	_	_	_	_	_
+24	ili	_	_	_	_	_	_	_	_
+25	politike	_	_	_	_	_	_	_	_
+26	koja	_	_	_	_	_	_	_	_
+27	podržava	_	_	_	_	_	_	_	_
+28	Palestince	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = „Izraelska vlada je konstantno napredovala sa merama da potpuno uništi Pojas Gaze i sprovede podmukle pripajanje Zapadne obale“, rekao je Gutereš za Frans pres.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Izraelska	_	_	_	_	_	_	_	_
+3	vlada	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	konstantno	_	_	_	_	_	_	_	_
+6	napredovala	_	_	_	_	_	_	_	_
+7	sa	_	_	_	_	_	_	_	_
+8	merama	_	_	_	_	_	_	_	_
+9	da	_	_	_	_	_	_	_	_
+10	potpuno	_	_	_	_	_	_	_	_
+11	uništi	_	_	_	_	_	_	_	_
+12	Pojas	_	_	_	_	_	_	_	_
+13	Gaze	_	_	_	_	_	_	_	_
+14	i	_	_	_	_	_	_	_	_
+15	sprovede	_	_	_	_	_	_	_	_
+16	podmukle	_	_	_	_	_	_	_	_
+17	pripajanje	_	_	_	_	_	_	_	_
+18	Zapadne	_	_	_	_	_	_	_	_
+19	obale	_	_	_	_	_	_	_	SpaceAfter=No
+20	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	_	_	_	_
+22	rekao	_	_	_	_	_	_	_	_
+23	je	_	_	_	_	_	_	_	_
+24	Gutereš	_	_	_	_	_	_	_	_
+25	za	_	_	_	_	_	_	_	_
+26	Frans	_	_	_	_	_	_	_	_
+27	pres	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Sa priznanjem palestinske države, planiranim za ponedeljak na samitu UN od Francuske i nekoliko drugih zemalja, izraelski zvaničnici su otvoreno pretili Parizu diplomatskim merama, kao i aneksijom Zapadne obale, koju Izrael okupira od 1967. godine.
+1	Sa	_	_	_	_	_	_	_	_
+2	priznanjem	_	_	_	_	_	_	_	_
+3	palestinske	_	_	_	_	_	_	_	_
+4	države	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	planiranim	_	_	_	_	_	_	_	_
+7	za	_	_	_	_	_	_	_	_
+8	ponedeljak	_	_	_	_	_	_	_	_
+9	na	_	_	_	_	_	_	_	_
+10	samitu	_	_	_	_	_	_	_	_
+11	UN	_	_	_	_	_	_	_	_
+12	od	_	_	_	_	_	_	_	_
+13	Francuske	_	_	_	_	_	_	_	_
+14	i	_	_	_	_	_	_	_	_
+15	nekoliko	_	_	_	_	_	_	_	_
+16	drugih	_	_	_	_	_	_	_	_
+17	zemalja	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	izraelski	_	_	_	_	_	_	_	_
+20	zvaničnici	_	_	_	_	_	_	_	_
+21	su	_	_	_	_	_	_	_	_
+22	otvoreno	_	_	_	_	_	_	_	_
+23	pretili	_	_	_	_	_	_	_	_
+24	Parizu	_	_	_	_	_	_	_	_
+25	diplomatskim	_	_	_	_	_	_	_	_
+26	merama	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	kao	_	_	_	_	_	_	_	_
+29	i	_	_	_	_	_	_	_	_
+30	aneksijom	_	_	_	_	_	_	_	_
+31	Zapadne	_	_	_	_	_	_	_	_
+32	obale	_	_	_	_	_	_	_	SpaceAfter=No
+33	,	,	PUNCT	Z	_	_	_	_	_
+34	koju	_	_	_	_	_	_	_	_
+35	Izrael	_	_	_	_	_	_	_	_
+36	okupira	_	_	_	_	_	_	_	_
+37	od	_	_	_	_	_	_	_	_
+38	1967.	_	_	_	_	_	_	_	_
+39	godine	_	_	_	_	_	_	_	SpaceAfter=No
+40	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = „Ono što vidimo u Gazi je užasno.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Ono	_	_	_	_	_	_	_	_
+3	što	_	_	_	_	_	_	_	_
+4	vidimo	_	_	_	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	Gazi	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	užasno	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 4.2
+# text = To je najgori nivo smrti i razaranja koji sam video otkako sam postao generalni sekretar, verovatno u celom svom životu“, dodao je Gutereš.
+1	To	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	najgori	_	_	_	_	_	_	_	_
+4	nivo	_	_	_	_	_	_	_	_
+5	smrti	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	razaranja	_	_	_	_	_	_	_	_
+8	koji	_	_	_	_	_	_	_	_
+9	sam	_	_	_	_	_	_	_	_
+10	video	_	_	_	_	_	_	_	_
+11	otkako	_	_	_	_	_	_	_	_
+12	sam	_	_	_	_	_	_	_	_
+13	postao	_	_	_	_	_	_	_	_
+14	generalni	_	_	_	_	_	_	_	_
+15	sekretar	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	verovatno	_	_	_	_	_	_	_	_
+18	u	_	_	_	_	_	_	_	_
+19	celom	_	_	_	_	_	_	_	_
+20	svom	_	_	_	_	_	_	_	_
+21	životu	_	_	_	_	_	_	_	SpaceAfter=No
+22	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	dodao	_	_	_	_	_	_	_	_
+25	je	_	_	_	_	_	_	_	_
+26	Gutereš	_	_	_	_	_	_	_	SpaceAfter=No
+27	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Tokom vojne parade koju organizuje vlast SNS pod nazivom "Snaga jedinstva" demonstrirano kako specijalna jedinica "Kobre" brane štićene ličnosti od napadača obučenog u žuti prsluk.
+1	Tokom	_	_	_	_	_	_	_	_
+2	vojne	_	_	_	_	_	_	_	_
+3	parade	_	_	_	_	_	_	_	_
+4	koju	_	_	_	_	_	_	_	_
+5	organizuje	_	_	_	_	_	_	_	_
+6	vlast	_	_	_	_	_	_	_	_
+7	SNS	_	_	_	_	_	_	_	_
+8	pod	_	_	_	_	_	_	_	_
+9	nazivom	_	_	_	_	_	_	_	_
+10	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+11	Snaga	_	_	_	_	_	_	_	_
+12	jedinstva	_	_	_	_	_	_	_	SpaceAfter=No
+13	"	"	PUNCT	Z	_	_	_	_	_
+14	demonstrirano	_	_	_	_	_	_	_	_
+15	kako	_	_	_	_	_	_	_	_
+16	specijalna	_	_	_	_	_	_	_	_
+17	jedinica	_	_	_	_	_	_	_	_
+18	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+19	Kobre	_	_	_	_	_	_	_	SpaceAfter=No
+20	"	"	PUNCT	Z	_	_	_	_	_
+21	brane	_	_	_	_	_	_	_	_
+22	štićene	_	_	_	_	_	_	_	_
+23	ličnosti	_	_	_	_	_	_	_	_
+24	od	_	_	_	_	_	_	_	_
+25	napadača	_	_	_	_	_	_	_	_
+26	obučenog	_	_	_	_	_	_	_	_
+27	u	_	_	_	_	_	_	_	_
+28	žuti	_	_	_	_	_	_	_	_
+29	prsluk	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Upravo je to bio razlog zbog kog je reagovao generalni sekretar Pokreta slobodnih građana, Aleksandar Radovanović.
+1	Upravo	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_
+4	bio	_	_	_	_	_	_	_	_
+5	razlog	_	_	_	_	_	_	_	_
+6	zbog	_	_	_	_	_	_	_	_
+7	kog	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	reagovao	_	_	_	_	_	_	_	_
+10	generalni	_	_	_	_	_	_	_	_
+11	sekretar	_	_	_	_	_	_	_	_
+12	Pokreta	_	_	_	_	_	_	_	_
+13	slobodnih	_	_	_	_	_	_	_	_
+14	građana	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	Aleksandar	_	_	_	_	_	_	_	_
+17	Radovanović	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Studenti Pravnog fakulteta u Nišu mole glavnog javnog tužioca Višeg javnog tužilaštva u Beogradu Nenada Stefanovića da se upozna sa spisima predmeta, da ne ispada neozbiljan, piše u saopštenju.
+1	Studenti	_	_	_	_	_	_	_	_
+2	Pravnog	_	_	_	_	_	_	_	_
+3	fakulteta	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	Nišu	_	_	_	_	_	_	_	_
+6	mole	_	_	_	_	_	_	_	_
+7	glavnog	_	_	_	_	_	_	_	_
+8	javnog	_	_	_	_	_	_	_	_
+9	tužioca	_	_	_	_	_	_	_	_
+10	Višeg	_	_	_	_	_	_	_	_
+11	javnog	_	_	_	_	_	_	_	_
+12	tužilaštva	_	_	_	_	_	_	_	_
+13	u	_	_	_	_	_	_	_	_
+14	Beogradu	_	_	_	_	_	_	_	_
+15	Nenada	_	_	_	_	_	_	_	_
+16	Stefanovića	_	_	_	_	_	_	_	_
+17	da	_	_	_	_	_	_	_	_
+18	se	_	_	_	_	_	_	_	_
+19	upozna	_	_	_	_	_	_	_	_
+20	sa	_	_	_	_	_	_	_	_
+21	spisima	_	_	_	_	_	_	_	_
+22	predmeta	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	da	_	_	_	_	_	_	_	_
+25	ne	_	_	_	_	_	_	_	_
+26	ispada	_	_	_	_	_	_	_	_
+27	neozbiljan	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	,	PUNCT	Z	_	_	_	_	_
+29	piše	_	_	_	_	_	_	_	_
+30	u	_	_	_	_	_	_	_	_
+31	saopštenju	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Oni su istakli da je na zvaničnom sajtu VJT Beograd objavljeno saopštenje u kojem se navodi da je podnet optužni predlog Višem sudu u Beogradu protiv devet studenata zbog postojanja osnovane sumnje da su izvršili krivično delo Pripremanje dela protiv ustavnog uređenja i bezbednosti Republike Srbije u vezi sa krivičnim delom Pozivanje na nasilnu promenu ustavnog uređenja, u saizvršilaštvu.
+1	Oni	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	_
+3	istakli	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	na	_	_	_	_	_	_	_	_
+7	zvaničnom	_	_	_	_	_	_	_	_
+8	sajtu	_	_	_	_	_	_	_	_
+9	VJT	_	_	_	_	_	_	_	_
+10	Beograd	_	_	_	_	_	_	_	_
+11	objavljeno	_	_	_	_	_	_	_	_
+12	saopštenje	_	_	_	_	_	_	_	_
+13	u	_	_	_	_	_	_	_	_
+14	kojem	_	_	_	_	_	_	_	_
+15	se	_	_	_	_	_	_	_	_
+16	navodi	_	_	_	_	_	_	_	_
+17	da	_	_	_	_	_	_	_	_
+18	je	_	_	_	_	_	_	_	_
+19	podnet	_	_	_	_	_	_	_	_
+20	optužni	_	_	_	_	_	_	_	_
+21	predlog	_	_	_	_	_	_	_	_
+22	Višem	_	_	_	_	_	_	_	_
+23	sudu	_	_	_	_	_	_	_	_
+24	u	_	_	_	_	_	_	_	_
+25	Beogradu	_	_	_	_	_	_	_	_
+26	protiv	_	_	_	_	_	_	_	_
+27	devet	_	_	_	_	_	_	_	_
+28	studenata	_	_	_	_	_	_	_	_
+29	zbog	_	_	_	_	_	_	_	_
+30	postojanja	_	_	_	_	_	_	_	_
+31	osnovane	_	_	_	_	_	_	_	_
+32	sumnje	_	_	_	_	_	_	_	_
+33	da	_	_	_	_	_	_	_	_
+34	su	_	_	_	_	_	_	_	_
+35	izvršili	_	_	_	_	_	_	_	_
+36	krivično	_	_	_	_	_	_	_	_
+37	delo	_	_	_	_	_	_	_	_
+38	Pripremanje	_	_	_	_	_	_	_	_
+39	dela	_	_	_	_	_	_	_	_
+40	protiv	_	_	_	_	_	_	_	_
+41	ustavnog	_	_	_	_	_	_	_	_
+42	uređenja	_	_	_	_	_	_	_	_
+43	i	_	_	_	_	_	_	_	_
+44	bezbednosti	_	_	_	_	_	_	_	_
+45	Republike	_	_	_	_	_	_	_	_
+46	Srbije	_	_	_	_	_	_	_	_
+47	u	_	_	_	_	_	_	_	_
+48	vezi	_	_	_	_	_	_	_	_
+49	sa	_	_	_	_	_	_	_	_
+50	krivičnim	_	_	_	_	_	_	_	_
+51	delom	_	_	_	_	_	_	_	_
+52	Pozivanje	_	_	_	_	_	_	_	_
+53	na	_	_	_	_	_	_	_	_
+54	nasilnu	_	_	_	_	_	_	_	_
+55	promenu	_	_	_	_	_	_	_	_
+56	ustavnog	_	_	_	_	_	_	_	_
+57	uređenja	_	_	_	_	_	_	_	SpaceAfter=No
+58	,	,	PUNCT	Z	_	_	_	_	_
+59	u	_	_	_	_	_	_	_	_
+60	saizvršilaštvu	_	_	_	_	_	_	_	SpaceAfter=No
+61	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Međutim, nesporna je činjenica da se Dimitrije Dimić od 09.30 časova, 22.08.2025. godine, nalazi pod merom kućnog pritvora – zabranom napuštanja stana uz stalni elektronski nadzor koji sprovodi Uprava za izvršenje krivičnih sankcija Ministarstva pravde.
+1	Međutim	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	nesporna	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	činjenica	_	_	_	_	_	_	_	_
+6	da	_	_	_	_	_	_	_	_
+7	se	_	_	_	_	_	_	_	_
+8	Dimitrije	_	_	_	_	_	_	_	_
+9	Dimić	_	_	_	_	_	_	_	_
+10	od	_	_	_	_	_	_	_	_
+11	09.30	_	_	_	_	_	_	_	_
+12	časova	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	22.08.2025.	_	_	_	_	_	_	_	_
+15	godine	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	nalazi	_	_	_	_	_	_	_	_
+18	pod	_	_	_	_	_	_	_	_
+19	merom	_	_	_	_	_	_	_	_
+20	kućnog	_	_	_	_	_	_	_	_
+21	pritvora	_	_	_	_	_	_	_	_
+22	–	–	PUNCT	Z	_	_	_	_	_
+23	zabranom	_	_	_	_	_	_	_	_
+24	napuštanja	_	_	_	_	_	_	_	_
+25	stana	_	_	_	_	_	_	_	_
+26	uz	_	_	_	_	_	_	_	_
+27	stalni	_	_	_	_	_	_	_	_
+28	elektronski	_	_	_	_	_	_	_	_
+29	nadzor	_	_	_	_	_	_	_	_
+30	koji	_	_	_	_	_	_	_	_
+31	sprovodi	_	_	_	_	_	_	_	_
+32	Uprava	_	_	_	_	_	_	_	_
+33	za	_	_	_	_	_	_	_	_
+34	izvršenje	_	_	_	_	_	_	_	_
+35	krivičnih	_	_	_	_	_	_	_	_
+36	sankcija	_	_	_	_	_	_	_	_
+37	Ministarstva	_	_	_	_	_	_	_	_
+38	pravde	_	_	_	_	_	_	_	SpaceAfter=No
+39	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Oni su naveli da je Apelacioni sud u Beogradu čak četiri puta usvojio žalbu branioca Dimitrija Dimića i doneo odluku da mu se ukine pritvor i omogući da se brani sa slobode.
+1	Oni	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	_
+3	naveli	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	Apelacioni	_	_	_	_	_	_	_	_
+7	sud	_	_	_	_	_	_	_	_
+8	u	_	_	_	_	_	_	_	_
+9	Beogradu	_	_	_	_	_	_	_	_
+10	čak	_	_	_	_	_	_	_	_
+11	četiri	_	_	_	_	_	_	_	_
+12	puta	_	_	_	_	_	_	_	_
+13	usvojio	_	_	_	_	_	_	_	_
+14	žalbu	_	_	_	_	_	_	_	_
+15	branioca	_	_	_	_	_	_	_	_
+16	Dimitrija	_	_	_	_	_	_	_	_
+17	Dimića	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	doneo	_	_	_	_	_	_	_	_
+20	odluku	_	_	_	_	_	_	_	_
+21	da	_	_	_	_	_	_	_	_
+22	mu	_	_	_	_	_	_	_	_
+23	se	_	_	_	_	_	_	_	_
+24	ukine	_	_	_	_	_	_	_	_
+25	pritvor	_	_	_	_	_	_	_	_
+26	i	_	_	_	_	_	_	_	_
+27	omogući	_	_	_	_	_	_	_	_
+28	da	_	_	_	_	_	_	_	_
+29	se	_	_	_	_	_	_	_	_
+30	brani	_	_	_	_	_	_	_	_
+31	sa	_	_	_	_	_	_	_	_
+32	slobode	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Dramska spisateljica i rediteljka Minja Bogavac i predstavnica Stanice – servisa za savremeni ples Marijana Cvetković kritikovale su način raspodela sredstava na konkursima Ministarstva kulture i kao odgovornog za to označile ministra Nikolu Selakovića.
+1	Dramska	_	_	_	_	_	_	_	_
+2	spisateljica	_	_	_	_	_	_	_	_
+3	i	_	_	_	_	_	_	_	_
+4	rediteljka	_	_	_	_	_	_	_	_
+5	Minja	_	_	_	_	_	_	_	_
+6	Bogavac	_	_	_	_	_	_	_	_
+7	i	_	_	_	_	_	_	_	_
+8	predstavnica	_	_	_	_	_	_	_	_
+9	Stanice	_	_	_	_	_	_	_	_
+10	–	–	PUNCT	Z	_	_	_	_	_
+11	servisa	_	_	_	_	_	_	_	_
+12	za	_	_	_	_	_	_	_	_
+13	savremeni	_	_	_	_	_	_	_	_
+14	ples	_	_	_	_	_	_	_	_
+15	Marijana	_	_	_	_	_	_	_	_
+16	Cvetković	_	_	_	_	_	_	_	_
+17	kritikovale	_	_	_	_	_	_	_	_
+18	su	_	_	_	_	_	_	_	_
+19	način	_	_	_	_	_	_	_	_
+20	raspodela	_	_	_	_	_	_	_	_
+21	sredstava	_	_	_	_	_	_	_	_
+22	na	_	_	_	_	_	_	_	_
+23	konkursima	_	_	_	_	_	_	_	_
+24	Ministarstva	_	_	_	_	_	_	_	_
+25	kulture	_	_	_	_	_	_	_	_
+26	i	_	_	_	_	_	_	_	_
+27	kao	_	_	_	_	_	_	_	_
+28	odgovornog	_	_	_	_	_	_	_	_
+29	za	_	_	_	_	_	_	_	_
+30	to	_	_	_	_	_	_	_	_
+31	označile	_	_	_	_	_	_	_	_
+32	ministra	_	_	_	_	_	_	_	_
+33	Nikolu	_	_	_	_	_	_	_	_
+34	Selakovića	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Nedeljnik „Vreme“ piše da je Ministarstvo kulture objavilo rezultate za sedam od 29 konkursa koliko ih je raspisalo za sufinansiranje projekata u kulturi, a koji su očekivani još pre pola godine.
+1	Nedeljnik	_	_	_	_	_	_	_	_
+2	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+3	Vreme	_	_	_	_	_	_	_	SpaceAfter=No
+4	“	“	PUNCT	Z	_	_	_	_	_
+5	piše	_	_	_	_	_	_	_	_
+6	da	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	Ministarstvo	_	_	_	_	_	_	_	_
+9	kulture	_	_	_	_	_	_	_	_
+10	objavilo	_	_	_	_	_	_	_	_
+11	rezultate	_	_	_	_	_	_	_	_
+12	za	_	_	_	_	_	_	_	_
+13	sedam	_	_	_	_	_	_	_	_
+14	od	_	_	_	_	_	_	_	_
+15	29	_	_	_	_	_	_	_	_
+16	konkursa	_	_	_	_	_	_	_	_
+17	koliko	_	_	_	_	_	_	_	_
+18	ih	_	_	_	_	_	_	_	_
+19	je	_	_	_	_	_	_	_	_
+20	raspisalo	_	_	_	_	_	_	_	_
+21	za	_	_	_	_	_	_	_	_
+22	sufinansiranje	_	_	_	_	_	_	_	_
+23	projekata	_	_	_	_	_	_	_	_
+24	u	_	_	_	_	_	_	_	_
+25	kulturi	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	,	PUNCT	Z	_	_	_	_	_
+27	a	_	_	_	_	_	_	_	_
+28	koji	_	_	_	_	_	_	_	_
+29	su	_	_	_	_	_	_	_	_
+30	očekivani	_	_	_	_	_	_	_	_
+31	još	_	_	_	_	_	_	_	_
+32	pre	_	_	_	_	_	_	_	_
+33	pola	_	_	_	_	_	_	_	_
+34	godine	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Najočigledniji primer su, kako je navedeno, rezultati za konkurs iz oblasti umetničke igre u kojima je već na prvi pogled uočljivo da je najviše novca opredeljeno Festivalu igre Aje Jung – 7.000.000 dinara, da je nekoliko nepoznatih udruženja dobilo nešto manje od milion dinara, a da je većina preostalog novca podeljena na – folklor.
+1	Najočigledniji	_	_	_	_	_	_	_	_
+2	primer	_	_	_	_	_	_	_	_
+3	su	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	kako	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	navedeno	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	rezultati	_	_	_	_	_	_	_	_
+10	za	_	_	_	_	_	_	_	_
+11	konkurs	_	_	_	_	_	_	_	_
+12	iz	_	_	_	_	_	_	_	_
+13	oblasti	_	_	_	_	_	_	_	_
+14	umetničke	_	_	_	_	_	_	_	_
+15	igre	_	_	_	_	_	_	_	_
+16	u	_	_	_	_	_	_	_	_
+17	kojima	_	_	_	_	_	_	_	_
+18	je	_	_	_	_	_	_	_	_
+19	već	_	_	_	_	_	_	_	_
+20	na	_	_	_	_	_	_	_	_
+21	prvi	_	_	_	_	_	_	_	_
+22	pogled	_	_	_	_	_	_	_	_
+23	uočljivo	_	_	_	_	_	_	_	_
+24	da	_	_	_	_	_	_	_	_
+25	je	_	_	_	_	_	_	_	_
+26	najviše	_	_	_	_	_	_	_	_
+27	novca	_	_	_	_	_	_	_	_
+28	opredeljeno	_	_	_	_	_	_	_	_
+29	Festivalu	_	_	_	_	_	_	_	_
+30	igre	_	_	_	_	_	_	_	_
+31	Aje	_	_	_	_	_	_	_	_
+32	Jung	_	_	_	_	_	_	_	_
+33	–	–	PUNCT	Z	_	_	_	_	_
+34	7.000.000	_	_	_	_	_	_	_	_
+35	dinara	_	_	_	_	_	_	_	SpaceAfter=No
+36	,	,	PUNCT	Z	_	_	_	_	_
+37	da	_	_	_	_	_	_	_	_
+38	je	_	_	_	_	_	_	_	_
+39	nekoliko	_	_	_	_	_	_	_	_
+40	nepoznatih	_	_	_	_	_	_	_	_
+41	udruženja	_	_	_	_	_	_	_	_
+42	dobilo	_	_	_	_	_	_	_	_
+43	nešto	_	_	_	_	_	_	_	_
+44	manje	_	_	_	_	_	_	_	_
+45	od	_	_	_	_	_	_	_	_
+46	milion	_	_	_	_	_	_	_	_
+47	dinara	_	_	_	_	_	_	_	SpaceAfter=No
+48	,	,	PUNCT	Z	_	_	_	_	_
+49	a	_	_	_	_	_	_	_	_
+50	da	_	_	_	_	_	_	_	_
+51	je	_	_	_	_	_	_	_	_
+52	većina	_	_	_	_	_	_	_	_
+53	preostalog	_	_	_	_	_	_	_	_
+54	novca	_	_	_	_	_	_	_	_
+55	podeljena	_	_	_	_	_	_	_	_
+56	na	_	_	_	_	_	_	_	_
+57	–	–	PUNCT	Z	_	_	_	_	_
+58	folklor	_	_	_	_	_	_	_	SpaceAfter=No
+59	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Bogavac je kazala da je „Ministarstvo ovog puta otvoreno pokazalo da pumpa“, to jest, kako je navela, „da nije zadovoljno radom institucija, kao što su Bitef teatar ili Srpskog narodnog pozorišta“.
+1	Bogavac	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	kazala	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+7	Ministarstvo	_	_	_	_	_	_	_	_
+8	ovog	_	_	_	_	_	_	_	_
+9	puta	_	_	_	_	_	_	_	_
+10	otvoreno	_	_	_	_	_	_	_	_
+11	pokazalo	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_
+13	pumpa	_	_	_	_	_	_	_	SpaceAfter=No
+14	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	to	_	_	_	_	_	_	_	_
+17	jest	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	kako	_	_	_	_	_	_	_	_
+20	je	_	_	_	_	_	_	_	_
+21	navela	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	Z	_	_	_	_	_
+23	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+24	da	_	_	_	_	_	_	_	_
+25	nije	_	_	_	_	_	_	_	_
+26	zadovoljno	_	_	_	_	_	_	_	_
+27	radom	_	_	_	_	_	_	_	_
+28	institucija	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	,	PUNCT	Z	_	_	_	_	_
+30	kao	_	_	_	_	_	_	_	_
+31	što	_	_	_	_	_	_	_	_
+32	su	_	_	_	_	_	_	_	_
+33	Bitef	_	_	_	_	_	_	_	_
+34	teatar	_	_	_	_	_	_	_	_
+35	ili	_	_	_	_	_	_	_	_
+36	Srpskog	_	_	_	_	_	_	_	_
+37	narodnog	_	_	_	_	_	_	_	_
+38	pozorišta	_	_	_	_	_	_	_	SpaceAfter=No
+39	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+40	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = „Odbilo im je po dva projekta, ali je zato bogato nagradilo privatni festival Aje Jung“, kazala je ona, piše na sajtu tog beogradskog nedeljnika.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Odbilo	_	_	_	_	_	_	_	_
+3	im	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	po	_	_	_	_	_	_	_	_
+6	dva	_	_	_	_	_	_	_	_
+7	projekta	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	ali	_	_	_	_	_	_	_	_
+10	je	_	_	_	_	_	_	_	_
+11	zato	_	_	_	_	_	_	_	_
+12	bogato	_	_	_	_	_	_	_	_
+13	nagradilo	_	_	_	_	_	_	_	_
+14	privatni	_	_	_	_	_	_	_	_
+15	festival	_	_	_	_	_	_	_	_
+16	Aje	_	_	_	_	_	_	_	_
+17	Jung	_	_	_	_	_	_	_	SpaceAfter=No
+18	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	kazala	_	_	_	_	_	_	_	_
+21	je	_	_	_	_	_	_	_	_
+22	ona	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	piše	_	_	_	_	_	_	_	_
+25	na	_	_	_	_	_	_	_	_
+26	sajtu	_	_	_	_	_	_	_	_
+27	tog	_	_	_	_	_	_	_	_
+28	beogradskog	_	_	_	_	_	_	_	_
+29	nedeljnika	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Bogavac nabraja da „nakon toga sledi podrška SNS manifestacijama i imaginarnom GONGO triju koga čine Nevladina organizacija Džeger, Nevladina organizacija Lenon i Nevladina organizacija Artiva.
+1	Bogavac	_	_	_	_	_	_	_	_
+2	nabraja	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_
+4	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+5	nakon	_	_	_	_	_	_	_	_
+6	toga	_	_	_	_	_	_	_	_
+7	sledi	_	_	_	_	_	_	_	_
+8	podrška	_	_	_	_	_	_	_	_
+9	SNS	_	_	_	_	_	_	_	_
+10	manifestacijama	_	_	_	_	_	_	_	_
+11	i	_	_	_	_	_	_	_	_
+12	imaginarnom	_	_	_	_	_	_	_	_
+13	GONGO	_	_	_	_	_	_	_	_
+14	triju	_	_	_	_	_	_	_	_
+15	koga	_	_	_	_	_	_	_	_
+16	čine	_	_	_	_	_	_	_	_
+17	Nevladina	_	_	_	_	_	_	_	_
+18	organizacija	_	_	_	_	_	_	_	_
+19	Džeger	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	Z	_	_	_	_	_
+21	Nevladina	_	_	_	_	_	_	_	_
+22	organizacija	_	_	_	_	_	_	_	_
+23	Lenon	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	Nevladina	_	_	_	_	_	_	_	_
+26	organizacija	_	_	_	_	_	_	_	_
+27	Artiva	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 7
+# sent_id = 7.1
+# text = Iako su, kako je navela, konkursi Ministarstva kulture odavno sporni, ovoga puta Ministarstvo je obrnulo igri – „Više nema ni pokušaja da se prave da su barem delimično objektivni ili da delimično rade po zakonu“.
+1	Iako	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	kako	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	navela	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	konkursi	_	_	_	_	_	_	_	_
+9	Ministarstva	_	_	_	_	_	_	_	_
+10	kulture	_	_	_	_	_	_	_	_
+11	odavno	_	_	_	_	_	_	_	_
+12	sporni	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	ovoga	_	_	_	_	_	_	_	_
+15	puta	_	_	_	_	_	_	_	_
+16	Ministarstvo	_	_	_	_	_	_	_	_
+17	je	_	_	_	_	_	_	_	_
+18	obrnulo	_	_	_	_	_	_	_	_
+19	igri	_	_	_	_	_	_	_	_
+20	–	–	PUNCT	Z	_	_	_	_	_
+21	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+22	Više	_	_	_	_	_	_	_	_
+23	nema	_	_	_	_	_	_	_	_
+24	ni	_	_	_	_	_	_	_	_
+25	pokušaja	_	_	_	_	_	_	_	_
+26	da	_	_	_	_	_	_	_	_
+27	se	_	_	_	_	_	_	_	_
+28	prave	_	_	_	_	_	_	_	_
+29	da	_	_	_	_	_	_	_	_
+30	su	_	_	_	_	_	_	_	_
+31	barem	_	_	_	_	_	_	_	_
+32	delimično	_	_	_	_	_	_	_	_
+33	objektivni	_	_	_	_	_	_	_	_
+34	ili	_	_	_	_	_	_	_	_
+35	da	_	_	_	_	_	_	_	_
+36	delimično	_	_	_	_	_	_	_	_
+37	rade	_	_	_	_	_	_	_	_
+38	po	_	_	_	_	_	_	_	_
+39	zakonu	_	_	_	_	_	_	_	SpaceAfter=No
+40	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+41	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 8
+# sent_id = 8.1
+# text = „To je direktna želja Nikole Selakovića, ministra sa brojanicama“, kazala je ona.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	To	_	_	_	_	_	_	_	_
+3	je	_	_	_	_	_	_	_	_
+4	direktna	_	_	_	_	_	_	_	_
+5	želja	_	_	_	_	_	_	_	_
+6	Nikole	_	_	_	_	_	_	_	_
+7	Selakovića	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	ministra	_	_	_	_	_	_	_	_
+10	sa	_	_	_	_	_	_	_	_
+11	brojanicama	_	_	_	_	_	_	_	SpaceAfter=No
+12	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	kazala	_	_	_	_	_	_	_	_
+15	je	_	_	_	_	_	_	_	_
+16	ona	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = U Užicu je večeras održan protest podrške studentu Pavlu Cicvariću o čijem je ubistvu govorio funkcioner Srpske napredne stranke Siniša Vučinić.
+1	U	_	_	_	_	_	_	_	_
+2	Užicu	_	_	_	_	_	_	_	_
+3	je	_	_	_	_	_	_	_	_
+4	večeras	_	_	_	_	_	_	_	_
+5	održan	_	_	_	_	_	_	_	_
+6	protest	_	_	_	_	_	_	_	_
+7	podrške	_	_	_	_	_	_	_	_
+8	studentu	_	_	_	_	_	_	_	_
+9	Pavlu	_	_	_	_	_	_	_	_
+10	Cicvariću	_	_	_	_	_	_	_	_
+11	o	_	_	_	_	_	_	_	_
+12	čijem	_	_	_	_	_	_	_	_
+13	je	_	_	_	_	_	_	_	_
+14	ubistvu	_	_	_	_	_	_	_	_
+15	govorio	_	_	_	_	_	_	_	_
+16	funkcioner	_	_	_	_	_	_	_	_
+17	Srpske	_	_	_	_	_	_	_	_
+18	napredne	_	_	_	_	_	_	_	_
+19	stranke	_	_	_	_	_	_	_	_
+20	Siniša	_	_	_	_	_	_	_	_
+21	Vučinić	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 1.2
+# text = Istovremeno, u Novom Sadu su se okupili studenti i građani posle odluke da njihov kolega Bogdan Jovičić ostane i dalje u pritvoru.
+1	Istovremeno	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	u	_	_	_	_	_	_	_	_
+4	Novom	_	_	_	_	_	_	_	_
+5	Sadu	_	_	_	_	_	_	_	_
+6	su	_	_	_	_	_	_	_	_
+7	se	_	_	_	_	_	_	_	_
+8	okupili	_	_	_	_	_	_	_	_
+9	studenti	_	_	_	_	_	_	_	_
+10	i	_	_	_	_	_	_	_	_
+11	građani	_	_	_	_	_	_	_	_
+12	posle	_	_	_	_	_	_	_	_
+13	odluke	_	_	_	_	_	_	_	_
+14	da	_	_	_	_	_	_	_	_
+15	njihov	_	_	_	_	_	_	_	_
+16	kolega	_	_	_	_	_	_	_	_
+17	Bogdan	_	_	_	_	_	_	_	_
+18	Jovičić	_	_	_	_	_	_	_	_
+19	ostane	_	_	_	_	_	_	_	_
+20	i	_	_	_	_	_	_	_	_
+21	dalje	_	_	_	_	_	_	_	_
+22	u	_	_	_	_	_	_	_	_
+23	pritvoru	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = U Pirotu je kao vid podrške studentu Bogdanu Jovičiću u organizaciji Zbora građan Pirota održan performans pod nazivom "Zatvorska šetnja u lancima".
+1	U	_	_	_	_	_	_	_	_
+2	Pirotu	_	_	_	_	_	_	_	_
+3	je	_	_	_	_	_	_	_	_
+4	kao	_	_	_	_	_	_	_	_
+5	vid	_	_	_	_	_	_	_	_
+6	podrške	_	_	_	_	_	_	_	_
+7	studentu	_	_	_	_	_	_	_	_
+8	Bogdanu	_	_	_	_	_	_	_	_
+9	Jovičiću	_	_	_	_	_	_	_	_
+10	u	_	_	_	_	_	_	_	_
+11	organizaciji	_	_	_	_	_	_	_	_
+12	Zbora	_	_	_	_	_	_	_	_
+13	građan	_	_	_	_	_	_	_	_
+14	Pirota	_	_	_	_	_	_	_	_
+15	održan	_	_	_	_	_	_	_	_
+16	performans	_	_	_	_	_	_	_	_
+17	pod	_	_	_	_	_	_	_	_
+18	nazivom	_	_	_	_	_	_	_	_
+19	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+20	Zatvorska	_	_	_	_	_	_	_	_
+21	šetnja	_	_	_	_	_	_	_	_
+22	u	_	_	_	_	_	_	_	_
+23	lancima	_	_	_	_	_	_	_	SpaceAfter=No
+24	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Zajednica Slobodnih i Pobunjenih univerziteta Srbije najoštrije je večeras osudila izjavu funkcionera Srpske napredne stranke (SNS) Siniše Vučinića koji je rekao da "blokaderi" planiraju ubistvo studenta Pavla Cicvarića i ocenili da vlast na taj način poziva na teroristički akt protiv svojih građana.
+1	Zajednica	_	_	_	_	_	_	_	_
+2	Slobodnih	_	_	_	_	_	_	_	_
+3	i	_	_	_	_	_	_	_	_
+4	Pobunjenih	_	_	_	_	_	_	_	_
+5	univerziteta	_	_	_	_	_	_	_	_
+6	Srbije	_	_	_	_	_	_	_	_
+7	najoštrije	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	večeras	_	_	_	_	_	_	_	_
+10	osudila	_	_	_	_	_	_	_	_
+11	izjavu	_	_	_	_	_	_	_	_
+12	funkcionera	_	_	_	_	_	_	_	_
+13	Srpske	_	_	_	_	_	_	_	_
+14	napredne	_	_	_	_	_	_	_	_
+15	stranke	_	_	_	_	_	_	_	_
+16	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+17	SNS	_	_	_	_	_	_	_	SpaceAfter=No
+18	)	)	PUNCT	Z	_	_	_	_	_
+19	Siniše	_	_	_	_	_	_	_	_
+20	Vučinića	_	_	_	_	_	_	_	_
+21	koji	_	_	_	_	_	_	_	_
+22	je	_	_	_	_	_	_	_	_
+23	rekao	_	_	_	_	_	_	_	_
+24	da	_	_	_	_	_	_	_	_
+25	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+26	blokaderi	_	_	_	_	_	_	_	SpaceAfter=No
+27	"	"	PUNCT	Z	_	_	_	_	_
+28	planiraju	_	_	_	_	_	_	_	_
+29	ubistvo	_	_	_	_	_	_	_	_
+30	studenta	_	_	_	_	_	_	_	_
+31	Pavla	_	_	_	_	_	_	_	_
+32	Cicvarića	_	_	_	_	_	_	_	_
+33	i	_	_	_	_	_	_	_	_
+34	ocenili	_	_	_	_	_	_	_	_
+35	da	_	_	_	_	_	_	_	_
+36	vlast	_	_	_	_	_	_	_	_
+37	na	_	_	_	_	_	_	_	_
+38	taj	_	_	_	_	_	_	_	_
+39	način	_	_	_	_	_	_	_	_
+40	poziva	_	_	_	_	_	_	_	_
+41	na	_	_	_	_	_	_	_	_
+42	teroristički	_	_	_	_	_	_	_	_
+43	akt	_	_	_	_	_	_	_	_
+44	protiv	_	_	_	_	_	_	_	_
+45	svojih	_	_	_	_	_	_	_	_
+46	građana	_	_	_	_	_	_	_	SpaceAfter=No
+47	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = U saopštenju su pozvali najviše državne organe da preispitaju sve okolnosti o poreklu informacije koju je Vučinić, zahtevamo hitnu reakciju tužilaštva i adekvatno informisanje javnosti u vezi sa uznemirujućim sadržajima iznesenim na televiziji Informer.
+1	U	_	_	_	_	_	_	_	_
+2	saopštenju	_	_	_	_	_	_	_	_
+3	su	_	_	_	_	_	_	_	_
+4	pozvali	_	_	_	_	_	_	_	_
+5	najviše	_	_	_	_	_	_	_	_
+6	državne	_	_	_	_	_	_	_	_
+7	organe	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_
+9	preispitaju	_	_	_	_	_	_	_	_
+10	sve	_	_	_	_	_	_	_	_
+11	okolnosti	_	_	_	_	_	_	_	_
+12	o	_	_	_	_	_	_	_	_
+13	poreklu	_	_	_	_	_	_	_	_
+14	informacije	_	_	_	_	_	_	_	_
+15	koju	_	_	_	_	_	_	_	_
+16	je	_	_	_	_	_	_	_	_
+17	Vučinić	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	zahtevamo	_	_	_	_	_	_	_	_
+20	hitnu	_	_	_	_	_	_	_	_
+21	reakciju	_	_	_	_	_	_	_	_
+22	tužilaštva	_	_	_	_	_	_	_	_
+23	i	_	_	_	_	_	_	_	_
+24	adekvatno	_	_	_	_	_	_	_	_
+25	informisanje	_	_	_	_	_	_	_	_
+26	javnosti	_	_	_	_	_	_	_	_
+27	u	_	_	_	_	_	_	_	_
+28	vezi	_	_	_	_	_	_	_	_
+29	sa	_	_	_	_	_	_	_	_
+30	uznemirujućim	_	_	_	_	_	_	_	_
+31	sadržajima	_	_	_	_	_	_	_	_
+32	iznesenim	_	_	_	_	_	_	_	_
+33	na	_	_	_	_	_	_	_	_
+34	televiziji	_	_	_	_	_	_	_	_
+35	Informer	_	_	_	_	_	_	_	SpaceAfter=No
+36	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Portal 021.rs javlja da su se građani, koji su prethodno blokirali raskrsnice kod Merkatora i kod Braće Ribnikar, ponovo grupisali i sa tih raskrsnica krenuli do Futoške pijace.
+1	Portal	_	_	_	_	_	_	_	_
+2	021.	_	_	_	_	_	_	_	SpaceAfter=No
+3	rs	_	_	_	_	_	_	_	_
+4	javlja	_	_	_	_	_	_	_	_
+5	da	_	_	_	_	_	_	_	_
+6	su	_	_	_	_	_	_	_	_
+7	se	_	_	_	_	_	_	_	_
+8	građani	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	koji	_	_	_	_	_	_	_	_
+11	su	_	_	_	_	_	_	_	_
+12	prethodno	_	_	_	_	_	_	_	_
+13	blokirali	_	_	_	_	_	_	_	_
+14	raskrsnice	_	_	_	_	_	_	_	_
+15	kod	_	_	_	_	_	_	_	_
+16	Merkatora	_	_	_	_	_	_	_	_
+17	i	_	_	_	_	_	_	_	_
+18	kod	_	_	_	_	_	_	_	_
+19	Braće	_	_	_	_	_	_	_	_
+20	Ribnikar	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	_	_	_	_
+22	ponovo	_	_	_	_	_	_	_	_
+23	grupisali	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	sa	_	_	_	_	_	_	_	_
+26	tih	_	_	_	_	_	_	_	_
+27	raskrsnica	_	_	_	_	_	_	_	_
+28	krenuli	_	_	_	_	_	_	_	_
+29	do	_	_	_	_	_	_	_	_
+30	Futoške	_	_	_	_	_	_	_	_
+31	pijace	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Blokada raskrsnice Bulevara cara Lazara i Bulevara oslobođenja, kod Merkatora.
+1	Blokada	_	_	_	_	_	_	_	_
+2	raskrsnice	_	_	_	_	_	_	_	_
+3	Bulevara	_	_	_	_	_	_	_	_
+4	cara	_	_	_	_	_	_	_	_
+5	Lazara	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	Bulevara	_	_	_	_	_	_	_	_
+8	oslobođenja	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	kod	_	_	_	_	_	_	_	_
+11	Merkatora	_	_	_	_	_	_	_	SpaceAfter=No
+12	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 7
+# sent_id = 7.1
+# text = Učesnici skupa podrške Pavlu Cicvariću u Užicu okončali su blokadu Zlatiborske magistrale, koja je bila njihov znak upozorenja zbog targetiranje njihovog sugrađanina.
+1	Učesnici	_	_	_	_	_	_	_	_
+2	skupa	_	_	_	_	_	_	_	_
+3	podrške	_	_	_	_	_	_	_	_
+4	Pavlu	_	_	_	_	_	_	_	_
+5	Cicvariću	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	Užicu	_	_	_	_	_	_	_	_
+8	okončali	_	_	_	_	_	_	_	_
+9	su	_	_	_	_	_	_	_	_
+10	blokadu	_	_	_	_	_	_	_	_
+11	Zlatiborske	_	_	_	_	_	_	_	_
+12	magistrale	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	koja	_	_	_	_	_	_	_	_
+15	je	_	_	_	_	_	_	_	_
+16	bila	_	_	_	_	_	_	_	_
+17	njihov	_	_	_	_	_	_	_	_
+18	znak	_	_	_	_	_	_	_	_
+19	upozorenja	_	_	_	_	_	_	_	_
+20	zbog	_	_	_	_	_	_	_	_
+21	targetiranje	_	_	_	_	_	_	_	_
+22	njihovog	_	_	_	_	_	_	_	_
+23	sugrađanina	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 8
+# sent_id = 8.1
+# text = Učesnici skupa podrške pritvorenom studentu Bogdanu Jovičiću u Novom Sadu krenuli su u protestnu šetnju desnom stranom Bulevarom Cara Lazara.
+1	Učesnici	_	_	_	_	_	_	_	_
+2	skupa	_	_	_	_	_	_	_	_
+3	podrške	_	_	_	_	_	_	_	_
+4	pritvorenom	_	_	_	_	_	_	_	_
+5	studentu	_	_	_	_	_	_	_	_
+6	Bogdanu	_	_	_	_	_	_	_	_
+7	Jovičiću	_	_	_	_	_	_	_	_
+8	u	_	_	_	_	_	_	_	_
+9	Novom	_	_	_	_	_	_	_	_
+10	Sadu	_	_	_	_	_	_	_	_
+11	krenuli	_	_	_	_	_	_	_	_
+12	su	_	_	_	_	_	_	_	_
+13	u	_	_	_	_	_	_	_	_
+14	protestnu	_	_	_	_	_	_	_	_
+15	šetnju	_	_	_	_	_	_	_	_
+16	desnom	_	_	_	_	_	_	_	_
+17	stranom	_	_	_	_	_	_	_	_
+18	Bulevarom	_	_	_	_	_	_	_	_
+19	Cara	_	_	_	_	_	_	_	_
+20	Lazara	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 9
+# sent_id = 9.1
+# text = Na pročelju se nalaze novosadski biciklisti Gvozdena konjica NS.
+1	Na	_	_	_	_	_	_	_	_
+2	pročelju	_	_	_	_	_	_	_	_
+3	se	_	_	_	_	_	_	_	_
+4	nalaze	_	_	_	_	_	_	_	_
+5	novosadski	_	_	_	_	_	_	_	_
+6	biciklisti	_	_	_	_	_	_	_	_
+7	Gvozdena	_	_	_	_	_	_	_	_
+8	konjica	_	_	_	_	_	_	_	_
+9	NS	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 10
+# sent_id = 10.1
+# text = Vladan Sinđić, odbornik u Skupštini grada Užica, ocenio je za N1 da su ovakvi skupovi podrške znače ljudima koji su targetirani.
+1	Vladan	_	_	_	_	_	_	_	_
+2	Sinđić	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	odbornik	_	_	_	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	Skupštini	_	_	_	_	_	_	_	_
+7	grada	_	_	_	_	_	_	_	_
+8	Užica	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	ocenio	_	_	_	_	_	_	_	_
+11	je	_	_	_	_	_	_	_	_
+12	za	_	_	_	_	_	_	_	_
+13	N1	_	_	_	_	_	_	_	_
+14	da	_	_	_	_	_	_	_	_
+15	su	_	_	_	_	_	_	_	_
+16	ovakvi	_	_	_	_	_	_	_	_
+17	skupovi	_	_	_	_	_	_	_	_
+18	podrške	_	_	_	_	_	_	_	_
+19	znače	_	_	_	_	_	_	_	_
+20	ljudima	_	_	_	_	_	_	_	_
+21	koji	_	_	_	_	_	_	_	_
+22	su	_	_	_	_	_	_	_	_
+23	targetirani	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 11
+# sent_id = 11.1
+# text = Kako javlja reporter N1, protest u Aleksincu je završen oko 20h.
+1	Kako	_	_	_	_	_	_	_	_
+2	javlja	_	_	_	_	_	_	_	_
+3	reporter	_	_	_	_	_	_	_	_
+4	N1	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	protest	_	_	_	_	_	_	_	_
+7	u	_	_	_	_	_	_	_	_
+8	Aleksincu	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	završen	_	_	_	_	_	_	_	_
+11	oko	_	_	_	_	_	_	_	_
+12	20	_	_	_	_	_	_	_	SpaceAfter=No
+13	h.	_	_	_	_	_	_	_	_
+
+# newpar id = 12
+# sent_id = 12.1
+# text = Udruženje Savski nasip je saopštilo da ih je majka Bogdana Jovičića zamolila da pomognu u prikljupljanju potpisa za oslobađanje njenog sina.
+1	Udruženje	_	_	_	_	_	_	_	_
+2	Savski	_	_	_	_	_	_	_	_
+3	nasip	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	saopštilo	_	_	_	_	_	_	_	_
+6	da	_	_	_	_	_	_	_	_
+7	ih	_	_	_	_	_	_	_	_
+8	je	_	_	_	_	_	_	_	_
+9	majka	_	_	_	_	_	_	_	_
+10	Bogdana	_	_	_	_	_	_	_	_
+11	Jovičića	_	_	_	_	_	_	_	_
+12	zamolila	_	_	_	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_
+14	pomognu	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16	prikljupljanju	_	_	_	_	_	_	_	_
+17	potpisa	_	_	_	_	_	_	_	_
+18	za	_	_	_	_	_	_	_	_
+19	oslobađanje	_	_	_	_	_	_	_	_
+20	njenog	_	_	_	_	_	_	_	_
+21	sina	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 13
+# sent_id = 13.1
+# text = Kako je javila reporterka N1, predstavnici opozicije su danas u Skupštini Užica tražili da se usvoji zajednička dekaracija kojom se osuđuju pretnje Pavlu Cicvarić, ali i svima građanima koji su targetirani, ali da odbornici vlasti nisu prihvatili tu inicijativu.
+1	Kako	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	javila	_	_	_	_	_	_	_	_
+4	reporterka	_	_	_	_	_	_	_	_
+5	N1	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	predstavnici	_	_	_	_	_	_	_	_
+8	opozicije	_	_	_	_	_	_	_	_
+9	su	_	_	_	_	_	_	_	_
+10	danas	_	_	_	_	_	_	_	_
+11	u	_	_	_	_	_	_	_	_
+12	Skupštini	_	_	_	_	_	_	_	_
+13	Užica	_	_	_	_	_	_	_	_
+14	tražili	_	_	_	_	_	_	_	_
+15	da	_	_	_	_	_	_	_	_
+16	se	_	_	_	_	_	_	_	_
+17	usvoji	_	_	_	_	_	_	_	_
+18	zajednička	_	_	_	_	_	_	_	_
+19	dekaracija	_	_	_	_	_	_	_	_
+20	kojom	_	_	_	_	_	_	_	_
+21	se	_	_	_	_	_	_	_	_
+22	osuđuju	_	_	_	_	_	_	_	_
+23	pretnje	_	_	_	_	_	_	_	_
+24	Pavlu	_	_	_	_	_	_	_	_
+25	Cicvarić	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	,	PUNCT	Z	_	_	_	_	_
+27	ali	_	_	_	_	_	_	_	_
+28	i	_	_	_	_	_	_	_	_
+29	svima	_	_	_	_	_	_	_	_
+30	građanima	_	_	_	_	_	_	_	_
+31	koji	_	_	_	_	_	_	_	_
+32	su	_	_	_	_	_	_	_	_
+33	targetirani	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	,	PUNCT	Z	_	_	_	_	_
+35	ali	_	_	_	_	_	_	_	_
+36	da	_	_	_	_	_	_	_	_
+37	odbornici	_	_	_	_	_	_	_	_
+38	vlasti	_	_	_	_	_	_	_	_
+39	nisu	_	_	_	_	_	_	_	_
+40	prihvatili	_	_	_	_	_	_	_	_
+41	tu	_	_	_	_	_	_	_	_
+42	inicijativu	_	_	_	_	_	_	_	SpaceAfter=No
+43	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 14
+# sent_id = 14.1
+# text = Student Filozofskog fakulteta u Novom Sadu Ilija rekao je za N1 da su studenti svesni kako "pravosuđa u ovoj državi nema" osim za povlašćene, ali da ih to neće sprečiti da nastave svoju borbu.
+1	Student	_	_	_	_	_	_	_	_
+2	Filozofskog	_	_	_	_	_	_	_	_
+3	fakulteta	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	Novom	_	_	_	_	_	_	_	_
+6	Sadu	_	_	_	_	_	_	_	_
+7	Ilija	_	_	_	_	_	_	_	_
+8	rekao	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	za	_	_	_	_	_	_	_	_
+11	N1	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_
+13	su	_	_	_	_	_	_	_	_
+14	studenti	_	_	_	_	_	_	_	_
+15	svesni	_	_	_	_	_	_	_	_
+16	kako	_	_	_	_	_	_	_	_
+17	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+18	pravosuđa	_	_	_	_	_	_	_	_
+19	u	_	_	_	_	_	_	_	_
+20	ovoj	_	_	_	_	_	_	_	_
+21	državi	_	_	_	_	_	_	_	_
+22	nema	_	_	_	_	_	_	_	SpaceAfter=No
+23	"	"	PUNCT	Z	_	_	_	_	_
+24	osim	_	_	_	_	_	_	_	_
+25	za	_	_	_	_	_	_	_	_
+26	povlašćene	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	ali	_	_	_	_	_	_	_	_
+29	da	_	_	_	_	_	_	_	_
+30	ih	_	_	_	_	_	_	_	_
+31	to	_	_	_	_	_	_	_	_
+32	neće	_	_	_	_	_	_	_	_
+33	sprečiti	_	_	_	_	_	_	_	_
+34	da	_	_	_	_	_	_	_	_
+35	nastave	_	_	_	_	_	_	_	_
+36	svoju	_	_	_	_	_	_	_	_
+37	borbu	_	_	_	_	_	_	_	SpaceAfter=No
+38	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 15
+# sent_id = 15.1
+# text = Beogradsko Više javno tužilaštvo (VJT) podnelo je optužni predlog protiv devetoro studenata osumnjičenih za pripremanje krivičnih dela protiv ustavnog uređenja Srbije.
+1	Beogradsko	_	_	_	_	_	_	_	_
+2	Više	_	_	_	_	_	_	_	_
+3	javno	_	_	_	_	_	_	_	_
+4	tužilaštvo	_	_	_	_	_	_	_	_
+5	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+6	VJT	_	_	_	_	_	_	_	SpaceAfter=No
+7	)	)	PUNCT	Z	_	_	_	_	_
+8	podnelo	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	optužni	_	_	_	_	_	_	_	_
+11	predlog	_	_	_	_	_	_	_	_
+12	protiv	_	_	_	_	_	_	_	_
+13	devetoro	_	_	_	_	_	_	_	_
+14	studenata	_	_	_	_	_	_	_	_
+15	osumnjičenih	_	_	_	_	_	_	_	_
+16	za	_	_	_	_	_	_	_	_
+17	pripremanje	_	_	_	_	_	_	_	_
+18	krivičnih	_	_	_	_	_	_	_	_
+19	dela	_	_	_	_	_	_	_	_
+20	protiv	_	_	_	_	_	_	_	_
+21	ustavnog	_	_	_	_	_	_	_	_
+22	uređenja	_	_	_	_	_	_	_	_
+23	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Fondacija "Jedro", koju su osnovale porodice petorice dečaka koji boluju od Dišenove mišićne distrofije i Fondacija "Balašević", organizovaće humanitarni koncert u nedelju, 21. septembra, u Bitef art kafeu u Beogradu a prihod će biti upućen za lečenje dece obolele od te bolesti.
+1	Fondacija	_	_	_	_	_	_	_	_
+2	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+3	Jedro	_	_	_	_	_	_	_	SpaceAfter=No
+4	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	koju	_	_	_	_	_	_	_	_
+7	su	_	_	_	_	_	_	_	_
+8	osnovale	_	_	_	_	_	_	_	_
+9	porodice	_	_	_	_	_	_	_	_
+10	petorice	_	_	_	_	_	_	_	_
+11	dečaka	_	_	_	_	_	_	_	_
+12	koji	_	_	_	_	_	_	_	_
+13	boluju	_	_	_	_	_	_	_	_
+14	od	_	_	_	_	_	_	_	_
+15	Dišenove	_	_	_	_	_	_	_	_
+16	mišićne	_	_	_	_	_	_	_	_
+17	distrofije	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	Fondacija	_	_	_	_	_	_	_	_
+20	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+21	Balašević	_	_	_	_	_	_	_	SpaceAfter=No
+22	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	organizovaće	_	_	_	_	_	_	_	_
+25	humanitarni	_	_	_	_	_	_	_	_
+26	koncert	_	_	_	_	_	_	_	_
+27	u	_	_	_	_	_	_	_	_
+28	nedelju	_	_	_	_	_	_	_	SpaceAfter=No
+29	,	,	PUNCT	Z	_	_	_	_	_
+30	21.	_	_	_	_	_	_	_	_
+31	septembra	_	_	_	_	_	_	_	SpaceAfter=No
+32	,	,	PUNCT	Z	_	_	_	_	_
+33	u	_	_	_	_	_	_	_	_
+34	Bitef	_	_	_	_	_	_	_	_
+35	art	_	_	_	_	_	_	_	_
+36	kafeu	_	_	_	_	_	_	_	_
+37	u	_	_	_	_	_	_	_	_
+38	Beogradu	_	_	_	_	_	_	_	_
+39	a	_	_	_	_	_	_	_	_
+40	prihod	_	_	_	_	_	_	_	_
+41	će	_	_	_	_	_	_	_	_
+42	biti	_	_	_	_	_	_	_	_
+43	upućen	_	_	_	_	_	_	_	_
+44	za	_	_	_	_	_	_	_	_
+45	lečenje	_	_	_	_	_	_	_	_
+46	dece	_	_	_	_	_	_	_	_
+47	obolele	_	_	_	_	_	_	_	_
+48	od	_	_	_	_	_	_	_	_
+49	te	_	_	_	_	_	_	_	_
+50	bolesti	_	_	_	_	_	_	_	SpaceAfter=No
+51	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 1.2
+# text = Na humanitarnom koncertu pod nazivom "Neki novi klinci" nastupaće bend "Tajni Gaz", koji izvodi pesme pokojnog novosadskog kantautora Đorđa Balaševića.
+1	Na	_	_	_	_	_	_	_	_
+2	humanitarnom	_	_	_	_	_	_	_	_
+3	koncertu	_	_	_	_	_	_	_	_
+4	pod	_	_	_	_	_	_	_	_
+5	nazivom	_	_	_	_	_	_	_	_
+6	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+7	Neki	_	_	_	_	_	_	_	_
+8	novi	_	_	_	_	_	_	_	_
+9	klinci	_	_	_	_	_	_	_	SpaceAfter=No
+10	"	"	PUNCT	Z	_	_	_	_	_
+11	nastupaće	_	_	_	_	_	_	_	_
+12	bend	_	_	_	_	_	_	_	_
+13	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+14	Tajni	_	_	_	_	_	_	_	_
+15	Gaz	_	_	_	_	_	_	_	SpaceAfter=No
+16	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	koji	_	_	_	_	_	_	_	_
+19	izvodi	_	_	_	_	_	_	_	_
+20	pesme	_	_	_	_	_	_	_	_
+21	pokojnog	_	_	_	_	_	_	_	_
+22	novosadskog	_	_	_	_	_	_	_	_
+23	kantautora	_	_	_	_	_	_	_	_
+24	Đorđa	_	_	_	_	_	_	_	_
+25	Balaševića	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Jedan od roditelja dečaka i osnivač te fondacije Goran Vasović izjavio je da je do sada prikupljeno sredstava za lečenje četvorice dečaka, ali da se za petog i dalje prikuplja novac.
+1	Jedan	_	_	_	_	_	_	_	_
+2	od	_	_	_	_	_	_	_	_
+3	roditelja	_	_	_	_	_	_	_	_
+4	dečaka	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	osnivač	_	_	_	_	_	_	_	_
+7	te	_	_	_	_	_	_	_	_
+8	fondacije	_	_	_	_	_	_	_	_
+9	Goran	_	_	_	_	_	_	_	_
+10	Vasović	_	_	_	_	_	_	_	_
+11	izjavio	_	_	_	_	_	_	_	_
+12	je	_	_	_	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	_
+15	do	_	_	_	_	_	_	_	_
+16	sada	_	_	_	_	_	_	_	_
+17	prikupljeno	_	_	_	_	_	_	_	_
+18	sredstava	_	_	_	_	_	_	_	_
+19	za	_	_	_	_	_	_	_	_
+20	lečenje	_	_	_	_	_	_	_	_
+21	četvorice	_	_	_	_	_	_	_	_
+22	dečaka	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	ali	_	_	_	_	_	_	_	_
+25	da	_	_	_	_	_	_	_	_
+26	se	_	_	_	_	_	_	_	_
+27	za	_	_	_	_	_	_	_	_
+28	petog	_	_	_	_	_	_	_	_
+29	i	_	_	_	_	_	_	_	_
+30	dalje	_	_	_	_	_	_	_	_
+31	prikuplja	_	_	_	_	_	_	_	_
+32	novac	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Vladimir Štimac, nekadašnji košarkaš i reprezentativac Srbije, napisao je na Iksu nakon završene Vojne parade da mu se Novak Nedić, visoki funkcioner SNS-a, obratio u jednom trenutku i vređao ga.
+1	Vladimir	_	_	_	_	_	_	_	_
+2	Štimac	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	nekadašnji	_	_	_	_	_	_	_	_
+5	košarkaš	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	reprezentativac	_	_	_	_	_	_	_	_
+8	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	napisao	_	_	_	_	_	_	_	_
+11	je	_	_	_	_	_	_	_	_
+12	na	_	_	_	_	_	_	_	_
+13	Iksu	_	_	_	_	_	_	_	_
+14	nakon	_	_	_	_	_	_	_	_
+15	završene	_	_	_	_	_	_	_	_
+16	Vojne	_	_	_	_	_	_	_	_
+17	parade	_	_	_	_	_	_	_	_
+18	da	_	_	_	_	_	_	_	_
+19	mu	_	_	_	_	_	_	_	_
+20	se	_	_	_	_	_	_	_	_
+21	Novak	_	_	_	_	_	_	_	_
+22	Nedić	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	visoki	_	_	_	_	_	_	_	_
+25	funkcioner	_	_	_	_	_	_	_	_
+26	SNS-a	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	obratio	_	_	_	_	_	_	_	_
+29	u	_	_	_	_	_	_	_	_
+30	jednom	_	_	_	_	_	_	_	_
+31	trenutku	_	_	_	_	_	_	_	_
+32	i	_	_	_	_	_	_	_	_
+33	vređao	_	_	_	_	_	_	_	_
+34	ga	_	_	_	_	_	_	_	SpaceAfter=No
+35	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Lider Pokreta Kreni-Promeni Savo Manojlović izjavio je da predsednik Aleksandar Vučić pokušava da se sakrije iza Vojske i drugih institucija kako bi izbegao suočavanje sa nezadovoljstvom građana.
+1	Lider	_	_	_	_	_	_	_	_
+2	Pokreta	_	_	_	_	_	_	_	_
+3	Kreni-Promeni	_	_	_	_	_	_	_	_
+4	Savo	_	_	_	_	_	_	_	_
+5	Manojlović	_	_	_	_	_	_	_	_
+6	izjavio	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_
+9	predsednik	_	_	_	_	_	_	_	_
+10	Aleksandar	_	_	_	_	_	_	_	_
+11	Vučić	_	_	_	_	_	_	_	_
+12	pokušava	_	_	_	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_
+14	se	_	_	_	_	_	_	_	_
+15	sakrije	_	_	_	_	_	_	_	_
+16	iza	_	_	_	_	_	_	_	_
+17	Vojske	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	drugih	_	_	_	_	_	_	_	_
+20	institucija	_	_	_	_	_	_	_	_
+21	kako	_	_	_	_	_	_	_	_
+22	bi	_	_	_	_	_	_	_	_
+23	izbegao	_	_	_	_	_	_	_	_
+24	suočavanje	_	_	_	_	_	_	_	_
+25	sa	_	_	_	_	_	_	_	_
+26	nezadovoljstvom	_	_	_	_	_	_	_	_
+27	građana	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = "Na ovome smo zajedno radili, vojnici i građani, država i narod.
+1	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Na	_	_	_	_	_	_	_	_
+3	ovome	_	_	_	_	_	_	_	_
+4	smo	_	_	_	_	_	_	_	_
+5	zajedno	_	_	_	_	_	_	_	_
+6	radili	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	vojnici	_	_	_	_	_	_	_	_
+9	i	_	_	_	_	_	_	_	_
+10	građani	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	država	_	_	_	_	_	_	_	_
+13	i	_	_	_	_	_	_	_	_
+14	narod	_	_	_	_	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 3.2
+# text = Ovo je i opstanak i pobeda Srbije koja hoće mir i prosperitet i ume da sačuva svoje dostojanstvo, teritoriju i budućnost", napisao je Vučić na Instagramu.
+1	Ovo	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	i	_	_	_	_	_	_	_	_
+4	opstanak	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	pobeda	_	_	_	_	_	_	_	_
+7	Srbije	_	_	_	_	_	_	_	_
+8	koja	_	_	_	_	_	_	_	_
+9	hoće	_	_	_	_	_	_	_	_
+10	mir	_	_	_	_	_	_	_	_
+11	i	_	_	_	_	_	_	_	_
+12	prosperitet	_	_	_	_	_	_	_	_
+13	i	_	_	_	_	_	_	_	_
+14	ume	_	_	_	_	_	_	_	_
+15	da	_	_	_	_	_	_	_	_
+16	sačuva	_	_	_	_	_	_	_	_
+17	svoje	_	_	_	_	_	_	_	_
+18	dostojanstvo	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	teritoriju	_	_	_	_	_	_	_	_
+21	i	_	_	_	_	_	_	_	_
+22	budućnost	_	_	_	_	_	_	_	SpaceAfter=No
+23	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+24	,	,	PUNCT	Z	_	_	_	_	_
+25	napisao	_	_	_	_	_	_	_	_
+26	je	_	_	_	_	_	_	_	_
+27	Vučić	_	_	_	_	_	_	_	_
+28	na	_	_	_	_	_	_	_	_
+29	Instagramu	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Ministarstvo odbrane i Vojsku Crne Gore na vojnoj paradi u Beogradu predstavljaće dva oficira Generalštaba, a iz kabineta šefa države i Vlade nezvanično su rekli da predsednik Milatović i premijer Spajić nisu dobili poziv, pišu Vijesti.
+1	Ministarstvo	_	_	_	_	_	_	_	_
+2	odbrane	_	_	_	_	_	_	_	_
+3	i	_	_	_	_	_	_	_	_
+4	Vojsku	_	_	_	_	_	_	_	_
+5	Crne	_	_	_	_	_	_	_	_
+6	Gore	_	_	_	_	_	_	_	_
+7	na	_	_	_	_	_	_	_	_
+8	vojnoj	_	_	_	_	_	_	_	_
+9	paradi	_	_	_	_	_	_	_	_
+10	u	_	_	_	_	_	_	_	_
+11	Beogradu	_	_	_	_	_	_	_	_
+12	predstavljaće	_	_	_	_	_	_	_	_
+13	dva	_	_	_	_	_	_	_	_
+14	oficira	_	_	_	_	_	_	_	_
+15	Generalštaba	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	a	_	_	_	_	_	_	_	_
+18	iz	_	_	_	_	_	_	_	_
+19	kabineta	_	_	_	_	_	_	_	_
+20	šefa	_	_	_	_	_	_	_	_
+21	države	_	_	_	_	_	_	_	_
+22	i	_	_	_	_	_	_	_	_
+23	Vlade	_	_	_	_	_	_	_	_
+24	nezvanično	_	_	_	_	_	_	_	_
+25	su	_	_	_	_	_	_	_	_
+26	rekli	_	_	_	_	_	_	_	_
+27	da	_	_	_	_	_	_	_	_
+28	predsednik	_	_	_	_	_	_	_	_
+29	Milatović	_	_	_	_	_	_	_	_
+30	i	_	_	_	_	_	_	_	_
+31	premijer	_	_	_	_	_	_	_	_
+32	Spajić	_	_	_	_	_	_	_	_
+33	nisu	_	_	_	_	_	_	_	_
+34	dobili	_	_	_	_	_	_	_	_
+35	poziv	_	_	_	_	_	_	_	SpaceAfter=No
+36	,	,	PUNCT	Z	_	_	_	_	_
+37	pišu	_	_	_	_	_	_	_	_
+38	Vijesti	_	_	_	_	_	_	_	SpaceAfter=No
+39	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Čelnik parlamenta Mandić nije odgovorio, prenose Vijesti.
+1	Čelnik	_	_	_	_	_	_	_	_
+2	parlamenta	_	_	_	_	_	_	_	_
+3	Mandić	_	_	_	_	_	_	_	_
+4	nije	_	_	_	_	_	_	_	_
+5	odgovorio	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	prenose	_	_	_	_	_	_	_	_
+8	Vijesti	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = "Vojna parada će nas koštati između 10 i 15 miliona evra", procenjuje Nemanja Šormaz, direktor Centra za visoke ekonomske studije (CEVES).
+1	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Vojna	_	_	_	_	_	_	_	_
+3	parada	_	_	_	_	_	_	_	_
+4	će	_	_	_	_	_	_	_	_
+5	nas	_	_	_	_	_	_	_	_
+6	koštati	_	_	_	_	_	_	_	_
+7	između	_	_	_	_	_	_	_	_
+8	10	_	_	_	_	_	_	_	_
+9	i	_	_	_	_	_	_	_	_
+10	15	_	_	_	_	_	_	_	_
+11	miliona	_	_	_	_	_	_	_	_
+12	evra	_	_	_	_	_	_	_	SpaceAfter=No
+13	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	_	_	_	_
+15	procenjuje	_	_	_	_	_	_	_	_
+16	Nemanja	_	_	_	_	_	_	_	_
+17	Šormaz	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	direktor	_	_	_	_	_	_	_	_
+20	Centra	_	_	_	_	_	_	_	_
+21	za	_	_	_	_	_	_	_	_
+22	visoke	_	_	_	_	_	_	_	_
+23	ekonomske	_	_	_	_	_	_	_	_
+24	studije	_	_	_	_	_	_	_	_
+25	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+26	CEVES	_	_	_	_	_	_	_	SpaceAfter=No
+27	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 7
+# sent_id = 7.1
+# text = Predrag Voštinić iz Lokalnog fronta i košarkaš Vladimir Štimac pristigli su ispred redakcije Nova.rs, gde se već duže od pola sata nalazi grupa građana koju su zarobili pripadnici Žandarmerije tako što su formirali obruč oko zgrade, javlja reporterka Nova.rs.
+1	Predrag	_	_	_	_	_	_	_	_
+2	Voštinić	_	_	_	_	_	_	_	_
+3	iz	_	_	_	_	_	_	_	_
+4	Lokalnog	_	_	_	_	_	_	_	_
+5	fronta	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	košarkaš	_	_	_	_	_	_	_	_
+8	Vladimir	_	_	_	_	_	_	_	_
+9	Štimac	_	_	_	_	_	_	_	_
+10	pristigli	_	_	_	_	_	_	_	_
+11	su	_	_	_	_	_	_	_	_
+12	ispred	_	_	_	_	_	_	_	_
+13	redakcije	_	_	_	_	_	_	_	_
+14	Nova.rs	Nova.rs	SYM	Xw	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	gde	_	_	_	_	_	_	_	_
+17	se	_	_	_	_	_	_	_	_
+18	već	_	_	_	_	_	_	_	_
+19	duže	_	_	_	_	_	_	_	_
+20	od	_	_	_	_	_	_	_	_
+21	pola	_	_	_	_	_	_	_	_
+22	sata	_	_	_	_	_	_	_	_
+23	nalazi	_	_	_	_	_	_	_	_
+24	grupa	_	_	_	_	_	_	_	_
+25	građana	_	_	_	_	_	_	_	_
+26	koju	_	_	_	_	_	_	_	_
+27	su	_	_	_	_	_	_	_	_
+28	zarobili	_	_	_	_	_	_	_	_
+29	pripadnici	_	_	_	_	_	_	_	_
+30	Žandarmerije	_	_	_	_	_	_	_	_
+31	tako	_	_	_	_	_	_	_	_
+32	što	_	_	_	_	_	_	_	_
+33	su	_	_	_	_	_	_	_	_
+34	formirali	_	_	_	_	_	_	_	_
+35	obruč	_	_	_	_	_	_	_	_
+36	oko	_	_	_	_	_	_	_	_
+37	zgrade	_	_	_	_	_	_	_	SpaceAfter=No
+38	,	,	PUNCT	Z	_	_	_	_	_
+39	javlja	_	_	_	_	_	_	_	_
+40	reporterka	_	_	_	_	_	_	_	_
+41	Nova.rs	Nova.rs	SYM	Xw	_	_	_	_	SpaceAfter=No
+42	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 8
+# sent_id = 8.1
+# text = Oko prostora Palate Srbija gde se održava Vojna parada viđen je Novak Nedić koji je, kako je Nova.rs ranije javila, nakon iznenadne smene sa pozicije generalnog sekretara u Vladi Srbije i funkcije predsednika Nadzornog odbora Službenog glasnika, angažovan u kabinetu premijera Đura Macuta.
+1	Oko	_	_	_	_	_	_	_	_
+2	prostora	_	_	_	_	_	_	_	_
+3	Palate	_	_	_	_	_	_	_	_
+4	Srbija	_	_	_	_	_	_	_	_
+5	gde	_	_	_	_	_	_	_	_
+6	se	_	_	_	_	_	_	_	_
+7	održava	_	_	_	_	_	_	_	_
+8	Vojna	_	_	_	_	_	_	_	_
+9	parada	_	_	_	_	_	_	_	_
+10	viđen	_	_	_	_	_	_	_	_
+11	je	_	_	_	_	_	_	_	_
+12	Novak	_	_	_	_	_	_	_	_
+13	Nedić	_	_	_	_	_	_	_	_
+14	koji	_	_	_	_	_	_	_	_
+15	je	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	kako	_	_	_	_	_	_	_	_
+18	je	_	_	_	_	_	_	_	_
+19	Nova.rs	Nova.rs	SYM	Xw	_	_	_	_	_
+20	ranije	_	_	_	_	_	_	_	_
+21	javila	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	Z	_	_	_	_	_
+23	nakon	_	_	_	_	_	_	_	_
+24	iznenadne	_	_	_	_	_	_	_	_
+25	smene	_	_	_	_	_	_	_	_
+26	sa	_	_	_	_	_	_	_	_
+27	pozicije	_	_	_	_	_	_	_	_
+28	generalnog	_	_	_	_	_	_	_	_
+29	sekretara	_	_	_	_	_	_	_	_
+30	u	_	_	_	_	_	_	_	_
+31	Vladi	_	_	_	_	_	_	_	_
+32	Srbije	_	_	_	_	_	_	_	_
+33	i	_	_	_	_	_	_	_	_
+34	funkcije	_	_	_	_	_	_	_	_
+35	predsednika	_	_	_	_	_	_	_	_
+36	Nadzornog	_	_	_	_	_	_	_	_
+37	odbora	_	_	_	_	_	_	_	_
+38	Službenog	_	_	_	_	_	_	_	_
+39	glasnika	_	_	_	_	_	_	_	SpaceAfter=No
+40	,	,	PUNCT	Z	_	_	_	_	_
+41	angažovan	_	_	_	_	_	_	_	_
+42	u	_	_	_	_	_	_	_	_
+43	kabinetu	_	_	_	_	_	_	_	_
+44	premijera	_	_	_	_	_	_	_	_
+45	Đura	_	_	_	_	_	_	_	_
+46	Macuta	_	_	_	_	_	_	_	SpaceAfter=No
+47	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 9
+# sent_id = 9.1
+# text = rekao je profesor FPN Dejan Pavlović, koji je zarobljen zajedno sa grupom građana ispred redakcije Nova.rs.
+1	rekao	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	profesor	_	_	_	_	_	_	_	_
+4	FPN	_	_	_	_	_	_	_	_
+5	Dejan	_	_	_	_	_	_	_	_
+6	Pavlović	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	koji	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	zarobljen	_	_	_	_	_	_	_	_
+11	zajedno	_	_	_	_	_	_	_	_
+12	sa	_	_	_	_	_	_	_	_
+13	grupom	_	_	_	_	_	_	_	_
+14	građana	_	_	_	_	_	_	_	_
+15	ispred	_	_	_	_	_	_	_	_
+16	redakcije	_	_	_	_	_	_	_	_
+17	Nova.rs	Nova.rs	SYM	Xw	_	_	_	_	SpaceAfter=No
+18	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 10
+# sent_id = 10.1
+# text = Građani koji su sabijeni ispred redakcije portala Nova.rs obeležavaju 16 minuta tišine u pomen nastradalima u padu nadstrešnice Železničke stanice u Novom Sadu, javlja reporterka Nova.rs.
+1	Građani	_	_	_	_	_	_	_	_
+2	koji	_	_	_	_	_	_	_	_
+3	su	_	_	_	_	_	_	_	_
+4	sabijeni	_	_	_	_	_	_	_	_
+5	ispred	_	_	_	_	_	_	_	_
+6	redakcije	_	_	_	_	_	_	_	_
+7	portala	_	_	_	_	_	_	_	_
+8	Nova.rs	Nova.rs	SYM	Xw	_	_	_	_	_
+9	obeležavaju	_	_	_	_	_	_	_	_
+10	16	_	_	_	_	_	_	_	_
+11	minuta	_	_	_	_	_	_	_	_
+12	tišine	_	_	_	_	_	_	_	_
+13	u	_	_	_	_	_	_	_	_
+14	pomen	_	_	_	_	_	_	_	_
+15	nastradalima	_	_	_	_	_	_	_	_
+16	u	_	_	_	_	_	_	_	_
+17	padu	_	_	_	_	_	_	_	_
+18	nadstrešnice	_	_	_	_	_	_	_	_
+19	Železničke	_	_	_	_	_	_	_	_
+20	stanice	_	_	_	_	_	_	_	_
+21	u	_	_	_	_	_	_	_	_
+22	Novom	_	_	_	_	_	_	_	_
+23	Sadu	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	,	PUNCT	Z	_	_	_	_	_
+25	javlja	_	_	_	_	_	_	_	_
+26	reporterka	_	_	_	_	_	_	_	_
+27	Nova.rs	Nova.rs	SYM	Xw	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 11
+# sent_id = 11.1
+# text = Njih je opkolio kordon Žandarmerije.
+1	Njih	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	opkolio	_	_	_	_	_	_	_	_
+4	kordon	_	_	_	_	_	_	_	_
+5	Žandarmerije	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 12
+# sent_id = 12.1
+# text = Kako prenosi Mašina, inspektor u civilu građanima i studentima govori da je moguć polazak individualno, bez transparenata.
+1	Kako	_	_	_	_	_	_	_	_
+2	prenosi	_	_	_	_	_	_	_	_
+3	Mašina	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	inspektor	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	civilu	_	_	_	_	_	_	_	_
+8	građanima	_	_	_	_	_	_	_	_
+9	i	_	_	_	_	_	_	_	_
+10	studentima	_	_	_	_	_	_	_	_
+11	govori	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_
+13	je	_	_	_	_	_	_	_	_
+14	moguć	_	_	_	_	_	_	_	_
+15	polazak	_	_	_	_	_	_	_	_
+16	individualno	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	bez	_	_	_	_	_	_	_	_
+19	transparenata	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 13
+# sent_id = 13.1
+# text = Dok su prolazili građani koji su autobusima uglavnom stigli u Beograd, na potezu od Bulevara Mihajla Pupina do Ulice trešnjinog cveta primetni su bili korpulentni muškarci koji su nosili crvene trake oko zgloba ruke, javlja reporterka Foneta.
+1	Dok	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	_
+3	prolazili	_	_	_	_	_	_	_	_
+4	građani	_	_	_	_	_	_	_	_
+5	koji	_	_	_	_	_	_	_	_
+6	su	_	_	_	_	_	_	_	_
+7	autobusima	_	_	_	_	_	_	_	_
+8	uglavnom	_	_	_	_	_	_	_	_
+9	stigli	_	_	_	_	_	_	_	_
+10	u	_	_	_	_	_	_	_	_
+11	Beograd	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	na	_	_	_	_	_	_	_	_
+14	potezu	_	_	_	_	_	_	_	_
+15	od	_	_	_	_	_	_	_	_
+16	Bulevara	_	_	_	_	_	_	_	_
+17	Mihajla	_	_	_	_	_	_	_	_
+18	Pupina	_	_	_	_	_	_	_	_
+19	do	_	_	_	_	_	_	_	_
+20	Ulice	_	_	_	_	_	_	_	_
+21	trešnjinog	_	_	_	_	_	_	_	_
+22	cveta	_	_	_	_	_	_	_	_
+23	primetni	_	_	_	_	_	_	_	_
+24	su	_	_	_	_	_	_	_	_
+25	bili	_	_	_	_	_	_	_	_
+26	korpulentni	_	_	_	_	_	_	_	_
+27	muškarci	_	_	_	_	_	_	_	_
+28	koji	_	_	_	_	_	_	_	_
+29	su	_	_	_	_	_	_	_	_
+30	nosili	_	_	_	_	_	_	_	_
+31	crvene	_	_	_	_	_	_	_	_
+32	trake	_	_	_	_	_	_	_	_
+33	oko	_	_	_	_	_	_	_	_
+34	zgloba	_	_	_	_	_	_	_	_
+35	ruke	_	_	_	_	_	_	_	SpaceAfter=No
+36	,	,	PUNCT	Z	_	_	_	_	_
+37	javlja	_	_	_	_	_	_	_	_
+38	reporterka	_	_	_	_	_	_	_	_
+39	Foneta	_	_	_	_	_	_	_	SpaceAfter=No
+40	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 14
+# sent_id = 14.1
+# text = Vojni analitičar Vlade Radulović rekao je za N1 da je primetio veliko interesovanje stranih i stručnih medija za današnju ovjnu paradu.
+1	Vojni	_	_	_	_	_	_	_	_
+2	analitičar	_	_	_	_	_	_	_	_
+3	Vlade	_	_	_	_	_	_	_	_
+4	Radulović	_	_	_	_	_	_	_	_
+5	rekao	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	za	_	_	_	_	_	_	_	_
+8	N1	_	_	_	_	_	_	_	_
+9	da	_	_	_	_	_	_	_	_
+10	je	_	_	_	_	_	_	_	_
+11	primetio	_	_	_	_	_	_	_	_
+12	veliko	_	_	_	_	_	_	_	_
+13	interesovanje	_	_	_	_	_	_	_	_
+14	stranih	_	_	_	_	_	_	_	_
+15	i	_	_	_	_	_	_	_	_
+16	stručnih	_	_	_	_	_	_	_	_
+17	medija	_	_	_	_	_	_	_	_
+18	za	_	_	_	_	_	_	_	_
+19	današnju	_	_	_	_	_	_	_	_
+20	ovjnu	_	_	_	_	_	_	_	_
+21	paradu	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 14.2
+# text = Danas će biti predstavljen artiljerijski sistem Puls, nabavljan iz Izraela, ali i Krasuha iz Rusije.
+1	Danas	_	_	_	_	_	_	_	_
+2	će	_	_	_	_	_	_	_	_
+3	biti	_	_	_	_	_	_	_	_
+4	predstavljen	_	_	_	_	_	_	_	_
+5	artiljerijski	_	_	_	_	_	_	_	_
+6	sistem	_	_	_	_	_	_	_	_
+7	Puls	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	nabavljan	_	_	_	_	_	_	_	_
+10	iz	_	_	_	_	_	_	_	_
+11	Izraela	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	ali	_	_	_	_	_	_	_	_
+14	i	_	_	_	_	_	_	_	_
+15	Krasuha	_	_	_	_	_	_	_	_
+16	iz	_	_	_	_	_	_	_	_
+17	Rusije	_	_	_	_	_	_	_	SpaceAfter=No
+18	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 15
+# sent_id = 15.1
+# text = Radulović podseća da kada smo nabavili sistem za elektronsko ratovanje Krasuha, na to se nije gledalo blagonaklono, jer je napad Rusije na Ukrajinu već bi u toku.
+1	Radulović	_	_	_	_	_	_	_	_
+2	podseća	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_
+4	kada	_	_	_	_	_	_	_	_
+5	smo	_	_	_	_	_	_	_	_
+6	nabavili	_	_	_	_	_	_	_	_
+7	sistem	_	_	_	_	_	_	_	_
+8	za	_	_	_	_	_	_	_	_
+9	elektronsko	_	_	_	_	_	_	_	_
+10	ratovanje	_	_	_	_	_	_	_	_
+11	Krasuha	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	na	_	_	_	_	_	_	_	_
+14	to	_	_	_	_	_	_	_	_
+15	se	_	_	_	_	_	_	_	_
+16	nije	_	_	_	_	_	_	_	_
+17	gledalo	_	_	_	_	_	_	_	_
+18	blagonaklono	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	jer	_	_	_	_	_	_	_	_
+21	je	_	_	_	_	_	_	_	_
+22	napad	_	_	_	_	_	_	_	_
+23	Rusije	_	_	_	_	_	_	_	_
+24	na	_	_	_	_	_	_	_	_
+25	Ukrajinu	_	_	_	_	_	_	_	_
+26	već	_	_	_	_	_	_	_	_
+27	bi	_	_	_	_	_	_	_	_
+28	u	_	_	_	_	_	_	_	_
+29	toku	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 16
+# sent_id = 16.1
+# text = Međutim, nabavka sistema Puls iz Izraela, uz saradnju sa Francuskom i sa generalno Zapadom, čini mi se da pokazuje da se blago i polako naš kurs okreće ka zapadnoj tehnici i zapadnim dobavljačima", kazao je on.
+1	Međutim	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	nabavka	_	_	_	_	_	_	_	_
+4	sistema	_	_	_	_	_	_	_	_
+5	Puls	_	_	_	_	_	_	_	_
+6	iz	_	_	_	_	_	_	_	_
+7	Izraela	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	uz	_	_	_	_	_	_	_	_
+10	saradnju	_	_	_	_	_	_	_	_
+11	sa	_	_	_	_	_	_	_	_
+12	Francuskom	_	_	_	_	_	_	_	_
+13	i	_	_	_	_	_	_	_	_
+14	sa	_	_	_	_	_	_	_	_
+15	generalno	_	_	_	_	_	_	_	_
+16	Zapadom	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	čini	_	_	_	_	_	_	_	_
+19	mi	_	_	_	_	_	_	_	_
+20	se	_	_	_	_	_	_	_	_
+21	da	_	_	_	_	_	_	_	_
+22	pokazuje	_	_	_	_	_	_	_	_
+23	da	_	_	_	_	_	_	_	_
+24	se	_	_	_	_	_	_	_	_
+25	blago	_	_	_	_	_	_	_	_
+26	i	_	_	_	_	_	_	_	_
+27	polako	_	_	_	_	_	_	_	_
+28	naš	_	_	_	_	_	_	_	_
+29	kurs	_	_	_	_	_	_	_	_
+30	okreće	_	_	_	_	_	_	_	_
+31	ka	_	_	_	_	_	_	_	_
+32	zapadnoj	_	_	_	_	_	_	_	_
+33	tehnici	_	_	_	_	_	_	_	_
+34	i	_	_	_	_	_	_	_	_
+35	zapadnim	_	_	_	_	_	_	_	_
+36	dobavljačima	_	_	_	_	_	_	_	SpaceAfter=No
+37	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No
+38	,	,	PUNCT	Z	_	_	_	_	_
+39	kazao	_	_	_	_	_	_	_	_
+40	je	_	_	_	_	_	_	_	_
+41	on	_	_	_	_	_	_	_	SpaceAfter=No
+42	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = U trenutku kada Rusija nije obična zemlja, kada je Rusija zemlja koja je napala drugu evropsku zemlju, Ukrajinu.
+1	U	_	_	_	_	_	_	_	_
+2	trenutku	_	_	_	_	_	_	_	_
+3	kada	_	_	_	_	_	_	_	_
+4	Rusija	_	_	_	_	_	_	_	_
+5	nije	_	_	_	_	_	_	_	_
+6	obična	_	_	_	_	_	_	_	_
+7	zemlja	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	kada	_	_	_	_	_	_	_	_
+10	je	_	_	_	_	_	_	_	_
+11	Rusija	_	_	_	_	_	_	_	_
+12	zemlja	_	_	_	_	_	_	_	_
+13	koja	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	_
+15	napala	_	_	_	_	_	_	_	_
+16	drugu	_	_	_	_	_	_	_	_
+17	evropsku	_	_	_	_	_	_	_	_
+18	zemlju	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	Ukrajinu	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 1.2
+# text = Srbija je članica Saveta Evrope.
+1	Srbija	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	članica	_	_	_	_	_	_	_	_
+4	Saveta	_	_	_	_	_	_	_	_
+5	Evrope	_	_	_	_	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 1.3
+# text = A Vučić odlazi da gleda paradu Vladimira Putina u Moskvi, a zatim ide u Peking.
+1	A	_	_	_	_	_	_	_	_
+2	Vučić	_	_	_	_	_	_	_	_
+3	odlazi	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	gleda	_	_	_	_	_	_	_	_
+6	paradu	_	_	_	_	_	_	_	_
+7	Vladimira	_	_	_	_	_	_	_	_
+8	Putina	_	_	_	_	_	_	_	_
+9	u	_	_	_	_	_	_	_	_
+10	Moskvi	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	a	_	_	_	_	_	_	_	_
+13	zatim	_	_	_	_	_	_	_	_
+14	ide	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16	Peking	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = „I ako predsednik Vučić misli da sledeći primer Orbana, Roberta Fica radi nešto dobro, odlazeći u Kinu, mogu reći da greši.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	I	_	_	_	_	_	_	_	_
+3	ako	_	_	_	_	_	_	_	_
+4	predsednik	_	_	_	_	_	_	_	_
+5	Vučić	_	_	_	_	_	_	_	_
+6	misli	_	_	_	_	_	_	_	_
+7	da	_	_	_	_	_	_	_	_
+8	sledeći	_	_	_	_	_	_	_	_
+9	primer	_	_	_	_	_	_	_	_
+10	Orbana	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	Roberta	_	_	_	_	_	_	_	_
+13	Fica	_	_	_	_	_	_	_	_
+14	radi	_	_	_	_	_	_	_	_
+15	nešto	_	_	_	_	_	_	_	_
+16	dobro	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	odlazeći	_	_	_	_	_	_	_	_
+19	u	_	_	_	_	_	_	_	_
+20	Kinu	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	_	_	_	_
+22	mogu	_	_	_	_	_	_	_	_
+23	reći	_	_	_	_	_	_	_	_
+24	da	_	_	_	_	_	_	_	_
+25	greši	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = „Kažem mi jer smo mi prvi zaista vrlo glasno govorili kao Evropske demokrate o tome šta se dešava u Srbiji trenutno.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Kažem	_	_	_	_	_	_	_	_
+3	mi	_	_	_	_	_	_	_	_
+4	jer	_	_	_	_	_	_	_	_
+5	smo	_	_	_	_	_	_	_	_
+6	mi	_	_	_	_	_	_	_	_
+7	prvi	_	_	_	_	_	_	_	_
+8	zaista	_	_	_	_	_	_	_	_
+9	vrlo	_	_	_	_	_	_	_	_
+10	glasno	_	_	_	_	_	_	_	_
+11	govorili	_	_	_	_	_	_	_	_
+12	kao	_	_	_	_	_	_	_	_
+13	Evropske	_	_	_	_	_	_	_	_
+14	demokrate	_	_	_	_	_	_	_	_
+15	o	_	_	_	_	_	_	_	_
+16	tome	_	_	_	_	_	_	_	_
+17	šta	_	_	_	_	_	_	_	_
+18	se	_	_	_	_	_	_	_	_
+19	dešava	_	_	_	_	_	_	_	_
+20	u	_	_	_	_	_	_	_	_
+21	Srbiji	_	_	_	_	_	_	_	_
+22	trenutno	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 3.2
+# text = I mogu reći sa zadovoljstvom, iako smo na samom početku, da je zahvaljujući našim akcijama naša grupa Renew Europe preuzela vođstvo u Evropskom parlamentu, na primer predloživši studente kao kandidata za nagradu Evropskog parlamenta Saharov.
+1	I	_	_	_	_	_	_	_	_
+2	mogu	_	_	_	_	_	_	_	_
+3	reći	_	_	_	_	_	_	_	_
+4	sa	_	_	_	_	_	_	_	_
+5	zadovoljstvom	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	iako	_	_	_	_	_	_	_	_
+8	smo	_	_	_	_	_	_	_	_
+9	na	_	_	_	_	_	_	_	_
+10	samom	_	_	_	_	_	_	_	_
+11	početku	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	_
+15	zahvaljujući	_	_	_	_	_	_	_	_
+16	našim	_	_	_	_	_	_	_	_
+17	akcijama	_	_	_	_	_	_	_	_
+18	naša	_	_	_	_	_	_	_	_
+19	grupa	_	_	_	_	_	_	_	_
+20	Renew	_	_	_	_	_	_	_	_
+21	Europe	_	_	_	_	_	_	_	_
+22	preuzela	_	_	_	_	_	_	_	_
+23	vođstvo	_	_	_	_	_	_	_	_
+24	u	_	_	_	_	_	_	_	_
+25	Evropskom	_	_	_	_	_	_	_	_
+26	parlamentu	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	na	_	_	_	_	_	_	_	_
+29	primer	_	_	_	_	_	_	_	_
+30	predloživši	_	_	_	_	_	_	_	_
+31	studente	_	_	_	_	_	_	_	_
+32	kao	_	_	_	_	_	_	_	_
+33	kandidata	_	_	_	_	_	_	_	_
+34	za	_	_	_	_	_	_	_	_
+35	nagradu	_	_	_	_	_	_	_	_
+36	Evropskog	_	_	_	_	_	_	_	_
+37	parlamenta	_	_	_	_	_	_	_	_
+38	Saharov	_	_	_	_	_	_	_	SpaceAfter=No
+39	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = I mislim da je ta rasprava i izjava Evropske komisije konačno bila vrlo dobra i korisna.
+1	I	_	_	_	_	_	_	_	_
+2	mislim	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	ta	_	_	_	_	_	_	_	_
+6	rasprava	_	_	_	_	_	_	_	_
+7	i	_	_	_	_	_	_	_	_
+8	izjava	_	_	_	_	_	_	_	_
+9	Evropske	_	_	_	_	_	_	_	_
+10	komisije	_	_	_	_	_	_	_	_
+11	konačno	_	_	_	_	_	_	_	_
+12	bila	_	_	_	_	_	_	_	_
+13	vrlo	_	_	_	_	_	_	_	_
+14	dobra	_	_	_	_	_	_	_	_
+15	i	_	_	_	_	_	_	_	_
+16	korisna	_	_	_	_	_	_	_	SpaceAfter=No
+17	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Nije lako sa medijima, jer znate, postoji rat u Ukrajini, užasni događaji u Gazi, Donald Tramp pravi vesti svaki dan, pa je istina da u evropskim medijima pažnja na Srbiji nije visoka koliko bi uvek trebalo da bude, ali smo vrlo posvećeni da pratimo vaš demokratski proces“, navodi Goci.
+1	Nije	_	_	_	_	_	_	_	_
+2	lako	_	_	_	_	_	_	_	_
+3	sa	_	_	_	_	_	_	_	_
+4	medijima	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	jer	_	_	_	_	_	_	_	_
+7	znate	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	postoji	_	_	_	_	_	_	_	_
+10	rat	_	_	_	_	_	_	_	_
+11	u	_	_	_	_	_	_	_	_
+12	Ukrajini	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	užasni	_	_	_	_	_	_	_	_
+15	događaji	_	_	_	_	_	_	_	_
+16	u	_	_	_	_	_	_	_	_
+17	Gazi	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	Donald	_	_	_	_	_	_	_	_
+20	Tramp	_	_	_	_	_	_	_	_
+21	pravi	_	_	_	_	_	_	_	_
+22	vesti	_	_	_	_	_	_	_	_
+23	svaki	_	_	_	_	_	_	_	_
+24	dan	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	,	PUNCT	Z	_	_	_	_	_
+26	pa	_	_	_	_	_	_	_	_
+27	je	_	_	_	_	_	_	_	_
+28	istina	_	_	_	_	_	_	_	_
+29	da	_	_	_	_	_	_	_	_
+30	u	_	_	_	_	_	_	_	_
+31	evropskim	_	_	_	_	_	_	_	_
+32	medijima	_	_	_	_	_	_	_	_
+33	pažnja	_	_	_	_	_	_	_	_
+34	na	_	_	_	_	_	_	_	_
+35	Srbiji	_	_	_	_	_	_	_	_
+36	nije	_	_	_	_	_	_	_	_
+37	visoka	_	_	_	_	_	_	_	_
+38	koliko	_	_	_	_	_	_	_	_
+39	bi	_	_	_	_	_	_	_	_
+40	uvek	_	_	_	_	_	_	_	_
+41	trebalo	_	_	_	_	_	_	_	_
+42	da	_	_	_	_	_	_	_	_
+43	bude	_	_	_	_	_	_	_	SpaceAfter=No
+44	,	,	PUNCT	Z	_	_	_	_	_
+45	ali	_	_	_	_	_	_	_	_
+46	smo	_	_	_	_	_	_	_	_
+47	vrlo	_	_	_	_	_	_	_	_
+48	posvećeni	_	_	_	_	_	_	_	_
+49	da	_	_	_	_	_	_	_	_
+50	pratimo	_	_	_	_	_	_	_	_
+51	vaš	_	_	_	_	_	_	_	_
+52	demokratski	_	_	_	_	_	_	_	_
+53	proces	_	_	_	_	_	_	_	SpaceAfter=No
+54	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+55	,	,	PUNCT	Z	_	_	_	_	_
+56	navodi	_	_	_	_	_	_	_	_
+57	Goci	_	_	_	_	_	_	_	SpaceAfter=No
+58	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Na konstataciju da se Ursula fon der Lajen ne oglašava na temu Srbije, evroposlanik kaže da Evropska narodna partija nije Evropska unija, već njen deo.
+1	Na	_	_	_	_	_	_	_	_
+2	konstataciju	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_
+4	se	_	_	_	_	_	_	_	_
+5	Ursula	_	_	_	_	_	_	_	_
+6	fon	_	_	_	_	_	_	_	_
+7	der	_	_	_	_	_	_	_	_
+8	Lajen	_	_	_	_	_	_	_	_
+9	ne	_	_	_	_	_	_	_	_
+10	oglašava	_	_	_	_	_	_	_	_
+11	na	_	_	_	_	_	_	_	_
+12	temu	_	_	_	_	_	_	_	_
+13	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	_	_	_	_
+15	evroposlanik	_	_	_	_	_	_	_	_
+16	kaže	_	_	_	_	_	_	_	_
+17	da	_	_	_	_	_	_	_	_
+18	Evropska	_	_	_	_	_	_	_	_
+19	narodna	_	_	_	_	_	_	_	_
+20	partija	_	_	_	_	_	_	_	_
+21	nije	_	_	_	_	_	_	_	_
+22	Evropska	_	_	_	_	_	_	_	_
+23	unija	_	_	_	_	_	_	_	SpaceAfter=No
+24	,	,	PUNCT	Z	_	_	_	_	_
+25	već	_	_	_	_	_	_	_	_
+26	njen	_	_	_	_	_	_	_	_
+27	deo	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 7
+# sent_id = 7.1
+# text = „Naravno da predsednica Evropskog parlamenta mora da razgovara sa predsednicom vašeg parlamenta.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Naravno	_	_	_	_	_	_	_	_
+3	da	_	_	_	_	_	_	_	_
+4	predsednica	_	_	_	_	_	_	_	_
+5	Evropskog	_	_	_	_	_	_	_	_
+6	parlamenta	_	_	_	_	_	_	_	_
+7	mora	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_
+9	razgovara	_	_	_	_	_	_	_	_
+10	sa	_	_	_	_	_	_	_	_
+11	predsednicom	_	_	_	_	_	_	_	_
+12	vašeg	_	_	_	_	_	_	_	_
+13	parlamenta	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 7.2
+# text = Dakle, to što je Ana Brnabić bila u Briselu da se sastane sa Robertom Mecolom je sasvim uobičajeno, sasvim normalno, jer imaju dve institucionalne funkcije.
+1	Dakle	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	to	_	_	_	_	_	_	_	_
+4	što	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	Ana	_	_	_	_	_	_	_	_
+7	Brnabić	_	_	_	_	_	_	_	_
+8	bila	_	_	_	_	_	_	_	_
+9	u	_	_	_	_	_	_	_	_
+10	Briselu	_	_	_	_	_	_	_	_
+11	da	_	_	_	_	_	_	_	_
+12	se	_	_	_	_	_	_	_	_
+13	sastane	_	_	_	_	_	_	_	_
+14	sa	_	_	_	_	_	_	_	_
+15	Robertom	_	_	_	_	_	_	_	_
+16	Mecolom	_	_	_	_	_	_	_	_
+17	je	_	_	_	_	_	_	_	_
+18	sasvim	_	_	_	_	_	_	_	_
+19	uobičajeno	_	_	_	_	_	_	_	SpaceAfter=No
+20	,	,	PUNCT	Z	_	_	_	_	_
+21	sasvim	_	_	_	_	_	_	_	_
+22	normalno	_	_	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	_	_	_	_
+24	jer	_	_	_	_	_	_	_	_
+25	imaju	_	_	_	_	_	_	_	_
+26	dve	_	_	_	_	_	_	_	_
+27	institucionalne	_	_	_	_	_	_	_	_
+28	funkcije	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Predednik Srbije Aleksandar Vučić odlikovao je danas Vesnu Radosavljević, novinarku RTS-a, koja je vodila vesti u vreme studentske blokade javnog servisa.
+1	Predednik	_	_	_	_	_	_	_	_
+2	Srbije	_	_	_	_	_	_	_	_
+3	Aleksandar	_	_	_	_	_	_	_	_
+4	Vučić	_	_	_	_	_	_	_	_
+5	odlikovao	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	danas	_	_	_	_	_	_	_	_
+8	Vesnu	_	_	_	_	_	_	_	_
+9	Radosavljević	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	novinarku	_	_	_	_	_	_	_	_
+12	RTS-a	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	koja	_	_	_	_	_	_	_	_
+15	je	_	_	_	_	_	_	_	_
+16	vodila	_	_	_	_	_	_	_	_
+17	vesti	_	_	_	_	_	_	_	_
+18	u	_	_	_	_	_	_	_	_
+19	vreme	_	_	_	_	_	_	_	_
+20	studentske	_	_	_	_	_	_	_	_
+21	blokade	_	_	_	_	_	_	_	_
+22	javnog	_	_	_	_	_	_	_	_
+23	servisa	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 1.2
+# text = Na spisku odlikovanih je i pevačica Dragica Radosavljević Cakana.
+1	Na	_	_	_	_	_	_	_	_
+2	spisku	_	_	_	_	_	_	_	_
+3	odlikovanih	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	pevačica	_	_	_	_	_	_	_	_
+7	Dragica	_	_	_	_	_	_	_	_
+8	Radosavljević	_	_	_	_	_	_	_	_
+9	Cakana	_	_	_	_	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Kako se navodi u ukazu o odlikovanju Radosavljević je dobila priznanje Orden Karađorđeve zvezde za naročite zasluge i postignute rezultate u oblasti novinarstva.
+1	Kako	_	_	_	_	_	_	_	_
+2	se	_	_	_	_	_	_	_	_
+3	navodi	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	ukazu	_	_	_	_	_	_	_	_
+6	o	_	_	_	_	_	_	_	_
+7	odlikovanju	_	_	_	_	_	_	_	_
+8	Radosavljević	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	dobila	_	_	_	_	_	_	_	_
+11	priznanje	_	_	_	_	_	_	_	_
+12	Orden	_	_	_	_	_	_	_	_
+13	Karađorđeve	_	_	_	_	_	_	_	_
+14	zvezde	_	_	_	_	_	_	_	_
+15	za	_	_	_	_	_	_	_	_
+16	naročite	_	_	_	_	_	_	_	_
+17	zasluge	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	postignute	_	_	_	_	_	_	_	_
+20	rezultate	_	_	_	_	_	_	_	_
+21	u	_	_	_	_	_	_	_	_
+22	oblasti	_	_	_	_	_	_	_	_
+23	novinarstva	_	_	_	_	_	_	_	SpaceAfter=No
+24	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Na spisku odlikovanih je i profesor Fakulteta političkih nauka Milan Petričković, koji je priznanje dobio za naročite zasluge i postignute rezultate u sistemu obrazovanja, a Karađorđevu zvezdu dobio je i filmski, televizijski i muzički producent Maksi Ćatović za naročite zasluge i postignute rezultate u javnim i kulturnim delatnostima, posebno u oblasti filmske i muzičke produkcije.
+1	Na	_	_	_	_	_	_	_	_
+2	spisku	_	_	_	_	_	_	_	_
+3	odlikovanih	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	profesor	_	_	_	_	_	_	_	_
+7	Fakulteta	_	_	_	_	_	_	_	_
+8	političkih	_	_	_	_	_	_	_	_
+9	nauka	_	_	_	_	_	_	_	_
+10	Milan	_	_	_	_	_	_	_	_
+11	Petričković	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	koji	_	_	_	_	_	_	_	_
+14	je	_	_	_	_	_	_	_	_
+15	priznanje	_	_	_	_	_	_	_	_
+16	dobio	_	_	_	_	_	_	_	_
+17	za	_	_	_	_	_	_	_	_
+18	naročite	_	_	_	_	_	_	_	_
+19	zasluge	_	_	_	_	_	_	_	_
+20	i	_	_	_	_	_	_	_	_
+21	postignute	_	_	_	_	_	_	_	_
+22	rezultate	_	_	_	_	_	_	_	_
+23	u	_	_	_	_	_	_	_	_
+24	sistemu	_	_	_	_	_	_	_	_
+25	obrazovanja	_	_	_	_	_	_	_	SpaceAfter=No
+26	,	,	PUNCT	Z	_	_	_	_	_
+27	a	_	_	_	_	_	_	_	_
+28	Karađorđevu	_	_	_	_	_	_	_	_
+29	zvezdu	_	_	_	_	_	_	_	_
+30	dobio	_	_	_	_	_	_	_	_
+31	je	_	_	_	_	_	_	_	_
+32	i	_	_	_	_	_	_	_	_
+33	filmski	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	,	PUNCT	Z	_	_	_	_	_
+35	televizijski	_	_	_	_	_	_	_	_
+36	i	_	_	_	_	_	_	_	_
+37	muzički	_	_	_	_	_	_	_	_
+38	producent	_	_	_	_	_	_	_	_
+39	Maksi	_	_	_	_	_	_	_	_
+40	Ćatović	_	_	_	_	_	_	_	_
+41	za	_	_	_	_	_	_	_	_
+42	naročite	_	_	_	_	_	_	_	_
+43	zasluge	_	_	_	_	_	_	_	_
+44	i	_	_	_	_	_	_	_	_
+45	postignute	_	_	_	_	_	_	_	_
+46	rezultate	_	_	_	_	_	_	_	_
+47	u	_	_	_	_	_	_	_	_
+48	javnim	_	_	_	_	_	_	_	_
+49	i	_	_	_	_	_	_	_	_
+50	kulturnim	_	_	_	_	_	_	_	_
+51	delatnostima	_	_	_	_	_	_	_	SpaceAfter=No
+52	,	,	PUNCT	Z	_	_	_	_	_
+53	posebno	_	_	_	_	_	_	_	_
+54	u	_	_	_	_	_	_	_	_
+55	oblasti	_	_	_	_	_	_	_	_
+56	filmske	_	_	_	_	_	_	_	_
+57	i	_	_	_	_	_	_	_	_
+58	muzičke	_	_	_	_	_	_	_	_
+59	produkcije	_	_	_	_	_	_	_	SpaceAfter=No
+60	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Karađorđevom zvezdom drugog stepena odlikovan je Milisav R. Đenić za naročite zasluge i postignute rezultate u javnim i kulturnim delatnostima.
+1	Karađorđevom	_	_	_	_	_	_	_	_
+2	zvezdom	_	_	_	_	_	_	_	_
+3	drugog	_	_	_	_	_	_	_	_
+4	stepena	_	_	_	_	_	_	_	_
+5	odlikovan	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	Milisav	_	_	_	_	_	_	_	_
+8	R.	_	_	_	_	_	_	_	_
+9	Đenić	_	_	_	_	_	_	_	_
+10	za	_	_	_	_	_	_	_	_
+11	naročite	_	_	_	_	_	_	_	_
+12	zasluge	_	_	_	_	_	_	_	_
+13	i	_	_	_	_	_	_	_	_
+14	postignute	_	_	_	_	_	_	_	_
+15	rezultate	_	_	_	_	_	_	_	_
+16	u	_	_	_	_	_	_	_	_
+17	javnim	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	kulturnim	_	_	_	_	_	_	_	_
+20	delatnostima	_	_	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Fonet je preneo da je Karađorđevom zvezdom drugog reda odlikovan predsednik Srpskog filozofskog društva Slobodan Kanjevac, dok je Zlatnom medaljom za hrabrost „Miloš Obilić“ odlikovan za ispoljenu izvanrednu hrabrost i delo ličnog herojstva Pero Luković iz Vatrogasno-spasilačkog bataljona Kraljevo koji je učestvovao u gašenju velikog požara u tom gradu 2025. godine.
+1	Fonet	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	preneo	_	_	_	_	_	_	_	_
+4	da	_	_	_	_	_	_	_	_
+5	je	_	_	_	_	_	_	_	_
+6	Karađorđevom	_	_	_	_	_	_	_	_
+7	zvezdom	_	_	_	_	_	_	_	_
+8	drugog	_	_	_	_	_	_	_	_
+9	reda	_	_	_	_	_	_	_	_
+10	odlikovan	_	_	_	_	_	_	_	_
+11	predsednik	_	_	_	_	_	_	_	_
+12	Srpskog	_	_	_	_	_	_	_	_
+13	filozofskog	_	_	_	_	_	_	_	_
+14	društva	_	_	_	_	_	_	_	_
+15	Slobodan	_	_	_	_	_	_	_	_
+16	Kanjevac	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	dok	_	_	_	_	_	_	_	_
+19	je	_	_	_	_	_	_	_	_
+20	Zlatnom	_	_	_	_	_	_	_	_
+21	medaljom	_	_	_	_	_	_	_	_
+22	za	_	_	_	_	_	_	_	_
+23	hrabrost	_	_	_	_	_	_	_	_
+24	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+25	Miloš	_	_	_	_	_	_	_	_
+26	Obilić	_	_	_	_	_	_	_	SpaceAfter=No
+27	“	“	PUNCT	Z	_	_	_	_	_
+28	odlikovan	_	_	_	_	_	_	_	_
+29	za	_	_	_	_	_	_	_	_
+30	ispoljenu	_	_	_	_	_	_	_	_
+31	izvanrednu	_	_	_	_	_	_	_	_
+32	hrabrost	_	_	_	_	_	_	_	_
+33	i	_	_	_	_	_	_	_	_
+34	delo	_	_	_	_	_	_	_	_
+35	ličnog	_	_	_	_	_	_	_	_
+36	herojstva	_	_	_	_	_	_	_	_
+37	Pero	_	_	_	_	_	_	_	_
+38	Luković	_	_	_	_	_	_	_	_
+39	iz	_	_	_	_	_	_	_	_
+40	Vatrogasno-spasilačkog	_	_	_	_	_	_	_	_
+41	bataljona	_	_	_	_	_	_	_	_
+42	Kraljevo	_	_	_	_	_	_	_	_
+43	koji	_	_	_	_	_	_	_	_
+44	je	_	_	_	_	_	_	_	_
+45	učestvovao	_	_	_	_	_	_	_	_
+46	u	_	_	_	_	_	_	_	_
+47	gašenju	_	_	_	_	_	_	_	_
+48	velikog	_	_	_	_	_	_	_	_
+49	požara	_	_	_	_	_	_	_	_
+50	u	_	_	_	_	_	_	_	_
+51	tom	_	_	_	_	_	_	_	_
+52	gradu	_	_	_	_	_	_	_	_
+53	2025.	_	_	_	_	_	_	_	_
+54	godine	_	_	_	_	_	_	_	SpaceAfter=No
+55	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Zlatnom medaljom za zasluge odlikovana je Javna ustanova Spomen-područje Donja Gradina, spomenik posvećen žrtvama nacističkog zločina počinjenog u periodu nacističkog terora od 1941. do 1945. godine nad Srbima, Jevrejima, Romima i ostalim narodima koji su se protivili nacističkom režimu NDH.
+1	Zlatnom	_	_	_	_	_	_	_	_
+2	medaljom	_	_	_	_	_	_	_	_
+3	za	_	_	_	_	_	_	_	_
+4	zasluge	_	_	_	_	_	_	_	_
+5	odlikovana	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	Javna	_	_	_	_	_	_	_	_
+8	ustanova	_	_	_	_	_	_	_	_
+9	Spomen-područje	_	_	_	_	_	_	_	_
+10	Donja	_	_	_	_	_	_	_	_
+11	Gradina	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	spomenik	_	_	_	_	_	_	_	_
+14	posvećen	_	_	_	_	_	_	_	_
+15	žrtvama	_	_	_	_	_	_	_	_
+16	nacističkog	_	_	_	_	_	_	_	_
+17	zločina	_	_	_	_	_	_	_	_
+18	počinjenog	_	_	_	_	_	_	_	_
+19	u	_	_	_	_	_	_	_	_
+20	periodu	_	_	_	_	_	_	_	_
+21	nacističkog	_	_	_	_	_	_	_	_
+22	terora	_	_	_	_	_	_	_	_
+23	od	_	_	_	_	_	_	_	_
+24	1941.	_	_	_	_	_	_	_	_
+25	do	_	_	_	_	_	_	_	_
+26	1945.	_	_	_	_	_	_	_	_
+27	godine	_	_	_	_	_	_	_	_
+28	nad	_	_	_	_	_	_	_	_
+29	Srbima	_	_	_	_	_	_	_	SpaceAfter=No
+30	,	,	PUNCT	Z	_	_	_	_	_
+31	Jevrejima	_	_	_	_	_	_	_	SpaceAfter=No
+32	,	,	PUNCT	Z	_	_	_	_	_
+33	Romima	_	_	_	_	_	_	_	_
+34	i	_	_	_	_	_	_	_	_
+35	ostalim	_	_	_	_	_	_	_	_
+36	narodima	_	_	_	_	_	_	_	_
+37	koji	_	_	_	_	_	_	_	_
+38	su	_	_	_	_	_	_	_	_
+39	se	_	_	_	_	_	_	_	_
+40	protivili	_	_	_	_	_	_	_	_
+41	nacističkom	_	_	_	_	_	_	_	_
+42	režimu	_	_	_	_	_	_	_	_
+43	NDH	_	_	_	_	_	_	_	SpaceAfter=No
+44	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 7
+# sent_id = 7.1
+# text = Odlikovani su i Kulturno-umetničko društvo „Kolo Berane“ i Vasilije Galjak iz Zubinog Potoka.
+1	Odlikovani	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	_
+3	i	_	_	_	_	_	_	_	_
+4	Kulturno-umetničko	_	_	_	_	_	_	_	_
+5	društvo	_	_	_	_	_	_	_	_
+6	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+7	Kolo	_	_	_	_	_	_	_	_
+8	Berane	_	_	_	_	_	_	_	SpaceAfter=No
+9	“	“	PUNCT	Z	_	_	_	_	_
+10	i	_	_	_	_	_	_	_	_
+11	Vasilije	_	_	_	_	_	_	_	_
+12	Galjak	_	_	_	_	_	_	_	_
+13	iz	_	_	_	_	_	_	_	_
+14	Zubinog	_	_	_	_	_	_	_	_
+15	Potoka	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 8
+# sent_id = 8.1
+# text = Odlikovani su i Aleksandra i Milija Stanić iz Stapara, porodica sa 11 dece, za izuzetne zasluge i iskazanu životnu hrabrost i upornost.
+1	Odlikovani	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	_
+3	i	_	_	_	_	_	_	_	_
+4	Aleksandra	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	Milija	_	_	_	_	_	_	_	_
+7	Stanić	_	_	_	_	_	_	_	_
+8	iz	_	_	_	_	_	_	_	_
+9	Stapara	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	porodica	_	_	_	_	_	_	_	_
+12	sa	_	_	_	_	_	_	_	_
+13	11	_	_	_	_	_	_	_	_
+14	dece	_	_	_	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	_	_	_	_
+16	za	_	_	_	_	_	_	_	_
+17	izuzetne	_	_	_	_	_	_	_	_
+18	zasluge	_	_	_	_	_	_	_	_
+19	i	_	_	_	_	_	_	_	_
+20	iskazanu	_	_	_	_	_	_	_	_
+21	životnu	_	_	_	_	_	_	_	_
+22	hrabrost	_	_	_	_	_	_	_	_
+23	i	_	_	_	_	_	_	_	_
+24	upornost	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 9
+# sent_id = 9.1
+# text = Odlikovani su i radnici JKP „Zelenilo Beograd“ Zoran Nimet, Srđan Stanković i David Stojaković za ispoljenu hrabrost i patriotizam.
+1	Odlikovani	_	_	_	_	_	_	_	_
+2	su	_	_	_	_	_	_	_	_
+3	i	_	_	_	_	_	_	_	_
+4	radnici	_	_	_	_	_	_	_	_
+5	JKP	_	_	_	_	_	_	_	_
+6	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+7	Zelenilo	_	_	_	_	_	_	_	_
+8	Beograd	_	_	_	_	_	_	_	SpaceAfter=No
+9	“	“	PUNCT	Z	_	_	_	_	_
+10	Zoran	_	_	_	_	_	_	_	_
+11	Nimet	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	Srđan	_	_	_	_	_	_	_	_
+14	Stanković	_	_	_	_	_	_	_	_
+15	i	_	_	_	_	_	_	_	_
+16	David	_	_	_	_	_	_	_	_
+17	Stojaković	_	_	_	_	_	_	_	_
+18	za	_	_	_	_	_	_	_	_
+19	ispoljenu	_	_	_	_	_	_	_	_
+20	hrabrost	_	_	_	_	_	_	_	_
+21	i	_	_	_	_	_	_	_	_
+22	patriotizam	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Lider Pokreta Kreni-Promeni Savo Manojlović izjavio je da predsednik Aleksandar Vučić pokušava da se sakrije iza Vojske i drugih institucija kako bi izbegao suočavanje sa nezadovoljstvom građana.
+1	Lider	_	_	_	_	_	_	_	_
+2	Pokreta	_	_	_	_	_	_	_	_
+3	Kreni-Promeni	_	_	_	_	_	_	_	_
+4	Savo	_	_	_	_	_	_	_	_
+5	Manojlović	_	_	_	_	_	_	_	_
+6	izjavio	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_
+9	predsednik	_	_	_	_	_	_	_	_
+10	Aleksandar	_	_	_	_	_	_	_	_
+11	Vučić	_	_	_	_	_	_	_	_
+12	pokušava	_	_	_	_	_	_	_	_
+13	da	_	_	_	_	_	_	_	_
+14	se	_	_	_	_	_	_	_	_
+15	sakrije	_	_	_	_	_	_	_	_
+16	iza	_	_	_	_	_	_	_	_
+17	Vojske	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	drugih	_	_	_	_	_	_	_	_
+20	institucija	_	_	_	_	_	_	_	_
+21	kako	_	_	_	_	_	_	_	_
+22	bi	_	_	_	_	_	_	_	_
+23	izbegao	_	_	_	_	_	_	_	_
+24	suočavanje	_	_	_	_	_	_	_	_
+25	sa	_	_	_	_	_	_	_	_
+26	nezadovoljstvom	_	_	_	_	_	_	_	_
+27	građana	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = U svom prvom gostovanju na Blic televiziji Aleksandar Vučić je govorio i o studentskoj listi.
+1	U	_	_	_	_	_	_	_	_
+2	svom	_	_	_	_	_	_	_	_
+3	prvom	_	_	_	_	_	_	_	_
+4	gostovanju	_	_	_	_	_	_	_	_
+5	na	_	_	_	_	_	_	_	_
+6	Blic	_	_	_	_	_	_	_	_
+7	televiziji	_	_	_	_	_	_	_	_
+8	Aleksandar	_	_	_	_	_	_	_	_
+9	Vučić	_	_	_	_	_	_	_	_
+10	je	_	_	_	_	_	_	_	_
+11	govorio	_	_	_	_	_	_	_	_
+12	i	_	_	_	_	_	_	_	_
+13	o	_	_	_	_	_	_	_	_
+14	studentskoj	_	_	_	_	_	_	_	_
+15	listi	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = “A što se tiče lista, ja znam već ko je na toj listi, ništa mi tu novo nećete reći.
+1	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	A	_	_	_	_	_	_	_	_
+3	što	_	_	_	_	_	_	_	_
+4	se	_	_	_	_	_	_	_	_
+5	tiče	_	_	_	_	_	_	_	_
+6	lista	_	_	_	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	_	_	_	_
+8	ja	_	_	_	_	_	_	_	_
+9	znam	_	_	_	_	_	_	_	_
+10	već	_	_	_	_	_	_	_	_
+11	ko	_	_	_	_	_	_	_	_
+12	je	_	_	_	_	_	_	_	_
+13	na	_	_	_	_	_	_	_	_
+14	toj	_	_	_	_	_	_	_	_
+15	listi	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	ništa	_	_	_	_	_	_	_	_
+18	mi	_	_	_	_	_	_	_	_
+19	tu	_	_	_	_	_	_	_	_
+20	novo	_	_	_	_	_	_	_	_
+21	nećete	_	_	_	_	_	_	_	_
+22	reći	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 2.2
+# text = Od rektora Đokića do Jove Bakića“.
+1	Od	_	_	_	_	_	_	_	_
+2	rektora	_	_	_	_	_	_	_	_
+3	Đokića	_	_	_	_	_	_	_	_
+4	do	_	_	_	_	_	_	_	_
+5	Jove	_	_	_	_	_	_	_	_
+6	Bakića	_	_	_	_	_	_	_	SpaceAfter=No
+7	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Komentarišući Vučićevo najavljivanje pobede na izborima koje ne sme da raspiše, pa ih najavljuje možda za proleće sledeće godine, a najverovatnije tek za decembar, profesor Pravnog fakulteta u Novom Sadu, Bojan Pajtić kaže za Novu da predsednik svojim izjavama pokušava da zaustavi strmoglavi pad rejtinga svoje stranke i da ubedi svoje birače da nije uzaludno glasati za njih.
+1	Komentarišući	_	_	_	_	_	_	_	_
+2	Vučićevo	_	_	_	_	_	_	_	_
+3	najavljivanje	_	_	_	_	_	_	_	_
+4	pobede	_	_	_	_	_	_	_	_
+5	na	_	_	_	_	_	_	_	_
+6	izborima	_	_	_	_	_	_	_	_
+7	koje	_	_	_	_	_	_	_	_
+8	ne	_	_	_	_	_	_	_	_
+9	sme	_	_	_	_	_	_	_	_
+10	da	_	_	_	_	_	_	_	_
+11	raspiše	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	pa	_	_	_	_	_	_	_	_
+14	ih	_	_	_	_	_	_	_	_
+15	najavljuje	_	_	_	_	_	_	_	_
+16	možda	_	_	_	_	_	_	_	_
+17	za	_	_	_	_	_	_	_	_
+18	proleće	_	_	_	_	_	_	_	_
+19	sledeće	_	_	_	_	_	_	_	_
+20	godine	_	_	_	_	_	_	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	_	_	_	_
+22	a	_	_	_	_	_	_	_	_
+23	najverovatnije	_	_	_	_	_	_	_	_
+24	tek	_	_	_	_	_	_	_	_
+25	za	_	_	_	_	_	_	_	_
+26	decembar	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	profesor	_	_	_	_	_	_	_	_
+29	Pravnog	_	_	_	_	_	_	_	_
+30	fakulteta	_	_	_	_	_	_	_	_
+31	u	_	_	_	_	_	_	_	_
+32	Novom	_	_	_	_	_	_	_	_
+33	Sadu	_	_	_	_	_	_	_	SpaceAfter=No
+34	,	,	PUNCT	Z	_	_	_	_	_
+35	Bojan	_	_	_	_	_	_	_	_
+36	Pajtić	_	_	_	_	_	_	_	_
+37	kaže	_	_	_	_	_	_	_	_
+38	za	_	_	_	_	_	_	_	_
+39	Novu	_	_	_	_	_	_	_	_
+40	da	_	_	_	_	_	_	_	_
+41	predsednik	_	_	_	_	_	_	_	_
+42	svojim	_	_	_	_	_	_	_	_
+43	izjavama	_	_	_	_	_	_	_	_
+44	pokušava	_	_	_	_	_	_	_	_
+45	da	_	_	_	_	_	_	_	_
+46	zaustavi	_	_	_	_	_	_	_	_
+47	strmoglavi	_	_	_	_	_	_	_	_
+48	pad	_	_	_	_	_	_	_	_
+49	rejtinga	_	_	_	_	_	_	_	_
+50	svoje	_	_	_	_	_	_	_	_
+51	stranke	_	_	_	_	_	_	_	_
+52	i	_	_	_	_	_	_	_	_
+53	da	_	_	_	_	_	_	_	_
+54	ubedi	_	_	_	_	_	_	_	_
+55	svoje	_	_	_	_	_	_	_	_
+56	birače	_	_	_	_	_	_	_	_
+57	da	_	_	_	_	_	_	_	_
+58	nije	_	_	_	_	_	_	_	_
+59	uzaludno	_	_	_	_	_	_	_	_
+60	glasati	_	_	_	_	_	_	_	_
+61	za	_	_	_	_	_	_	_	_
+62	njih	_	_	_	_	_	_	_	SpaceAfter=No
+63	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = „Svakako budućnost nije u nekakvim Vučićima i Dačićima“; zaključuje Pajtić.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Svakako	_	_	_	_	_	_	_	_
+3	budućnost	_	_	_	_	_	_	_	_
+4	nije	_	_	_	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	nekakvim	_	_	_	_	_	_	_	_
+7	Vučićima	_	_	_	_	_	_	_	_
+8	i	_	_	_	_	_	_	_	_
+9	Dačićima	_	_	_	_	_	_	_	SpaceAfter=No
+10	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+11	;	;	PUNCT	Z	_	_	_	_	_
+12	zaključuje	_	_	_	_	_	_	_	_
+13	Pajtić	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Komentarišući ovu izjavu predsednika Srbije Aleksandra Vučića, advokat Rodoljub Šabić kaže za Novu da je po sredi ili spin ili nezakonito prikupljanje informacija,
+1	Komentarišući	_	_	_	_	_	_	_	_
+2	ovu	_	_	_	_	_	_	_	_
+3	izjavu	_	_	_	_	_	_	_	_
+4	predsednika	_	_	_	_	_	_	_	_
+5	Srbije	_	_	_	_	_	_	_	_
+6	Aleksandra	_	_	_	_	_	_	_	_
+7	Vučića	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	advokat	_	_	_	_	_	_	_	_
+10	Rodoljub	_	_	_	_	_	_	_	_
+11	Šabić	_	_	_	_	_	_	_	_
+12	kaže	_	_	_	_	_	_	_	_
+13	za	_	_	_	_	_	_	_	_
+14	Novu	_	_	_	_	_	_	_	_
+15	da	_	_	_	_	_	_	_	_
+16	je	_	_	_	_	_	_	_	_
+17	po	_	_	_	_	_	_	_	_
+18	sredi	_	_	_	_	_	_	_	_
+19	ili	_	_	_	_	_	_	_	_
+20	spin	_	_	_	_	_	_	_	_
+21	ili	_	_	_	_	_	_	_	_
+22	nezakonito	_	_	_	_	_	_	_	_
+23	prikupljanje	_	_	_	_	_	_	_	_
+24	informacija	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	,	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = „Ili je jedno, ili je drugo.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Ili	_	_	_	_	_	_	_	_
+3	je	_	_	_	_	_	_	_	_
+4	jedno	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	ili	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	drugo	_	_	_	_	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Student Pravnog fakulteta u Nišu Dimitrije Dimić (25) izjavio je za Insajder da se skoro mesec dana nalazi pod merom kućnog pritvora, te da nisu tačne tvrdnje Višeg javnog tužilaštva da se nalazi u bekstvu.
+1	Student	_	_	_	_	_	_	_	_
+2	Pravnog	_	_	_	_	_	_	_	_
+3	fakulteta	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	Nišu	_	_	_	_	_	_	_	_
+6	Dimitrije	_	_	_	_	_	_	_	_
+7	Dimić	_	_	_	_	_	_	_	_
+8	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+9	25	_	_	_	_	_	_	_	SpaceAfter=No
+10	)	)	PUNCT	Z	_	_	_	_	_
+11	izjavio	_	_	_	_	_	_	_	_
+12	je	_	_	_	_	_	_	_	_
+13	za	_	_	_	_	_	_	_	_
+14	Insajder	_	_	_	_	_	_	_	_
+15	da	_	_	_	_	_	_	_	_
+16	se	_	_	_	_	_	_	_	_
+17	skoro	_	_	_	_	_	_	_	_
+18	mesec	_	_	_	_	_	_	_	_
+19	dana	_	_	_	_	_	_	_	_
+20	nalazi	_	_	_	_	_	_	_	_
+21	pod	_	_	_	_	_	_	_	_
+22	merom	_	_	_	_	_	_	_	_
+23	kućnog	_	_	_	_	_	_	_	_
+24	pritvora	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	,	PUNCT	Z	_	_	_	_	_
+26	te	_	_	_	_	_	_	_	_
+27	da	_	_	_	_	_	_	_	_
+28	nisu	_	_	_	_	_	_	_	_
+29	tačne	_	_	_	_	_	_	_	_
+30	tvrdnje	_	_	_	_	_	_	_	_
+31	Višeg	_	_	_	_	_	_	_	_
+32	javnog	_	_	_	_	_	_	_	_
+33	tužilaštva	_	_	_	_	_	_	_	_
+34	da	_	_	_	_	_	_	_	_
+35	se	_	_	_	_	_	_	_	_
+36	nalazi	_	_	_	_	_	_	_	_
+37	u	_	_	_	_	_	_	_	_
+38	bekstvu	_	_	_	_	_	_	_	SpaceAfter=No
+39	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Više javno tužilaštvo u Beogradu saopštilo je da je podnet optužni predlog Višem sudu u Beogradu protiv devet okrivljenih studenata zbog pozivanja na nasilnu promenu ustavnog uređenja.
+1	Više	_	_	_	_	_	_	_	_
+2	javno	_	_	_	_	_	_	_	_
+3	tužilaštvo	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	Beogradu	_	_	_	_	_	_	_	_
+6	saopštilo	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	podnet	_	_	_	_	_	_	_	_
+11	optužni	_	_	_	_	_	_	_	_
+12	predlog	_	_	_	_	_	_	_	_
+13	Višem	_	_	_	_	_	_	_	_
+14	sudu	_	_	_	_	_	_	_	_
+15	u	_	_	_	_	_	_	_	_
+16	Beogradu	_	_	_	_	_	_	_	_
+17	protiv	_	_	_	_	_	_	_	_
+18	devet	_	_	_	_	_	_	_	_
+19	okrivljenih	_	_	_	_	_	_	_	_
+20	studenata	_	_	_	_	_	_	_	_
+21	zbog	_	_	_	_	_	_	_	_
+22	pozivanja	_	_	_	_	_	_	_	_
+23	na	_	_	_	_	_	_	_	_
+24	nasilnu	_	_	_	_	_	_	_	_
+25	promenu	_	_	_	_	_	_	_	_
+26	ustavnog	_	_	_	_	_	_	_	_
+27	uređenja	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Kako je za Insajder naveo student Dimić, on se od 22. avgusta od jutarnjih časova nalazi pod merom kućnog pritvora, odnosno zabrane napuštanja stana sa konstantnim elektronskim nadzorom Uprave za izvršenje krivičnih sankcija Ministarstva pravde.
+1	Kako	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	za	_	_	_	_	_	_	_	_
+4	Insajder	_	_	_	_	_	_	_	_
+5	naveo	_	_	_	_	_	_	_	_
+6	student	_	_	_	_	_	_	_	_
+7	Dimić	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	on	_	_	_	_	_	_	_	_
+10	se	_	_	_	_	_	_	_	_
+11	od	_	_	_	_	_	_	_	_
+12	22.	_	_	_	_	_	_	_	_
+13	avgusta	_	_	_	_	_	_	_	_
+14	od	_	_	_	_	_	_	_	_
+15	jutarnjih	_	_	_	_	_	_	_	_
+16	časova	_	_	_	_	_	_	_	_
+17	nalazi	_	_	_	_	_	_	_	_
+18	pod	_	_	_	_	_	_	_	_
+19	merom	_	_	_	_	_	_	_	_
+20	kućnog	_	_	_	_	_	_	_	_
+21	pritvora	_	_	_	_	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	Z	_	_	_	_	_
+23	odnosno	_	_	_	_	_	_	_	_
+24	zabrane	_	_	_	_	_	_	_	_
+25	napuštanja	_	_	_	_	_	_	_	_
+26	stana	_	_	_	_	_	_	_	_
+27	sa	_	_	_	_	_	_	_	_
+28	konstantnim	_	_	_	_	_	_	_	_
+29	elektronskim	_	_	_	_	_	_	_	_
+30	nadzorom	_	_	_	_	_	_	_	_
+31	Uprave	_	_	_	_	_	_	_	_
+32	za	_	_	_	_	_	_	_	_
+33	izvršenje	_	_	_	_	_	_	_	_
+34	krivičnih	_	_	_	_	_	_	_	_
+35	sankcija	_	_	_	_	_	_	_	_
+36	Ministarstva	_	_	_	_	_	_	_	_
+37	pravde	_	_	_	_	_	_	_	SpaceAfter=No
+38	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Prema njegovim rečima, Apelacioni sud u Beogradu je četiri puta usvojio žalbu njegovog branioca, da mu se ukine pritvor i da se brani sa slobode.
+1	Prema	_	_	_	_	_	_	_	_
+2	njegovim	_	_	_	_	_	_	_	_
+3	rečima	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	Apelacioni	_	_	_	_	_	_	_	_
+6	sud	_	_	_	_	_	_	_	_
+7	u	_	_	_	_	_	_	_	_
+8	Beogradu	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	četiri	_	_	_	_	_	_	_	_
+11	puta	_	_	_	_	_	_	_	_
+12	usvojio	_	_	_	_	_	_	_	_
+13	žalbu	_	_	_	_	_	_	_	_
+14	njegovog	_	_	_	_	_	_	_	_
+15	branioca	_	_	_	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	da	_	_	_	_	_	_	_	_
+18	mu	_	_	_	_	_	_	_	_
+19	se	_	_	_	_	_	_	_	_
+20	ukine	_	_	_	_	_	_	_	_
+21	pritvor	_	_	_	_	_	_	_	_
+22	i	_	_	_	_	_	_	_	_
+23	da	_	_	_	_	_	_	_	_
+24	se	_	_	_	_	_	_	_	_
+25	brani	_	_	_	_	_	_	_	_
+26	sa	_	_	_	_	_	_	_	_
+27	slobode	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 4.2
+# text = Međutim, veće Višeg suda u Beogradu, na čijem čelu je predsednik Višeg suda Dragan Milošević, ponovo određuje pritvor.
+1	Međutim	_	_	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	veće	_	_	_	_	_	_	_	_
+4	Višeg	_	_	_	_	_	_	_	_
+5	suda	_	_	_	_	_	_	_	_
+6	u	_	_	_	_	_	_	_	_
+7	Beogradu	_	_	_	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	na	_	_	_	_	_	_	_	_
+10	čijem	_	_	_	_	_	_	_	_
+11	čelu	_	_	_	_	_	_	_	_
+12	je	_	_	_	_	_	_	_	_
+13	predsednik	_	_	_	_	_	_	_	_
+14	Višeg	_	_	_	_	_	_	_	_
+15	suda	_	_	_	_	_	_	_	_
+16	Dragan	_	_	_	_	_	_	_	_
+17	Milošević	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	ponovo	_	_	_	_	_	_	_	_
+20	određuje	_	_	_	_	_	_	_	_
+21	pritvor	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Zbor Palilula centar, u saradnji sa drugim beogradskim zborovima, organizovaće sutra akciju zahvalnosti studentima, koja će početi u 16 sati kod Pravnog fakulteta u Beogradu.
+1	Zbor	_	_	_	_	_	_	_	_
+2	Palilula	_	_	_	_	_	_	_	_
+3	centar	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	u	_	_	_	_	_	_	_	_
+6	saradnji	_	_	_	_	_	_	_	_
+7	sa	_	_	_	_	_	_	_	_
+8	drugim	_	_	_	_	_	_	_	_
+9	beogradskim	_	_	_	_	_	_	_	_
+10	zborovima	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	organizovaće	_	_	_	_	_	_	_	_
+13	sutra	_	_	_	_	_	_	_	_
+14	akciju	_	_	_	_	_	_	_	_
+15	zahvalnosti	_	_	_	_	_	_	_	_
+16	studentima	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	koja	_	_	_	_	_	_	_	_
+19	će	_	_	_	_	_	_	_	_
+20	početi	_	_	_	_	_	_	_	_
+21	u	_	_	_	_	_	_	_	_
+22	16	_	_	_	_	_	_	_	_
+23	sati	_	_	_	_	_	_	_	_
+24	kod	_	_	_	_	_	_	_	_
+25	Pravnog	_	_	_	_	_	_	_	_
+26	fakulteta	_	_	_	_	_	_	_	_
+27	u	_	_	_	_	_	_	_	_
+28	Beogradu	_	_	_	_	_	_	_	SpaceAfter=No
+29	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = U okviru akcije nazvane „Šetnja ljubavi“, planirano je da beogradski zborovi posete fakultete na opštini Palilula.
+1	U	_	_	_	_	_	_	_	_
+2	okviru	_	_	_	_	_	_	_	_
+3	akcije	_	_	_	_	_	_	_	_
+4	nazvane	_	_	_	_	_	_	_	_
+5	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+6	Šetnja	_	_	_	_	_	_	_	_
+7	ljubavi	_	_	_	_	_	_	_	SpaceAfter=No
+8	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	planirano	_	_	_	_	_	_	_	_
+11	je	_	_	_	_	_	_	_	_
+12	da	_	_	_	_	_	_	_	_
+13	beogradski	_	_	_	_	_	_	_	_
+14	zborovi	_	_	_	_	_	_	_	_
+15	posete	_	_	_	_	_	_	_	_
+16	fakultete	_	_	_	_	_	_	_	_
+17	na	_	_	_	_	_	_	_	_
+18	opštini	_	_	_	_	_	_	_	_
+19	Palilula	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Centar za lokalnu samoupravu (CLS) saopštio je danas da je projekat Beograd pametan grad, najbolje čuvana tajna ove gradske vlasti i sve što se podvede pod njega volšebno je oslobođeno Zakona o javnim nabavkama i obaveze javnosti rada gradske uprave.
+1	Centar	_	_	_	_	_	_	_	_
+2	za	_	_	_	_	_	_	_	_
+3	lokalnu	_	_	_	_	_	_	_	_
+4	samoupravu	_	_	_	_	_	_	_	_
+5	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No
+6	CLS	_	_	_	_	_	_	_	SpaceAfter=No
+7	)	)	PUNCT	Z	_	_	_	_	_
+8	saopštio	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	danas	_	_	_	_	_	_	_	_
+11	da	_	_	_	_	_	_	_	_
+12	je	_	_	_	_	_	_	_	_
+13	projekat	_	_	_	_	_	_	_	_
+14	Beograd	_	_	_	_	_	_	_	_
+15	pametan	_	_	_	_	_	_	_	_
+16	grad	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	najbolje	_	_	_	_	_	_	_	_
+19	čuvana	_	_	_	_	_	_	_	_
+20	tajna	_	_	_	_	_	_	_	_
+21	ove	_	_	_	_	_	_	_	_
+22	gradske	_	_	_	_	_	_	_	_
+23	vlasti	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	sve	_	_	_	_	_	_	_	_
+26	što	_	_	_	_	_	_	_	_
+27	se	_	_	_	_	_	_	_	_
+28	podvede	_	_	_	_	_	_	_	_
+29	pod	_	_	_	_	_	_	_	_
+30	njega	_	_	_	_	_	_	_	_
+31	volšebno	_	_	_	_	_	_	_	_
+32	je	_	_	_	_	_	_	_	_
+33	oslobođeno	_	_	_	_	_	_	_	_
+34	Zakona	_	_	_	_	_	_	_	_
+35	o	_	_	_	_	_	_	_	_
+36	javnim	_	_	_	_	_	_	_	_
+37	nabavkama	_	_	_	_	_	_	_	_
+38	i	_	_	_	_	_	_	_	_
+39	obaveze	_	_	_	_	_	_	_	_
+40	javnosti	_	_	_	_	_	_	_	_
+41	rada	_	_	_	_	_	_	_	_
+42	gradske	_	_	_	_	_	_	_	_
+43	uprave	_	_	_	_	_	_	_	SpaceAfter=No
+44	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = „Upravo preko ovog projekta je uspostavljena ‘platforma za bezbednost’ škola i vrtića u Beogradu, i dat posao konzorcijumu na čelu sa firmom ‘Atlas Security doo’ za čak 8,7 milijardi dinara, bez PDV-a.
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Upravo	_	_	_	_	_	_	_	_
+3	preko	_	_	_	_	_	_	_	_
+4	ovog	_	_	_	_	_	_	_	_
+5	projekta	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	uspostavljena	_	_	_	_	_	_	_	_
+8	‘	‘	PUNCT	Z	_	_	_	_	SpaceAfter=No
+9	platforma	_	_	_	_	_	_	_	_
+10	za	_	_	_	_	_	_	_	_
+11	bezbednost	_	_	_	_	_	_	_	SpaceAfter=No
+12	’	’	PUNCT	Z	_	_	_	_	_
+13	škola	_	_	_	_	_	_	_	_
+14	i	_	_	_	_	_	_	_	_
+15	vrtića	_	_	_	_	_	_	_	_
+16	u	_	_	_	_	_	_	_	_
+17	Beogradu	_	_	_	_	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	Z	_	_	_	_	_
+19	i	_	_	_	_	_	_	_	_
+20	dat	_	_	_	_	_	_	_	_
+21	posao	_	_	_	_	_	_	_	_
+22	konzorcijumu	_	_	_	_	_	_	_	_
+23	na	_	_	_	_	_	_	_	_
+24	čelu	_	_	_	_	_	_	_	_
+25	sa	_	_	_	_	_	_	_	_
+26	firmom	_	_	_	_	_	_	_	_
+27	‘	‘	PUNCT	Z	_	_	_	_	SpaceAfter=No
+28	Atlas	_	_	_	_	_	_	_	_
+29	Security	_	_	_	_	_	_	_	_
+30	doo	_	_	_	_	_	_	_	SpaceAfter=No
+31	’	’	PUNCT	Z	_	_	_	_	_
+32	za	_	_	_	_	_	_	_	_
+33	čak	_	_	_	_	_	_	_	_
+34	8,7	_	_	_	_	_	_	_	_
+35	milijardi	_	_	_	_	_	_	_	_
+36	dinara	_	_	_	_	_	_	_	SpaceAfter=No
+37	,	,	PUNCT	Z	_	_	_	_	_
+38	bez	_	_	_	_	_	_	_	_
+39	PDV-a	_	_	_	_	_	_	_	SpaceAfter=No
+40	.	.	PUNCT	Z	_	_	_	_	_
+
+# sent_id = 2.2
+# text = Sve ovo bez javne nabavke, obaveštavanja javnosti, konsultovanja škola i roditelja dece“, rekao je direktor CLS Nikola Jovanović u pisanoj izjavi.
+1	Sve	_	_	_	_	_	_	_	_
+2	ovo	_	_	_	_	_	_	_	_
+3	bez	_	_	_	_	_	_	_	_
+4	javne	_	_	_	_	_	_	_	_
+5	nabavke	_	_	_	_	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	_	_	_	_
+7	obaveštavanja	_	_	_	_	_	_	_	_
+8	javnosti	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	konsultovanja	_	_	_	_	_	_	_	_
+11	škola	_	_	_	_	_	_	_	_
+12	i	_	_	_	_	_	_	_	_
+13	roditelja	_	_	_	_	_	_	_	_
+14	dece	_	_	_	_	_	_	_	SpaceAfter=No
+15	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+16	,	,	PUNCT	Z	_	_	_	_	_
+17	rekao	_	_	_	_	_	_	_	_
+18	je	_	_	_	_	_	_	_	_
+19	direktor	_	_	_	_	_	_	_	_
+20	CLS	_	_	_	_	_	_	_	_
+21	Nikola	_	_	_	_	_	_	_	_
+22	Jovanović	_	_	_	_	_	_	_	_
+23	u	_	_	_	_	_	_	_	_
+24	pisanoj	_	_	_	_	_	_	_	_
+25	izjavi	_	_	_	_	_	_	_	SpaceAfter=No
+26	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = On je „upozori javnost i na aspekat ovog projekta kojim firma za privatno obezbeđenje glumi ‘Beogradsku službu bezbednosti’, bez da je iko obavestio, a kamoli konsultovao Beograđane“.
+1	On	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+4	upozori	_	_	_	_	_	_	_	_
+5	javnost	_	_	_	_	_	_	_	_
+6	i	_	_	_	_	_	_	_	_
+7	na	_	_	_	_	_	_	_	_
+8	aspekat	_	_	_	_	_	_	_	_
+9	ovog	_	_	_	_	_	_	_	_
+10	projekta	_	_	_	_	_	_	_	_
+11	kojim	_	_	_	_	_	_	_	_
+12	firma	_	_	_	_	_	_	_	_
+13	za	_	_	_	_	_	_	_	_
+14	privatno	_	_	_	_	_	_	_	_
+15	obezbeđenje	_	_	_	_	_	_	_	_
+16	glumi	_	_	_	_	_	_	_	_
+17	‘	‘	PUNCT	Z	_	_	_	_	SpaceAfter=No
+18	Beogradsku	_	_	_	_	_	_	_	_
+19	službu	_	_	_	_	_	_	_	_
+20	bezbednosti	_	_	_	_	_	_	_	SpaceAfter=No
+21	’	’	PUNCT	Z	_	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	Z	_	_	_	_	_
+23	bez	_	_	_	_	_	_	_	_
+24	da	_	_	_	_	_	_	_	_
+25	je	_	_	_	_	_	_	_	_
+26	iko	_	_	_	_	_	_	_	_
+27	obavestio	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	,	PUNCT	Z	_	_	_	_	_
+29	a	_	_	_	_	_	_	_	_
+30	kamoli	_	_	_	_	_	_	_	_
+31	konsultovao	_	_	_	_	_	_	_	_
+32	Beograđane	_	_	_	_	_	_	_	SpaceAfter=No
+33	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+34	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Desničarske demonstracije u Hagu, glavnom gradu Holandije, su se danas, nekoliko nedelja pre opštih izbora, pretvorile u nasilje i haos kada su se izgrednici sukobili s policijom i vandalizovali kancelariju političke stranke.
+1	Desničarske	_	_	_	_	_	_	_	_
+2	demonstracije	_	_	_	_	_	_	_	_
+3	u	_	_	_	_	_	_	_	_
+4	Hagu	_	_	_	_	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	_	_	_	_
+6	glavnom	_	_	_	_	_	_	_	_
+7	gradu	_	_	_	_	_	_	_	_
+8	Holandije	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	su	_	_	_	_	_	_	_	_
+11	se	_	_	_	_	_	_	_	_
+12	danas	_	_	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	_	_	_	_
+14	nekoliko	_	_	_	_	_	_	_	_
+15	nedelja	_	_	_	_	_	_	_	_
+16	pre	_	_	_	_	_	_	_	_
+17	opštih	_	_	_	_	_	_	_	_
+18	izbora	_	_	_	_	_	_	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	_	_	_	_
+20	pretvorile	_	_	_	_	_	_	_	_
+21	u	_	_	_	_	_	_	_	_
+22	nasilje	_	_	_	_	_	_	_	_
+23	i	_	_	_	_	_	_	_	_
+24	haos	_	_	_	_	_	_	_	_
+25	kada	_	_	_	_	_	_	_	_
+26	su	_	_	_	_	_	_	_	_
+27	se	_	_	_	_	_	_	_	_
+28	izgrednici	_	_	_	_	_	_	_	_
+29	sukobili	_	_	_	_	_	_	_	_
+30	s	_	_	_	_	_	_	_	_
+31	policijom	_	_	_	_	_	_	_	_
+32	i	_	_	_	_	_	_	_	_
+33	vandalizovali	_	_	_	_	_	_	_	_
+34	kancelariju	_	_	_	_	_	_	_	_
+35	političke	_	_	_	_	_	_	_	_
+36	stranke	_	_	_	_	_	_	_	SpaceAfter=No
+37	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Policija je upotrebila suzavac i vodeni top da bi rasterala izgrednike koji su bacali predmete na policajce i zapalili policijski automobil.
+1	Policija	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	upotrebila	_	_	_	_	_	_	_	_
+4	suzavac	_	_	_	_	_	_	_	_
+5	i	_	_	_	_	_	_	_	_
+6	vodeni	_	_	_	_	_	_	_	_
+7	top	_	_	_	_	_	_	_	_
+8	da	_	_	_	_	_	_	_	_
+9	bi	_	_	_	_	_	_	_	_
+10	rasterala	_	_	_	_	_	_	_	_
+11	izgrednike	_	_	_	_	_	_	_	_
+12	koji	_	_	_	_	_	_	_	_
+13	su	_	_	_	_	_	_	_	_
+14	bacali	_	_	_	_	_	_	_	_
+15	predmete	_	_	_	_	_	_	_	_
+16	na	_	_	_	_	_	_	_	_
+17	policajce	_	_	_	_	_	_	_	_
+18	i	_	_	_	_	_	_	_	_
+19	zapalili	_	_	_	_	_	_	_	_
+20	policijski	_	_	_	_	_	_	_	_
+21	automobil	_	_	_	_	_	_	_	SpaceAfter=No
+22	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Holandski mediji su pokazali da izgrednici napadaju kancelariju centrističke političke stranke, D66.
+1	Holandski	_	_	_	_	_	_	_	_
+2	mediji	_	_	_	_	_	_	_	_
+3	su	_	_	_	_	_	_	_	_
+4	pokazali	_	_	_	_	_	_	_	_
+5	da	_	_	_	_	_	_	_	_
+6	izgrednici	_	_	_	_	_	_	_	_
+7	napadaju	_	_	_	_	_	_	_	_
+8	kancelariju	_	_	_	_	_	_	_	_
+9	centrističke	_	_	_	_	_	_	_	_
+10	političke	_	_	_	_	_	_	_	_
+11	stranke	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	D66	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = „Ološe, dalje od političkih stranaka!
+1	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	Ološe	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	dalje	_	_	_	_	_	_	_	_
+5	od	_	_	_	_	_	_	_	_
+6	političkih	_	_	_	_	_	_	_	_
+7	stranaka	_	_	_	_	_	_	_	SpaceAfter=No
+8	!	!	PUNCT	Z	_	_	_	_	SpaceAfter=No
+
+# sent_id = 4.2
+# text = “, rekao je lider te stranke Rob Jeten i dodao u poruci na platformi X:
+1	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	_	_	_	_
+3	rekao	_	_	_	_	_	_	_	_
+4	je	_	_	_	_	_	_	_	_
+5	lider	_	_	_	_	_	_	_	_
+6	te	_	_	_	_	_	_	_	_
+7	stranke	_	_	_	_	_	_	_	_
+8	Rob	_	_	_	_	_	_	_	_
+9	Jeten	_	_	_	_	_	_	_	_
+10	i	_	_	_	_	_	_	_	_
+11	dodao	_	_	_	_	_	_	_	_
+12	u	_	_	_	_	_	_	_	_
+13	poruci	_	_	_	_	_	_	_	_
+14	na	_	_	_	_	_	_	_	_
+15	platformi	_	_	_	_	_	_	_	_
+16	X	_	_	_	_	_	_	_	SpaceAfter=No
+17	:	:	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Manja grupa izgrednika uputila se ka kompleksu Parlamenta Holandije koji je ograđen jer se renovira već više godina.
+1	Manja	_	_	_	_	_	_	_	_
+2	grupa	_	_	_	_	_	_	_	_
+3	izgrednika	_	_	_	_	_	_	_	_
+4	uputila	_	_	_	_	_	_	_	_
+5	se	_	_	_	_	_	_	_	_
+6	ka	_	_	_	_	_	_	_	_
+7	kompleksu	_	_	_	_	_	_	_	_
+8	Parlamenta	_	_	_	_	_	_	_	_
+9	Holandije	_	_	_	_	_	_	_	_
+10	koji	_	_	_	_	_	_	_	_
+11	je	_	_	_	_	_	_	_	_
+12	ograđen	_	_	_	_	_	_	_	_
+13	jer	_	_	_	_	_	_	_	_
+14	se	_	_	_	_	_	_	_	_
+15	renovira	_	_	_	_	_	_	_	_
+16	vec	_	_	_	_	_	_	_	SpaceAfter=No
+17	́	_	_	_	_	_	_	_	_
+18	više	_	_	_	_	_	_	_	_
+19	godina	_	_	_	_	_	_	_	SpaceAfter=No
+20	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Opšti izbori su raspisani za 29. oktobar pošto je antiislamski poslanik Gert Vilders povukao svoju stranku iz vladajuće koalicije u sporu oko poteza za obuzdavanje doseljavanja stranaca.
+1	Opšti	_	_	_	_	_	_	_	_
+2	izbori	_	_	_	_	_	_	_	_
+3	su	_	_	_	_	_	_	_	_
+4	raspisani	_	_	_	_	_	_	_	_
+5	za	_	_	_	_	_	_	_	_
+6	29.	_	_	_	_	_	_	_	_
+7	oktobar	_	_	_	_	_	_	_	_
+8	pošto	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	antiislamski	_	_	_	_	_	_	_	_
+11	poslanik	_	_	_	_	_	_	_	_
+12	Gert	_	_	_	_	_	_	_	_
+13	Vilders	_	_	_	_	_	_	_	_
+14	povukao	_	_	_	_	_	_	_	_
+15	svoju	_	_	_	_	_	_	_	_
+16	stranku	_	_	_	_	_	_	_	_
+17	iz	_	_	_	_	_	_	_	_
+18	vladajuc	_	_	_	_	_	_	_	SpaceAfter=No
+19	́	_	_	_	_	_	_	_	SpaceAfter=No
+20	e	_	_	_	_	_	_	_	_
+21	koalicije	_	_	_	_	_	_	_	_
+22	u	_	_	_	_	_	_	_	_
+23	sporu	_	_	_	_	_	_	_	_
+24	oko	_	_	_	_	_	_	_	_
+25	poteza	_	_	_	_	_	_	_	_
+26	za	_	_	_	_	_	_	_	_
+27	obuzdavanje	_	_	_	_	_	_	_	_
+28	doseljavanja	_	_	_	_	_	_	_	_
+29	stranaca	_	_	_	_	_	_	_	SpaceAfter=No
+30	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = On je na konferenciji za novinare u Beogradu sa liderom vladajuće koalicije u Republici Srpskoj Miloradom Dodikom ocenio kao „svemirski“ izgled i funkcionalnost Vojske Srbije, u poređenju s periodom pre dolaska na vlast Srpske napredne stranke čije je on član.
+1	On	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	na	_	_	_	_	_	_	_	_
+4	konferenciji	_	_	_	_	_	_	_	_
+5	za	_	_	_	_	_	_	_	_
+6	novinare	_	_	_	_	_	_	_	_
+7	u	_	_	_	_	_	_	_	_
+8	Beogradu	_	_	_	_	_	_	_	_
+9	sa	_	_	_	_	_	_	_	_
+10	liderom	_	_	_	_	_	_	_	_
+11	vladajuće	_	_	_	_	_	_	_	_
+12	koalicije	_	_	_	_	_	_	_	_
+13	u	_	_	_	_	_	_	_	_
+14	Republici	_	_	_	_	_	_	_	_
+15	Srpskoj	_	_	_	_	_	_	_	_
+16	Miloradom	_	_	_	_	_	_	_	_
+17	Dodikom	_	_	_	_	_	_	_	_
+18	ocenio	_	_	_	_	_	_	_	_
+19	kao	_	_	_	_	_	_	_	_
+20	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+21	svemirski	_	_	_	_	_	_	_	SpaceAfter=No
+22	“	“	PUNCT	Z	_	_	_	_	_
+23	izgled	_	_	_	_	_	_	_	_
+24	i	_	_	_	_	_	_	_	_
+25	funkcionalnost	_	_	_	_	_	_	_	_
+26	Vojske	_	_	_	_	_	_	_	_
+27	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+28	,	,	PUNCT	Z	_	_	_	_	_
+29	u	_	_	_	_	_	_	_	_
+30	poređenju	_	_	_	_	_	_	_	_
+31	s	_	_	_	_	_	_	_	_
+32	periodom	_	_	_	_	_	_	_	_
+33	pre	_	_	_	_	_	_	_	_
+34	dolaska	_	_	_	_	_	_	_	_
+35	na	_	_	_	_	_	_	_	_
+36	vlast	_	_	_	_	_	_	_	_
+37	Srpske	_	_	_	_	_	_	_	_
+38	napredne	_	_	_	_	_	_	_	_
+39	stranke	_	_	_	_	_	_	_	_
+40	čije	_	_	_	_	_	_	_	_
+41	je	_	_	_	_	_	_	_	_
+42	on	_	_	_	_	_	_	_	_
+43	član	_	_	_	_	_	_	_	SpaceAfter=No
+44	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Izrazio je zahvalnost stranim delegacijama koje su došle, a posebno iz UAE.
+1	Izrazio	_	_	_	_	_	_	_	_
+2	je	_	_	_	_	_	_	_	_
+3	zahvalnost	_	_	_	_	_	_	_	_
+4	stranim	_	_	_	_	_	_	_	_
+5	delegacijama	_	_	_	_	_	_	_	_
+6	koje	_	_	_	_	_	_	_	_
+7	su	_	_	_	_	_	_	_	_
+8	došle	_	_	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	_	_	_	_
+10	a	_	_	_	_	_	_	_	_
+11	posebno	_	_	_	_	_	_	_	_
+12	iz	_	_	_	_	_	_	_	_
+13	UAE	_	_	_	_	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Studenti Filozofskog fakulteta u blokadi pozvali su sve građane da im se u 10 časova pridruže na kružnom toku kod Gradske opštine Novi Beograd.
+1	Studenti	_	_	_	_	_	_	_	_
+2	Filozofskog	_	_	_	_	_	_	_	_
+3	fakulteta	_	_	_	_	_	_	_	_
+4	u	_	_	_	_	_	_	_	_
+5	blokadi	_	_	_	_	_	_	_	_
+6	pozvali	_	_	_	_	_	_	_	_
+7	su	_	_	_	_	_	_	_	_
+8	sve	_	_	_	_	_	_	_	_
+9	građane	_	_	_	_	_	_	_	_
+10	da	_	_	_	_	_	_	_	_
+11	im	_	_	_	_	_	_	_	_
+12	se	_	_	_	_	_	_	_	_
+13	u	_	_	_	_	_	_	_	_
+14	10	_	_	_	_	_	_	_	_
+15	časova	_	_	_	_	_	_	_	_
+16	pridruže	_	_	_	_	_	_	_	_
+17	na	_	_	_	_	_	_	_	_
+18	kružnom	_	_	_	_	_	_	_	_
+19	toku	_	_	_	_	_	_	_	_
+20	kod	_	_	_	_	_	_	_	_
+21	Gradske	_	_	_	_	_	_	_	_
+22	opštine	_	_	_	_	_	_	_	_
+23	Novi	_	_	_	_	_	_	_	_
+24	Beograd	_	_	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Studenti beogradskog univerziteta koji blokiraju fakultete punih 10 meseci, najavili su ranije da će danas, baš kada se održava Vojna parada na Novom Beogradu, održati skup podrške vojnicima Srbije.
+1	Studenti	_	_	_	_	_	_	_	_
+2	beogradskog	_	_	_	_	_	_	_	_
+3	univerziteta	_	_	_	_	_	_	_	_
+4	koji	_	_	_	_	_	_	_	_
+5	blokiraju	_	_	_	_	_	_	_	_
+6	fakultete	_	_	_	_	_	_	_	_
+7	punih	_	_	_	_	_	_	_	_
+8	10	_	_	_	_	_	_	_	_
+9	meseci	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	najavili	_	_	_	_	_	_	_	_
+12	su	_	_	_	_	_	_	_	_
+13	ranije	_	_	_	_	_	_	_	_
+14	da	_	_	_	_	_	_	_	_
+15	će	_	_	_	_	_	_	_	_
+16	danas	_	_	_	_	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	_	_	_	_
+18	baš	_	_	_	_	_	_	_	_
+19	kada	_	_	_	_	_	_	_	_
+20	se	_	_	_	_	_	_	_	_
+21	održava	_	_	_	_	_	_	_	_
+22	Vojna	_	_	_	_	_	_	_	_
+23	parada	_	_	_	_	_	_	_	_
+24	na	_	_	_	_	_	_	_	_
+25	Novom	_	_	_	_	_	_	_	_
+26	Beogradu	_	_	_	_	_	_	_	SpaceAfter=No
+27	,	,	PUNCT	Z	_	_	_	_	_
+28	održati	_	_	_	_	_	_	_	_
+29	skup	_	_	_	_	_	_	_	_
+30	podrške	_	_	_	_	_	_	_	_
+31	vojnicima	_	_	_	_	_	_	_	_
+32	Srbije	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Višem sudu u Beogradu bilo je potrebno 11 dana, nakon što su primili obaveštenje da su iz kućnog pritvora pobegli kineski državljanin Cuj Guanghaj i Britanac Džon Miler, da raspiše poternicu za dvojcem koji je uhapšen po poternici Sjedinjenih Američkih Država, prenosi Insajder.
+1	Višem	_	_	_	_	_	_	_	_
+2	sudu	_	_	_	_	_	_	_	_
+3	u	_	_	_	_	_	_	_	_
+4	Beogradu	_	_	_	_	_	_	_	_
+5	bilo	_	_	_	_	_	_	_	_
+6	je	_	_	_	_	_	_	_	_
+7	potrebno	_	_	_	_	_	_	_	_
+8	11	_	_	_	_	_	_	_	_
+9	dana	_	_	_	_	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	_	_	_	_
+11	nakon	_	_	_	_	_	_	_	_
+12	što	_	_	_	_	_	_	_	_
+13	su	_	_	_	_	_	_	_	_
+14	primili	_	_	_	_	_	_	_	_
+15	obaveštenje	_	_	_	_	_	_	_	_
+16	da	_	_	_	_	_	_	_	_
+17	su	_	_	_	_	_	_	_	_
+18	iz	_	_	_	_	_	_	_	_
+19	kućnog	_	_	_	_	_	_	_	_
+20	pritvora	_	_	_	_	_	_	_	_
+21	pobegli	_	_	_	_	_	_	_	_
+22	kineski	_	_	_	_	_	_	_	_
+23	državljanin	_	_	_	_	_	_	_	_
+24	Cuj	_	_	_	_	_	_	_	_
+25	Guanghaj	_	_	_	_	_	_	_	_
+26	i	_	_	_	_	_	_	_	_
+27	Britanac	_	_	_	_	_	_	_	_
+28	Džon	_	_	_	_	_	_	_	_
+29	Miler	_	_	_	_	_	_	_	SpaceAfter=No
+30	,	,	PUNCT	Z	_	_	_	_	_
+31	da	_	_	_	_	_	_	_	_
+32	raspiše	_	_	_	_	_	_	_	_
+33	poternicu	_	_	_	_	_	_	_	_
+34	za	_	_	_	_	_	_	_	_
+35	dvojcem	_	_	_	_	_	_	_	_
+36	koji	_	_	_	_	_	_	_	_
+37	je	_	_	_	_	_	_	_	_
+38	uhapšen	_	_	_	_	_	_	_	_
+39	po	_	_	_	_	_	_	_	_
+40	poternici	_	_	_	_	_	_	_	_
+41	Sjedinjenih	_	_	_	_	_	_	_	_
+42	Američkih	_	_	_	_	_	_	_	_
+43	Država	_	_	_	_	_	_	_	SpaceAfter=No
+44	,	,	PUNCT	Z	_	_	_	_	_
+45	prenosi	_	_	_	_	_	_	_	_
+46	Insajder	_	_	_	_	_	_	_	SpaceAfter=No
+47	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 2
+# sent_id = 2.1
+# text = S druge strane, Viši sud u Beogradu je za portal Birn naveo da su rešenje o ukidanju kućnog i određivanju „klasičnog“ pritvora i poternica doneti 15. avgusta, prenosi Insajder.
+1	S	_	_	_	_	_	_	_	_
+2	druge	_	_	_	_	_	_	_	_
+3	strane	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	Viši	_	_	_	_	_	_	_	_
+6	sud	_	_	_	_	_	_	_	_
+7	u	_	_	_	_	_	_	_	_
+8	Beogradu	_	_	_	_	_	_	_	_
+9	je	_	_	_	_	_	_	_	_
+10	za	_	_	_	_	_	_	_	_
+11	portal	_	_	_	_	_	_	_	_
+12	Birn	_	_	_	_	_	_	_	_
+13	naveo	_	_	_	_	_	_	_	_
+14	da	_	_	_	_	_	_	_	_
+15	su	_	_	_	_	_	_	_	_
+16	rešenje	_	_	_	_	_	_	_	_
+17	o	_	_	_	_	_	_	_	_
+18	ukidanju	_	_	_	_	_	_	_	_
+19	kućnog	_	_	_	_	_	_	_	_
+20	i	_	_	_	_	_	_	_	_
+21	određivanju	_	_	_	_	_	_	_	_
+22	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No
+23	klasičnog	_	_	_	_	_	_	_	SpaceAfter=No
+24	“	“	PUNCT	Z	_	_	_	_	_
+25	pritvora	_	_	_	_	_	_	_	_
+26	i	_	_	_	_	_	_	_	_
+27	poternica	_	_	_	_	_	_	_	_
+28	doneti	_	_	_	_	_	_	_	_
+29	15.	_	_	_	_	_	_	_	_
+30	avgusta	_	_	_	_	_	_	_	SpaceAfter=No
+31	,	,	PUNCT	Z	_	_	_	_	_
+32	prenosi	_	_	_	_	_	_	_	_
+33	Insajder	_	_	_	_	_	_	_	SpaceAfter=No
+34	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 3
+# sent_id = 3.1
+# text = Prema navodima Uprave, poverenice službe UIKS-a su istog dana otišle na adrese na kojima su dvojica pritvorenika izdržavali meru da bi konstatovale da se oni ne nalaze na tu.
+1	Prema	_	_	_	_	_	_	_	_
+2	navodima	_	_	_	_	_	_	_	_
+3	Uprave	_	_	_	_	_	_	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	_	_	_	_
+5	poverenice	_	_	_	_	_	_	_	_
+6	službe	_	_	_	_	_	_	_	_
+7	UIKS-a	_	_	_	_	_	_	_	_
+8	su	_	_	_	_	_	_	_	_
+9	istog	_	_	_	_	_	_	_	_
+10	dana	_	_	_	_	_	_	_	_
+11	otišle	_	_	_	_	_	_	_	_
+12	na	_	_	_	_	_	_	_	_
+13	adrese	_	_	_	_	_	_	_	_
+14	na	_	_	_	_	_	_	_	_
+15	kojima	_	_	_	_	_	_	_	_
+16	su	_	_	_	_	_	_	_	_
+17	dvojica	_	_	_	_	_	_	_	_
+18	pritvorenika	_	_	_	_	_	_	_	_
+19	izdržavali	_	_	_	_	_	_	_	_
+20	meru	_	_	_	_	_	_	_	_
+21	da	_	_	_	_	_	_	_	_
+22	bi	_	_	_	_	_	_	_	_
+23	konstatovale	_	_	_	_	_	_	_	_
+24	da	_	_	_	_	_	_	_	_
+25	se	_	_	_	_	_	_	_	_
+26	oni	_	_	_	_	_	_	_	_
+27	ne	_	_	_	_	_	_	_	_
+28	nalaze	_	_	_	_	_	_	_	_
+29	na	_	_	_	_	_	_	_	_
+30	tu	_	_	_	_	_	_	_	SpaceAfter=No
+31	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 4
+# sent_id = 4.1
+# text = Takve tvrdnje ne odgovaraju činjeničnom stanju“, navode iz Uprave za izvršenje krivičnih sankcija.
+1	Takve	_	_	_	_	_	_	_	_
+2	tvrdnje	_	_	_	_	_	_	_	_
+3	ne	_	_	_	_	_	_	_	_
+4	odgovaraju	_	_	_	_	_	_	_	_
+5	činjeničnom	_	_	_	_	_	_	_	_
+6	stanju	_	_	_	_	_	_	_	SpaceAfter=No
+7	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	_	_	_	_
+9	navode	_	_	_	_	_	_	_	_
+10	iz	_	_	_	_	_	_	_	_
+11	Uprave	_	_	_	_	_	_	_	_
+12	za	_	_	_	_	_	_	_	_
+13	izvršenje	_	_	_	_	_	_	_	_
+14	krivičnih	_	_	_	_	_	_	_	_
+15	sankcija	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 5
+# sent_id = 5.1
+# text = Guanghaj i Miler uhapšeni su 24. aprila u hotelu Hajat, po poternici iz SAD.
+1	Guanghaj	_	_	_	_	_	_	_	_
+2	i	_	_	_	_	_	_	_	_
+3	Miler	_	_	_	_	_	_	_	_
+4	uhapšeni	_	_	_	_	_	_	_	_
+5	su	_	_	_	_	_	_	_	_
+6	24.	_	_	_	_	_	_	_	_
+7	aprila	_	_	_	_	_	_	_	_
+8	u	_	_	_	_	_	_	_	_
+9	hotelu	_	_	_	_	_	_	_	_
+10	Hajat	_	_	_	_	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	_	_	_	_
+12	po	_	_	_	_	_	_	_	_
+13	poternici	_	_	_	_	_	_	_	_
+14	iz	_	_	_	_	_	_	_	_
+15	SAD	_	_	_	_	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 6
+# sent_id = 6.1
+# text = Američka optužnica, na osnovu koje je poslat zahtev za izručenjem, tereti ovu dvojicu da su u Kaliforniji organizovali proganjanje kineskog umetnika Huija Boa koji kritikuje predsednika Kine Si Đinpinga.
+1	Američka	_	_	_	_	_	_	_	_
+2	optužnica	_	_	_	_	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	_	_	_	_
+4	na	_	_	_	_	_	_	_	_
+5	osnovu	_	_	_	_	_	_	_	_
+6	koje	_	_	_	_	_	_	_	_
+7	je	_	_	_	_	_	_	_	_
+8	poslat	_	_	_	_	_	_	_	_
+9	zahtev	_	_	_	_	_	_	_	_
+10	za	_	_	_	_	_	_	_	_
+11	izručenjem	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	tereti	_	_	_	_	_	_	_	_
+14	ovu	_	_	_	_	_	_	_	_
+15	dvojicu	_	_	_	_	_	_	_	_
+16	da	_	_	_	_	_	_	_	_
+17	su	_	_	_	_	_	_	_	_
+18	u	_	_	_	_	_	_	_	_
+19	Kaliforniji	_	_	_	_	_	_	_	_
+20	organizovali	_	_	_	_	_	_	_	_
+21	proganjanje	_	_	_	_	_	_	_	_
+22	kineskog	_	_	_	_	_	_	_	_
+23	umetnika	_	_	_	_	_	_	_	_
+24	Huija	_	_	_	_	_	_	_	_
+25	Boa	_	_	_	_	_	_	_	_
+26	koji	_	_	_	_	_	_	_	_
+27	kritikuje	_	_	_	_	_	_	_	_
+28	predsednika	_	_	_	_	_	_	_	_
+29	Kine	_	_	_	_	_	_	_	_
+30	Si	_	_	_	_	_	_	_	_
+31	Đinpinga	_	_	_	_	_	_	_	SpaceAfter=No
+32	.	.	PUNCT	Z	_	_	_	_	_
+
+# newpar id = 1
+# sent_id = 1.1
+# text = Ekipe beogradske Hitne pomoći intervenisale su noćas kod tri saobraćajne nezgode, a jedna osoba je preveza do bolnice i to sa lakšim povredama, rečeno je u ovoj službi agenciji Beta.
+1	Ekipe	_	_	_	_	_	_	_	_
+2	beogradske	_	_	_	_	_	_	_	_
+3	Hitne	_	_	_	_	_	_	_	_
+4	pomoći	_	_	_	_	_	_	_	_
+5	intervenisale	_	_	_	_	_	_	_	_
+6	su	_	_	_	_	_	_	_	_
+7	noćas	_	_	_	_	_	_	_	_
+8	kod	_	_	_	_	_	_	_	_
+9	tri	_	_	_	_	_	_	_	_
+10	saobraćajne	_	_	_	_	_	_	_	_
+11	nezgode	_	_	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	_	_	_	_
+13	a	_	_	_	_	_	_	_	_
+14	jedna	_	_	_	_	_	_	_	_
+15	osoba	_	_	_	_	_	_	_	_
+16	je	_	_	_	_	_	_	_	_
+17	preveza	_	_	_	_	_	_	_	_
+18	do	_	_	_	_	_	_	_	_
+19	bolnice	_	_	_	_	_	_	_	_
+20	i	_	_	_	_	_	_	_	_
+21	to	_	_	_	_	_	_	_	_
+22	sa	_	_	_	_	_	_	_	_
+23	lakšim	_	_	_	_	_	_	_	_
+24	povredama	_	_	_	_	_	_	_	SpaceAfter=No
+25	,	,	PUNCT	Z	_	_	_	_	_
+26	rečeno	_	_	_	_	_	_	_	_
+27	je	_	_	_	_	_	_	_	_
+28	u	_	_	_	_	_	_	_	_
+29	ovoj	_	_	_	_	_	_	_	_
+30	službi	_	_	_	_	_	_	_	_
+31	agenciji	_	_	_	_	_	_	_	_
+32	Beta	_	_	_	_	_	_	_	SpaceAfter=No
+33	.	.	PUNCT	Z	_	_	_	_	_
+

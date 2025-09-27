@@ -15,6 +15,13 @@ class ParsedTweet(TypedDict):
 RAW_DATA = Path(__file__).parent/"raw_data"
 DATA = Path(__file__).parent.parent.parent / "data" / "twitter"
 
+EMOJI_PATTERN = re.compile(
+    "["
+    "\U00010000-\U0010FFFF"
+    "]+",
+    flags=re.UNICODE
+)
+
 def parse_entry(entry: dict) -> ParsedTweet:
     assert entry["content"]["itemContent"]["itemType"] == "TimelineTweet"
     content = entry["content"]["itemContent"]["tweet_results"]["result"]
@@ -23,7 +30,12 @@ def parse_entry(entry: dict) -> ParsedTweet:
     conversation_id_str = content["legacy"]["conversation_id_str"]
     content = content["legacy"]["full_text"]
     content = translit(content, "sr", reversed=True)
-    
+    content = re.sub(r"https://\S+", "", content)
+    content = EMOJI_PATTERN.sub("", content)
+
+    if len(content.split(" ")) < 14:
+        raise Exception(f"Tweet {content} is shorter than 14 words.")
+
     return {
         "id": conversation_id_str,
         "timestamp": datetime.strptime(created_at, "%a %b %d %H:%M:%S %z %Y").timestamp(),
@@ -41,18 +53,16 @@ def parse_file(raw_file: Path) -> list[ParsedTweet]:
             pass#print(f"Skipping an entry: {type(e)} {e}")
     return ret
 
-total_tokens = 0
 all_tweets: list[ParsedTweet] = []
 for raw_file in RAW_DATA.iterdir():
     try:
         tweets = parse_file(raw_file)
         all_tweets.extend(tweets)
         tokens = sum(len(it["content"].split(" ")) for it in tweets)
-        total_tokens += tokens
         print(f"Parsed {len(tweets)} tweets with {tokens} tokens from {raw_file.name}")
     except Exception as e:
         print(f"Skipping file {raw_file.name}: {e}")
-print(f"TOTAL TOKENS: {total_tokens}")
+
 
 
 DATA.mkdir(parents=True, exist_ok=True)
@@ -63,3 +73,6 @@ temp = DATA/"temp.tsv"
 metadata.write_text(json.dumps(all_tweets, indent=3, ensure_ascii=False))
 input.write_text("\n".join(it["content"] for it in all_tweets))
 tokenized.write_text(reldi_tokeniser.run(input.read_text(), 'sr', conllu=True, nonstandard=True, tag=True))
+
+total_tokens = len([it for it in tokenized.read_text().split("\n") if not it.startswith("#") and not len(it) == 0])
+print(f"TOTAL TOKENS: {total_tokens}")

@@ -57,19 +57,16 @@ def merge_labels(label):
 # Treniranje i evaluacija modela
 # ------------------------------
 def train_evaluate_ner(tokens, labels, test_size=0.2, cv=10):
-    # Ekstrakcija karakteristika
     X = [extract_features(tokens, i) for i in range(len(tokens))]
     y = labels
 
     # Podela na trening i test skup
     X_train_raw, X_test_raw, y_train, y_test = train_test_split(X, y, test_size=test_size, random_state=42, stratify=y)
 
-    # Vektorizacija
     vec = DictVectorizer(sparse=True)
     X_train = vec.fit_transform(X_train_raw)
     X_test = vec.transform(X_test_raw)
 
-    # Klasičar
     clf = MultinomialNB()
 
     # Cross-validation na trening skupu
@@ -77,7 +74,6 @@ def train_evaluate_ner(tokens, labels, test_size=0.2, cv=10):
     print(f"{cv}-fold CV accuracy (train set):", scores)
     print("Prosečna tačnost (train set):", scores.mean())
 
-    # Treniranje na celom trening skupu
     clf.fit(X_train, y_train)
 
     # Evaluacija na test skupu
@@ -123,6 +119,7 @@ if __name__ == "__main__":
     dfs = [read_and_clean_excel(f) for f in file_names]
     combined_df = pd.concat(dfs, ignore_index=True)
 
+    # Splitovane label-e
     tokens = combined_df['token'].tolist()
 
     # -------------------

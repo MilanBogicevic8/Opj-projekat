@@ -3,7 +3,7 @@ import os
 import pandas as pd
 
 INPUT_FOLDER = "izvuceno_latinica"
-OUTPUT_CONLLU = "adminstrative_texts.conllu"
+OUTPUT_CONLLU = "administrative_texts.conllu"
 OUTPUT_XLSX = "administrative_texts.xlsx"
 
 

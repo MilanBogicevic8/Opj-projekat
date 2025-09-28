@@ -24,5 +24,6 @@ def evaluate(input: Path, output: Path):
                 input_text = conllu_to_input(input)
                 TEMP.write_text(model(input_text).to_conll())
                 stats_table, diffs_table = stats.match_tags(input, TEMP, base=base)
+                stats_table = stats_table.round(2)
                 stats_table.to_excel(writer, sheet_name=f"{table_name}-stats", index=False)
                 diffs_table.to_excel(writer, sheet_name=f"{table_name}-diffs", index=False)

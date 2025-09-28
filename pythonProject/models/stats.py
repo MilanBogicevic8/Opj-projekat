@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import Callable, Any
 import re
 import pandas
 
@@ -22,8 +21,9 @@ TAGS_MAPPING = {
 TAG = "Tag"
 EXPECTED_COUNT = "Expected count"
 RESULT_COUNT = "Result count"
-ACCURACY = "Accuracy"
+RECALL = "Recall"
 PRECISION = "Precision"
+F1_SCORE = "F1 score"
 
 TOKEN = "Token"
 EXPECTED_TOKEN = "Expected token"
@@ -106,7 +106,7 @@ def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.Dat
     Returns two tables.
 
     A table with stats:
-    Tag | Expected count | Result count | Accuracy | Precision
+    Tag | Expected count | Result count | Precision | Recall | F1 Score
 
     A table with differences in applied tags or parsed tokens:
     Expected token | Result token | Expected label | Result label
@@ -125,25 +125,34 @@ def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.Dat
     ) for i, j in diff_indices], columns=[EXPECTED_TOKEN, RESULT_TOKEN, EXPECTED_TAG, RESULT_TAG])
     diffs = diffs[(diffs[EXPECTED_TOKEN] != diffs[RESULT_TOKEN]) | (diffs[EXPECTED_TAG] != diffs[RESULT_TAG])]
     
-    tags = set(expect_table[TAG].unique()).union(result_table[TAG].unique())
-    stats: list[tuple[str, int, int, float, float]] = []
-    expected_total = expect_table.shape[0]
-    result_total = result_table.shape[0]
-    l=min(expected_total, result_total)
-    matches = (expect_table[TAG][:l] == result_table[TAG][:l]).sum()
-    accuracy = matches/result_table.shape[0]
-    stats.append(("*", expected_total, result_total, accuracy, 0))
+    tags = set(expect_table[TAG].unique()).union(result_table[TAG].unique()).difference({"O"})
+    stats = []
+    l=min(expect_table.shape[0], result_table.shape[0])
+
     for tag in sorted(tags):
         expected_count = (expect_table[TAG] == tag).sum()
         result_count = (result_table[TAG] == tag).sum()
         matches = ((expect_table[TAG][:l] == result_table[TAG][:l]) & (expect_table[TAG][:l] == tag)).sum()
-        accuracy = matches / result_count if result_count else 1
         precision = matches / expected_count if expected_count else 1
-        stats.append((tag, expected_count, result_count, accuracy, precision))
-    stats_df = pandas.DataFrame(stats, columns=[TAG, EXPECTED_COUNT, RESULT_COUNT, ACCURACY, PRECISION])
+        recall = matches / result_count if result_count else 1
+        stats.append((tag, precision, recall, 2*precision*recall/(recall+precision) if matches else 0))
+
+    #micro and macro avg
+    def avg(table: list[list], col: int):
+        if not table: return 0
+        total = sum(it[col] for it in table)
+        return total/len(table)
+    stats.append(("macro avg", avg(stats, 1), avg(stats, 2), avg(stats, 3)))
+
+    matches = ((expect_table[TAG][:l] == result_table[TAG][:l]) & (expect_table[TAG][:l] != "O")).sum()
+    total_expect = (expect_table[TAG] != "O").sum()
+    total_result = (result_table[TAG] != "O").sum()
+    micro_precision = matches/total_result
+    micro_recall = matches/total_expect
+    stats.append(("micro avg", micro_precision, micro_recall, 2*micro_precision*micro_recall/(micro_recall+micro_precision) if matches else 0))
+    stats_df = pandas.DataFrame(stats, columns=[TAG, PRECISION, RECALL, F1_SCORE])
     
     return stats_df, diffs
-
         
 def export_stats(expect: Path, result: Path, output: Path, base: bool=False):
     """
@@ -157,4 +166,3 @@ def export_stats(expect: Path, result: Path, output: Path, base: bool=False):
     with pandas.ExcelWriter(output, engine='xlsxwriter') as writer:
         stats.to_excel(writer, sheet_name='Stats', index=False)
         diffs.to_excel(writer, sheet_name='Diffs', index=False)
-

@@ -13,3 +13,7 @@ def conllu_to_excel(input: Path, output: Path):
     table = [it.split("\t") if not it.startswith("#") and not len(it) == 0 else [it] for it in input.read_text().split("\n")]
     df = pandas.DataFrame(table)
     df.to_excel(output, index=False, header=False)
+
+def merge_conllu(inputs: list[Path], output: Path):
+    output.write_text("\n".join(it.read_text() for it in inputs))
+

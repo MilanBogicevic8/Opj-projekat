@@ -62,7 +62,7 @@ def diff(left: list[str], right: list[str]) -> list[tuple[int|None,int|None]]:
         j = nextj+1
     return ret
 
-def parse_token_tag_table(input: Path) -> pandas.DataFrame:
+def parse_token_tag_table(input: Path, base: bool = False) -> pandas.DataFrame:
     """
     Extracts and parses the following table from a conllu file:
     Token | Tag
@@ -77,13 +77,14 @@ def parse_token_tag_table(input: Path) -> pandas.DataFrame:
             return "O"
         prefix = tag[:2]
         if tag[2:] in TAGS_MAPPING:
-            return prefix+TAGS_MAPPING[tag[2:]]
+            tag = TAGS_MAPPING[tag[2:]]
+            return tag if base or tag == "O" else prefix+tag
         return "O"
 
     def get_tag(line: str) -> str|None:
         data = line.split("\t")
         if len(data) > 10:
-            return data[10] or "O"
+            return parse_tag(data[10])
         if len(data) < 10:
             return None
         match = re.search(r"NER=([A-Z\-]+)", data[9])
@@ -99,7 +100,7 @@ def parse_token_tag_table(input: Path) -> pandas.DataFrame:
             ret.append((token, tag))
     return pandas.DataFrame(ret, columns=[TOKEN, TAG])
 
-def match_tags(expect: Path, result: Path) -> tuple[pandas.DataFrame, pandas.DataFrame]:
+def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.DataFrame, pandas.DataFrame]:
     """
     Match expected NER annotation against result.
     Returns two tables.
@@ -107,14 +108,14 @@ def match_tags(expect: Path, result: Path) -> tuple[pandas.DataFrame, pandas.Dat
     A table with stats:
     Tag | Expected count | Result count | Accuracy | Precision
 
-    A table with differences in applied tags or parsed token:
+    A table with differences in applied tags or parsed tokens:
     Expected token | Result token | Expected label | Result label
 
     If a token is not matched by either of the inputs,
     the corresponding table entries will be empty.
     """
-    expect_table = parse_token_tag_table(expect)
-    result_table = parse_token_tag_table(result)
+    expect_table = parse_token_tag_table(expect, base=base)
+    result_table = parse_token_tag_table(result, base=base)
     diff_indices = diff(expect_table[TOKEN].to_list(), result_table[TOKEN].to_list())
     diffs = pandas.DataFrame([(
         expect_table[TOKEN][i] if i else "",
@@ -122,7 +123,7 @@ def match_tags(expect: Path, result: Path) -> tuple[pandas.DataFrame, pandas.Dat
         expect_table[TAG][i] if i else "",
         result_table[TAG][j] if j else ""
     ) for i, j in diff_indices], columns=[EXPECTED_TOKEN, RESULT_TOKEN, EXPECTED_TAG, RESULT_TAG])
-
+    diffs = diffs[(diffs[EXPECTED_TOKEN] != diffs[RESULT_TOKEN]) | (diffs[EXPECTED_TAG] != diffs[RESULT_TAG])]
     
     tags = set(expect_table[TAG].unique()).union(result_table[TAG].unique())
     stats: list[tuple[str, int, int, float, float]] = []
@@ -139,12 +140,12 @@ def match_tags(expect: Path, result: Path) -> tuple[pandas.DataFrame, pandas.Dat
         accuracy = matches / result_count if result_count else 1
         precision = matches / expected_count if expected_count else 1
         stats.append((tag, expected_count, result_count, accuracy, precision))
-
     stats_df = pandas.DataFrame(stats, columns=[TAG, EXPECTED_COUNT, RESULT_COUNT, ACCURACY, PRECISION])
+    
     return stats_df, diffs
 
         
-def export_stats(expect: Path, result: Path, output: Path):
+def export_stats(expect: Path, result: Path, output: Path, base: bool=False):
     """
     Args:
         expect: The expected annotations as a conllu file.
@@ -152,10 +153,7 @@ def export_stats(expect: Path, result: Path, output: Path):
         output: The output path for the xlsx file.
     Returns: 
     """
-    stats, diffs = match_tags(expect, result)
-
-    diffs = diffs[(diffs[EXPECTED_TOKEN] != diffs[RESULT_TOKEN]) | (diffs[EXPECTED_TAG] != diffs[RESULT_TAG])]
-    # Export both to the same Excel file
+    stats, diffs = match_tags(expect, result, base=base)
     with pandas.ExcelWriter(output, engine='xlsxwriter') as writer:
         stats.to_excel(writer, sheet_name='Stats', index=False)
         diffs.to_excel(writer, sheet_name='Diffs', index=False)

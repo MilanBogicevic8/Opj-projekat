@@ -3,8 +3,8 @@ import os
 import pandas as pd
 
 INPUT_FOLDER = "newspapers"
-OUTPUT_CONLLU = "tokeni.conllu"
-OUTPUT_XLSX = "tokeni.xlsx"
+OUTPUT_CONLLU = "newspapers.conllu"
+OUTPUT_XLSX = "newspapers.xlsx"
 
 
 def to_conllu():
@@ -24,7 +24,7 @@ def to_conllu():
                 
                 print(f"Fajl: {filename}")
 
-def to_csv():
+def to_excel():
     if os.path.exists(OUTPUT_XLSX):
         os.remove(OUTPUT_XLSX)
 
@@ -41,8 +41,8 @@ def to_csv():
     df = pd.DataFrame(rows)
     df.to_excel(OUTPUT_XLSX, index=False)
 
-    print(f"Converted to exel")
+    print(f"Converted to excel")
 
 
 to_conllu()
-to_csv()
+to_excel()

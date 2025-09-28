@@ -11,8 +11,8 @@ Projekat se izrađuje u programskom jeziku **Python**.
 - Milica Jevtović 2024/3113
 
 ## Faze projekta
-1. **Prikupljanje podataka**  
-   - Tekstovi na srpskom jeziku iz više tematskih domena (novinski, književni, pravni, tvitersss).  
+1. **Prikupljanje podataka**
+   - Tekstovi na srpskom jeziku iz više tematskih domena (novinski, književni, pravni, tviter).  
    - Minimalno 5000 tokena po domenu.  
    - Tokenizacija se vrši pomoću [ReLDI tokenizatora](https://pypi.org/project/reldi-tokeniser/).  
 

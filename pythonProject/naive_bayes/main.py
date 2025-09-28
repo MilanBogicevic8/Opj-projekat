@@ -118,7 +118,7 @@ if __name__ == "__main__":
     ]
     dfs = [read_and_clean_excel(f) for f in file_names]
     combined_df = pd.concat(dfs, ignore_index=True)
-
+    #print(len(combined_df))
     # Splitovane label-e
     tokens = combined_df['token'].tolist()
 

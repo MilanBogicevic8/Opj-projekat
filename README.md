@@ -12,7 +12,7 @@ Projekat se izrađuje u programskom jeziku **Python**.
 
 ## Faze projekta
 1. **Prikupljanje podataka**  
-   - Tekstovi na srpskom jeziku iz više tematskih domena (novinski, književni, pravni, tviter, itd.).  
+   - Tekstovi na srpskom jeziku iz više tematskih domena (novinski, književni, pravni, tvitersss).  
    - Minimalno 5000 tokena po domenu.  
    - Tokenizacija se vrši pomoću [ReLDI tokenizatora](https://pypi.org/project/reldi-tokeniser/).  
 
@@ -27,8 +27,7 @@ Projekat se izrađuje u programskom jeziku **Python**.
    - Razmatrani modeli:  
      - CLASSLA (standardni i nestandardni jezik)  
      - BERTić-NER  
-     - COMtext.SR NER (ekavica/ijekavica)  
-     - SrpCNNER  
+     - COMtext.SR NER (ekavica)
    - Poređenje sa **baseline pristupom** zasnovanim na multinomijalnom naivnom Bajesu.  
    - Evaluacija metrikama preciznosti, odziva i F1 mere.  
 

@@ -3,8 +3,8 @@ import os
 import pandas as pd
 
 INPUT_FOLDER = "izvuceno_latinica"
-OUTPUT_CONLLU = "../../tokenized_files/adminstrative_texts.conllu"
-OUTPUT_XLSX = "../../tokenized_files/administrative_texts.xlsx"
+OUTPUT_CONLLU = "adminstrative_texts.conllu"
+OUTPUT_XLSX = "administrative_texts.xlsx"
 
 
 def to_conllu():
@@ -23,7 +23,7 @@ def to_conllu():
                 
                 print(f"Fajl: {filename}")
 
-def to_csv():
+def to_excel():
     if os.path.exists(OUTPUT_XLSX):
         os.remove(OUTPUT_XLSX)
 
@@ -44,4 +44,4 @@ def to_csv():
 
 
 to_conllu()
-to_csv()
+to_excel()

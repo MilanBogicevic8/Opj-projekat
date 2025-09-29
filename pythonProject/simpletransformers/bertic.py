@@ -11,14 +11,13 @@ switch = {
 
 
 def predict(model, domain):
-
     preds_list, model_output = model.predict(domain.tokens, split_on_space=False)
 
     for pred in preds_list:
         domain.prediction_tokens.append([list(word.keys())[0] for word in pred])
         p = [list(word.values())[0] for word in pred]
         domain.predictions.append(p)
-        p = [switch.get(word, word) for word in p] # RAZLIKA
+        p = [switch.get(word, word) for word in p]  #!
         domain.converted_predictions.append(p) 
     
     print("Gotova predikcija za " + domain.name)
@@ -40,13 +39,13 @@ if __name__ == "__main__":
         }
     )
 
-    domains = Domain.instancijraj("bertic")
+    domains = Domain.instanitate("bertic")
     for domain in domains:
         domain.load_data()
         predict(model, domain)
         domain.write_predictions()
         domain.evaluate()
-    Domain.evaluate_all(domains)
+    Domain.evaluate_all()
     
 
 

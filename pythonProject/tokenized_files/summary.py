@@ -56,7 +56,7 @@ def summerize():
         print(f"Ukupno PER: {per}")
         print(f"Ukupno ORG: {org}")
         print(f"Ukupno LOC: {loc}")
-        entities = sum(val for a in annotations.items() if a != "O")
+        entities = sum(val for a, val in annotations.items() if a != "O")
         all = entities + annotations["O"]
         print(f"Ukupno entiteta: {entities}")
         print(f"Ukupno tokena: {all}\n")

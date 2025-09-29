@@ -2,9 +2,10 @@ import reldi_tokeniser
 import os
 import pandas as pd
 
-INPUT_FOLDER = "newspapers"
-OUTPUT_CONLLU = "newspapers.conllu"
-OUTPUT_XLSX = "newspapers.xlsx"
+path = os.path.join("data", "newspapers")
+INPUT_FOLDER = os.path.join(path, "izvuceno")
+OUTPUT_CONLLU = os.path.join(path, "newspapers.conllu")
+OUTPUT_XLSX = os.path.join(path, "newspapers.xlsx")
 
 
 def to_conllu():

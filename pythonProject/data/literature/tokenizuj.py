@@ -2,9 +2,10 @@ import reldi_tokeniser
 import os
 import pandas as pd
 
-INPUT_FOLDER = "./"
-OUTPUT_CONLLU = "../../tokenized_files/literature.conllu"
-OUTPUT_XLSX = "../../tokenized_files/literature.xlsx"
+path = os.path.join("data", "literature")
+INPUT_FOLDER = path
+OUTPUT_CONLLU = os.path.join(path, "literature.conllu")
+OUTPUT_XLSX = os.path.join(path, "literature.xlsx")
 
 
 def to_conllu():
@@ -23,7 +24,7 @@ def to_conllu():
                 
                 print(f"Fajl: {filename}")
 
-def to_csv():
+def to_excel():
     if os.path.exists(OUTPUT_XLSX):
         os.remove(OUTPUT_XLSX)
 
@@ -44,4 +45,4 @@ def to_csv():
 
 
 to_conllu()
-to_csv()
+to_excel()

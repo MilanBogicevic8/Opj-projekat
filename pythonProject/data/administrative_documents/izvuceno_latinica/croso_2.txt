@@ -12,15 +12,9 @@ Direktor Centralnog registra obaveznog socijalnog osiguranja organizuje rad i po
 
 Za izradu informatora o radu i njegovu ažurnost odlukom direktora zadužena je Olivera Pavlović.
 
-3.1. Upravni odbor
-Upravni odbor ima pet članova, po jednog predstavnika Republičkog fonda za penzijsko i invalidsko osiguranje, Republičkog fonda za zdravstveno osiguranje, Nacionalne službe za zapošljavanje, Poreske uprave i Agencije za privredne registre.
+3.1. Upravni odbor Upravni odbor ima pet članova, po jednog predstavnika Republičkog fonda za penzijsko i invalidsko osiguranje, Republičkog fonda za zdravstveno osiguranje, Nacionalne službe za zapošljavanje, Poreske uprave i Agencije za privredne registre.
 
-Članovi Upravnog odbora su:
-· Vladimir Stanković, Republički fond za penzijsko i invalidsko osiguranje;
-· Vesna Fabijan, Nacionalna služba za zapošljavanje;
-· Nataša Kovačević, Poreska uprava;
-· Nives Čulić, Agencija za privredne registre;
-· Marko Jovanović, Republički fond za zdravstveno osiguranje.
+Članovi Upravnog odbora su: · Vladimir Stanković, Republički fond za penzijsko i invalidsko osiguranje; · Vesna Fabijan, Nacionalna služba za zapošljavanje; · Nataša Kovačević, Poreska uprava; · Nives Čulić, Agencija za privredne registre; · Marko Jovanović, Republički fond za zdravstveno osiguranje.
 
 3.2. Direktor
 
@@ -28,16 +22,6 @@ Direktora Centralnog registra imenuje i razrešava Vlada, na pet godina.
 
 Vlada RS je 9. septembra 2010. godine donela Rešenje o imenovanju direktora Centralnog registra obaveznog socijalnog osiguranja („Službeni glasnik RS”, br. 67/10), kojim je na ovu funkciju imenovala Milicu Danilović.
 
-Centralni registar obezbeđuje elektronsku povezanost sa drugim registrima i bazama podataka, koji se vode u Republici Srbiji, a imaju značaja za obveznike doprinosa i osigurana lica, u skladu sa zakonom i drugim propisima:
-- RFPIO;
-- RFZO,
-- NSZ,
-- APR,
-- PU,
-- MUP,
-- PTT,
-- Ministarstvo pravde i državne uprave,
-- Uprava za trezor,
-- Republički Zavod za statistiku.
+Centralni registar obezbeđuje elektronsku povezanost sa drugim registrima i bazama podataka, koji se vode u Republici Srbiji, a imaju značaja za obveznike doprinosa i osigurana lica, u skladu sa zakonom i drugim propisima: - RFPIO; - RFZO, - NSZ, - APR, - PU, - MUP, - PTT, - Ministarstvo pravde i državne uprave, - Uprava za trezor, - Republički Zavod za statistiku.
 
 Kada se steknu tehnički uslovi Centralni registar povezaće se sa Inspektoratom za rad.

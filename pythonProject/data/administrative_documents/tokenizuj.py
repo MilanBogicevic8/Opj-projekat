@@ -2,7 +2,7 @@ import reldi_tokeniser
 import os
 import pandas as pd
 
-path = os.path.join("data", "administrative_docments")
+path = os.path.join("data", "administrative_documents")
 INPUT_FOLDER = os.path.join(path, "izvuceno_latinica")
 OUTPUT_CONLLU = os.path.join(path, "administrative_texts.conllu")
 OUTPUT_XLSX = os.path.join(path, "administrative_texts.xlsx")
@@ -45,4 +45,4 @@ def to_excel():
 
 
 to_conllu()
-to_excel()
+# to_excel()

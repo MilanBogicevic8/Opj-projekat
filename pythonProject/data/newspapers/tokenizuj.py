@@ -46,4 +46,4 @@ def to_excel():
 
 
 to_conllu()
-to_excel()
+# to_excel()

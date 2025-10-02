@@ -625,7 +625,7 @@
 										
 # newpar id = 3										
 # sent_id = 3.1										
-# text = S druge strane fronta, po podacima iz Kijeva, u ruskim napadima u Ukrajini su tokom noći poginule najmanje tri osobe.										
+# text = S druge strane fronta, po podacima iz Kijeva, u ruskim napadima u Ukrajini su tokom noći poginule najmanje tri osobe.										
 1	S	_	_	_	_	_	_	_	_	O
 2	druge	_	_	_	_	_	_	_	_	O
 3	strane	_	_	_	_	_	_	_	_	O
@@ -643,9 +643,7 @@
 15	Ukrajini	_	_	_	_	_	_	_	_	B-LOC
 16	su	_	_	_	_	_	_	_	_	O
 17	tokom	_	_	_	_	_	_	_	_	O
-18	noc	_	_	_	_	_	_	_	SpaceAfter=No	O
-19	́	_	_	_	_	_	_	_	SpaceAfter=No	O
-20	i	_	_	_	_	_	_	_	_	O
+18	noći	_	_	_	_	_	_	_	SpaceAfter=No	O
 21	poginule	_	_	_	_	_	_	_	_	O
 22	najmanje	_	_	_	_	_	_	_	_	O
 23	tri	_	_	_	_	_	_	_	_	O
@@ -5406,7 +5404,7 @@
 										
 # newpar id = 5										
 # sent_id = 5.1										
-# text = Manja grupa izgrednika uputila se ka kompleksu Parlamenta Holandije koji je ograđen jer se renovira već više godina.										
+# text = Manja grupa izgrednika uputila se ka kompleksu Parlamenta Holandije koji je ograđen jer se renovira već više godina.										
 1	Manja	_	_	_	_	_	_	_	_	O
 2	grupa	_	_	_	_	_	_	_	_	O
 3	izgrednika	_	_	_	_	_	_	_	_	O

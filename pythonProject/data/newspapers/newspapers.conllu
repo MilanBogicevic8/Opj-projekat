@@ -622,7 +622,7 @@
 21	.	.	PUNCT	Z	_	_	_	_	_
 
 # sent_id = 1.3
-# text = S druge strane fronta, po podacima iz Kijeva, u ruskim napadima u Ukrajini su tokom noći poginule najmanje tri osobe.
+# text = S druge strane fronta, po podacima iz Kijeva, u ruskim napadima u Ukrajini su tokom noći poginule najmanje tri osobe.
 1	S	_	_	_	_	_	_	_	_
 2	druge	_	_	_	_	_	_	_	_
 3	strane	_	_	_	_	_	_	_	_
@@ -640,14 +640,12 @@
 15	Ukrajini	_	_	_	_	_	_	_	_
 16	su	_	_	_	_	_	_	_	_
 17	tokom	_	_	_	_	_	_	_	_
-18	noc	_	_	_	_	_	_	_	SpaceAfter=No
-19	́	_	_	_	_	_	_	_	SpaceAfter=No
-20	i	_	_	_	_	_	_	_	_
-21	poginule	_	_	_	_	_	_	_	_
-22	najmanje	_	_	_	_	_	_	_	_
-23	tri	_	_	_	_	_	_	_	_
-24	osobe	_	_	_	_	_	_	_	SpaceAfter=No
-25	.	.	PUNCT	Z	_	_	_	_	_
+18	noći	_	_	_	_	_	_	_	_
+19	poginule	_	_	_	_	_	_	_	_
+20	najmanje	_	_	_	_	_	_	_	_
+21	tri	_	_	_	_	_	_	_	_
+22	osobe	_	_	_	_	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = 1
 # sent_id = 1.1
@@ -5347,7 +5345,7 @@
 
 # newpar id = 4
 # sent_id = 4.1
-# text = Manja grupa izgrednika uputila se ka kompleksu Parlamenta Holandije koji je ograđen jer se renovira već više godina.
+# text = Manja grupa izgrednika uputila se ka kompleksu Parlamenta Holandije koji je ograđen jer se renovira već više godina.
 1	Manja	_	_	_	_	_	_	_	_
 2	grupa	_	_	_	_	_	_	_	_
 3	izgrednika	_	_	_	_	_	_	_	_
@@ -5363,15 +5361,14 @@
 13	jer	_	_	_	_	_	_	_	_
 14	se	_	_	_	_	_	_	_	_
 15	renovira	_	_	_	_	_	_	_	_
-16	vec	_	_	_	_	_	_	_	SpaceAfter=No
-17	́	_	_	_	_	_	_	_	_
-18	više	_	_	_	_	_	_	_	_
-19	godina	_	_	_	_	_	_	_	SpaceAfter=No
-20	.	.	PUNCT	Z	_	_	_	_	_
+16	već	_	_	_	_	_	_	_	_
+17	više	_	_	_	_	_	_	_	_
+18	godina	_	_	_	_	_	_	_	SpaceAfter=No
+19	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = 5
 # sent_id = 5.1
-# text = Opšti izbori su raspisani za 29. oktobar pošto je antiislamski poslanik Gert Vilders povukao svoju stranku iz vladajuće koalicije u sporu oko poteza za obuzdavanje doseljavanja stranaca.
+# text = Opšti izbori su raspisani za 29. oktobar pošto je antiislamski poslanik Gert Vilders povukao svoju stranku iz vladajuće koalicije u sporu oko poteza za obuzdavanje doseljavanja stranaca.
 1	Opšti	_	_	_	_	_	_	_	_
 2	izbori	_	_	_	_	_	_	_	_
 3	su	_	_	_	_	_	_	_	_
@@ -5389,19 +5386,17 @@
 15	svoju	_	_	_	_	_	_	_	_
 16	stranku	_	_	_	_	_	_	_	_
 17	iz	_	_	_	_	_	_	_	_
-18	vladajuc	_	_	_	_	_	_	_	SpaceAfter=No
-19	́	_	_	_	_	_	_	_	SpaceAfter=No
-20	e	_	_	_	_	_	_	_	_
-21	koalicije	_	_	_	_	_	_	_	_
-22	u	_	_	_	_	_	_	_	_
-23	sporu	_	_	_	_	_	_	_	_
-24	oko	_	_	_	_	_	_	_	_
-25	poteza	_	_	_	_	_	_	_	_
-26	za	_	_	_	_	_	_	_	_
-27	obuzdavanje	_	_	_	_	_	_	_	_
-28	doseljavanja	_	_	_	_	_	_	_	_
-29	stranaca	_	_	_	_	_	_	_	SpaceAfter=No
-30	.	.	PUNCT	Z	_	_	_	_	_
+18	vladajuće	_	_	_	_	_	_	_	_
+19	koalicije	_	_	_	_	_	_	_	_
+20	u	_	_	_	_	_	_	_	_
+21	sporu	_	_	_	_	_	_	_	_
+22	oko	_	_	_	_	_	_	_	_
+23	poteza	_	_	_	_	_	_	_	_
+24	za	_	_	_	_	_	_	_	_
+25	obuzdavanje	_	_	_	_	_	_	_	_
+26	doseljavanja	_	_	_	_	_	_	_	_
+27	stranaca	_	_	_	_	_	_	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	_	_	_	_
 
 # newpar id = 1
 # sent_id = 1.1

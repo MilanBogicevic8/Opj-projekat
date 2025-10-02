@@ -668,8 +668,8 @@
 16	ispred	_	_	_	_	_	_	_	_	O
 17	Palate	_	_	_	_	_	_	_	_	B-LOC
 18	Srbije	_	_	_	_	_	_	_	_	I-LOC
-19	na	_	_	_	_	_	_	_	_	I-LOC
-20	Novom	_	_	_	_	_	_	_	_	I-LOC
+19	na	_	_	_	_	_	_	_	_	O
+20	Novom	_	_	_	_	_	_	_	_	B-LOC
 21	Beogradu	_	_	_	_	_	_	_	_	I-LOC
 22	povodom	_	_	_	_	_	_	_	_	O
 23	obeležavanja	_	_	_	_	_	_	_	_	O
@@ -854,8 +854,8 @@
 13	starešina	_	_	_	_	_	_	_	_	O
 14	i	_	_	_	_	_	_	_	_	O
 15	predstavnika	_	_	_	_	_	_	_	_	O
-16	ministarstava	_	_	_	_	_	_	_	_	B-ORG
-17	odbrane	_	_	_	_	_	_	_	_	I-ORG
+16	ministarstava	_	_	_	_	_	_	_	_	O
+17	odbrane	_	_	_	_	_	_	_	_	O
 18	Kine	_	_	_	_	_	_	_	SpaceAfter=No	B-LOC
 19	,	,	PUNCT	Z	_	_	_	_	_	O
 20	Mađarske	_	_	_	_	_	_	_	SpaceAfter=No	B-LOC
@@ -1102,13 +1102,13 @@
 33	Luja	_	_	_	_	_	_	_	_	B-LOC
 34	Adamiča	_	_	_	_	_	_	_	_	I-LOC
 35	do	_	_	_	_	_	_	_	_	O
-36	okretnice	_	_	_	_	_	_	_	_	B-LOC
-37	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-LOC
-38	Novi	_	_	_	_	_	_	_	_	I-LOC
+36	okretnice	_	_	_	_	_	_	_	_	O
+37	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+38	Novi	_	_	_	_	_	_	_	_	B-LOC
 39	Beograd	_	_	_	_	_	_	_	_	I-LOC
 40	/	/	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-LOC
 41	Paviljoni	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-42	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-LOC
+42	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 43	.	.	PUNCT	Z	_	_	_	_	_	O
 
 # sent_id = 4.2
@@ -1189,9 +1189,9 @@
 5	predsednik	_	_	_	_	_	_	_	_	O
 6	Srbija	_	_	_	_	_	_	_	_	B-ORG
 7	centra	_	_	_	_	_	_	_	_	I-ORG
-8	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-ORG
-9	SRCE	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
-10	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-ORG
+8	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+9	SRCE	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
+10	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 11	,	,	PUNCT	Z	_	_	_	_	_	O
 12	izjavio	_	_	_	_	_	_	_	_	O
 13	je	_	_	_	_	_	_	_	_	O
@@ -1315,7 +1315,7 @@
 46	to	_	_	_	_	_	_	_	_	O
 47	je	_	_	_	_	_	_	_	_	O
 48	naša	_	_	_	_	_	_	_	_	O
-49	vojska	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
+49	vojska	_	_	_	_	_	_	_	SpaceAfter=No	O
 50	,	,	PUNCT	Z	_	_	_	_	_	O
 51	nije	_	_	_	_	_	_	_	_	O
 52	tvoja	_	_	_	_	_	_	_	SpaceAfter=No	O
@@ -1343,7 +1343,7 @@
 # sent_id = 2.4
 # text = Ovu vojsku niste vi napravili“, dodao je, prenosi N1.
 1	Ovu	_	_	_	_	_	_	_	_	O
-2	vojsku	_	_	_	_	_	_	_	_	B-ORG
+2	vojsku	_	_	_	_	_	_	_	_	O
 3	niste	_	_	_	_	_	_	_	_	O
 4	vi	_	_	_	_	_	_	_	_	O
 5	napravili	_	_	_	_	_	_	_	SpaceAfter=No	O
@@ -1877,7 +1877,7 @@
 # newpar id = 1
 # sent_id = 1.1
 # text = Administracija američkog predsednika Donalda Trampa nametnula je dodatna ograničenja pristupa najstarijeg i prestižnog univerziteta u SAD Harvarda federalnim sredstvima, što je nova epizoda u toj njenoj borbi.
-1	Administracija	_	_	_	_	_	_	_	_	B-ORG
+1	Administracija	_	_	_	_	_	_	_	_	O
 2	američkog	_	_	_	_	_	_	_	_	O
 3	predsednika	_	_	_	_	_	_	_	_	O
 4	Donalda	_	_	_	_	_	_	_	_	B-PER
@@ -1984,7 +1984,7 @@
 # sent_id = 2.2
 # text = Trampova administracija tvrdi da je taj univerzitet „rasadnik WOKE ideologije“ inkluzivnosti protiv koje se Tramp bori i da nije adekvatno zaštitio jevrejske studente tokom pro-palestinskih protesta na Harvardu.
 1	Trampova	_	_	_	_	_	_	_	_	B-PER
-2	administracija	_	_	_	_	_	_	_	_	B-ORG
+2	administracija	_	_	_	_	_	_	_	_	O
 3	tvrdi	_	_	_	_	_	_	_	_	O
 4	da	_	_	_	_	_	_	_	_	O
 5	je	_	_	_	_	_	_	_	_	O
@@ -2037,9 +2037,9 @@
 17	i	_	_	_	_	_	_	_	_	I-ORG
 18	objekata	_	_	_	_	_	_	_	_	I-ORG
 19	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-20	JZO	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+20	JZO	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 21	)	)	PUNCT	Z	_	_	_	_	_	O
-22	MUP-a	_	_	_	_	_	_	_	_	I-ORG
+22	MUP-a	_	_	_	_	_	_	_	_	B-ORG
 23	Srbije	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
 24	,	,	PUNCT	Z	_	_	_	_	_	O
 25	koji	_	_	_	_	_	_	_	_	O
@@ -2286,11 +2286,11 @@
 13	"	"	PUNCT	Z	_	_	_	_	_	O
 14	demonstrirano	_	_	_	_	_	_	_	_	O
 15	kako	_	_	_	_	_	_	_	_	O
-16	specijalna	_	_	_	_	_	_	_	_	B-ORG
-17	jedinica	_	_	_	_	_	_	_	_	I-ORG
-18	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-ORG
-19	Kobre	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
-20	"	"	PUNCT	Z	_	_	_	_	_	I-ORG
+16	specijalna	_	_	_	_	_	_	_	_	O
+17	jedinica	_	_	_	_	_	_	_	_	O
+18	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+19	Kobre	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
+20	"	"	PUNCT	Z	_	_	_	_	_	O
 21	brane	_	_	_	_	_	_	_	_	O
 22	štićene	_	_	_	_	_	_	_	_	O
 23	ličnosti	_	_	_	_	_	_	_	_	O
@@ -2920,7 +2920,7 @@
 14	napredne	_	_	_	_	_	_	_	_	I-ORG
 15	stranke	_	_	_	_	_	_	_	_	I-ORG
 16	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-17	SNS	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+17	SNS	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 18	)	)	PUNCT	Z	_	_	_	_	_	O
 19	Siniše	_	_	_	_	_	_	_	_	B-PER
 20	Vučinića	_	_	_	_	_	_	_	_	I-PER
@@ -2996,7 +2996,7 @@
 # text = Portal 021.rs javlja da su se građani, koji su prethodno blokirali raskrsnice kod Merkatora i kod Braće Ribnikar, ponovo grupisali i sa tih raskrsnica krenuli do Futoške pijace.
 1	Portal	_	_	_	_	_	_	_	_	O
 2	021.	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
-3	rs	_	_	_	_	_	_	_	_	O
+3	rs	_	_	_	_	_	_	_	_	I-ORG
 4	javlja	_	_	_	_	_	_	_	_	O
 5	da	_	_	_	_	_	_	_	_	O
 6	su	_	_	_	_	_	_	_	_	O
@@ -3049,8 +3049,8 @@
 1	Učesnici	_	_	_	_	_	_	_	_	O
 2	skupa	_	_	_	_	_	_	_	_	O
 3	podrške	_	_	_	_	_	_	_	_	O
-4	Pavlu	_	_	_	_	_	_	_	_	B-ORG
-5	Cicvariću	_	_	_	_	_	_	_	_	I-ORG
+4	Pavlu	_	_	_	_	_	_	_	_	B-PER
+5	Cicvariću	_	_	_	_	_	_	_	_	I-PER
 6	u	_	_	_	_	_	_	_	_	O
 7	Užicu	_	_	_	_	_	_	_	_	B-LOC
 8	okončali	_	_	_	_	_	_	_	_	O
@@ -3275,7 +3275,7 @@
 3	javno	_	_	_	_	_	_	_	_	I-ORG
 4	tužilaštvo	_	_	_	_	_	_	_	_	I-ORG
 5	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-6	VJT	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+6	VJT	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 7	)	)	PUNCT	Z	_	_	_	_	_	O
 8	podnelo	_	_	_	_	_	_	_	_	O
 9	je	_	_	_	_	_	_	_	_	O
@@ -3334,8 +3334,8 @@
 34	Bitef	_	_	_	_	_	_	_	_	B-LOC
 35	art	_	_	_	_	_	_	_	_	I-LOC
 36	kafeu	_	_	_	_	_	_	_	_	I-LOC
-37	u	_	_	_	_	_	_	_	_	I-LOC
-38	Beogradu	_	_	_	_	_	_	_	_	I-LOC
+37	u	_	_	_	_	_	_	_	_	O
+38	Beogradu	_	_	_	_	_	_	_	_	B-LOC
 39	a	_	_	_	_	_	_	_	_	O
 40	prihod	_	_	_	_	_	_	_	_	O
 41	će	_	_	_	_	_	_	_	_	O
@@ -3621,7 +3621,7 @@
 23	ekonomske	_	_	_	_	_	_	_	_	I-ORG
 24	studije	_	_	_	_	_	_	_	_	I-ORG
 25	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-26	CEVES	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+26	CEVES	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 27	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 28	.	.	PUNCT	Z	_	_	_	_	_	O
 
@@ -3855,8 +3855,8 @@
 # text = Vojni analitičar Vlade Radulović rekao je za N1 da je primetio veliko interesovanje stranih i stručnih medija za današnju ovjnu paradu.
 1	Vojni	_	_	_	_	_	_	_	_	O
 2	analitičar	_	_	_	_	_	_	_	_	O
-3	Vlade	_	_	_	_	_	_	_	_	B-ORG
-4	Radulović	_	_	_	_	_	_	_	_	B-PER
+3	Vlade	_	_	_	_	_	_	_	_	B-PER
+4	Radulović	_	_	_	_	_	_	_	_	I-PER
 5	rekao	_	_	_	_	_	_	_	_	O
 6	je	_	_	_	_	_	_	_	_	O
 7	za	_	_	_	_	_	_	_	_	O
@@ -5077,7 +5077,7 @@
 3	lokalnu	_	_	_	_	_	_	_	_	I-ORG
 4	samoupravu	_	_	_	_	_	_	_	_	I-ORG
 5	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-6	CLS	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+6	CLS	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 7	)	)	PUNCT	Z	_	_	_	_	_	O
 8	saopštio	_	_	_	_	_	_	_	_	O
 9	je	_	_	_	_	_	_	_	_	O
@@ -5682,8 +5682,8 @@
 6	24.	_	_	_	_	_	_	_	_	O
 7	aprila	_	_	_	_	_	_	_	_	O
 8	u	_	_	_	_	_	_	_	_	O
-9	hotelu	_	_	_	_	_	_	_	_	B-ORG
-10	Hajat	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+9	hotelu	_	_	_	_	_	_	_	_	O
+10	Hajat	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 11	,	,	PUNCT	Z	_	_	_	_	_	O
 12	po	_	_	_	_	_	_	_	_	O
 13	poternici	_	_	_	_	_	_	_	_	O

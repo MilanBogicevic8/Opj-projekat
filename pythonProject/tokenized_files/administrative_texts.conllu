@@ -76,8 +76,8 @@
 26	za	_	_	_	_	_	_	_	_	I-ORG
 27	privredne	_	_	_	_	_	_	_	_	I-ORG
 28	registre	_	_	_	_	_	_	_	_	I-ORG
-29	-	-	PUNCT	Z	_	_	_	_	_	I-ORG
-30	Registru	_	_	_	_	_	_	_	_	I-ORG
+29	-	-	PUNCT	Z	_	_	_	_	_	O
+30	Registru	_	_	_	_	_	_	_	_	B-ORG
 31	finansijskih	_	_	_	_	_	_	_	_	I-ORG
 32	izveštaja	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
 33	,	,	PUNCT	Z	_	_	_	_	_	O
@@ -554,12 +554,12 @@
 148	HOLDING	_	_	_	_	_	_	_	_	I-ORG
 149	DOO	_	_	_	_	_	_	_	_	I-ORG
 150	BEOGRAD	_	_	_	_	_	_	_	_	I-ORG
-151	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-ORG
-152	NOVI	_	_	_	_	_	_	_	_	I-ORG
+151	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+152	NOVI	_	_	_	_	_	_	_	_	B-ORG
 153	BEOGRAD	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
-154	)	)	PUNCT	Z	_	_	_	_	_	I-ORG
+154	)	)	PUNCT	Z	_	_	_	_	_	O
 155	OGRANAK	_	_	_	_	_	_	_	_	O
-156	BEZBEDNOST	_	_	_	_	_	_	_	_	I-ORG
+156	BEZBEDNOST	_	_	_	_	_	_	_	_	B-ORG
 157	I	_	_	_	_	_	_	_	_	I-ORG
 158	ZDRAVLJE	_	_	_	_	_	_	_	_	I-ORG
 159	NA	_	_	_	_	_	_	_	_	I-ORG
@@ -570,17 +570,17 @@
 164	POPOVIĆA	_	_	_	_	_	_	_	_	I-LOC
 165	8	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
 166	A	_	_	_	_	_	_	_	_	I-LOC
-167	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-168	BEOGRAD	_	_	_	_	_	_	_	_	I-LOC
-169	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-LOC
-170	NOVI	_	_	_	_	_	_	_	_	I-LOC
+167	,	,	PUNCT	Z	_	_	_	_	_	O
+168	BEOGRAD	_	_	_	_	_	_	_	_	B-LOC
+169	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+170	NOVI	_	_	_	_	_	_	_	_	B-LOC
 171	BEOGRAD	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-172	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-LOC
-173	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-174	NOVI	_	_	_	_	_	_	_	_	I-LOC
+172	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+173	,	,	PUNCT	Z	_	_	_	_	_	O
+174	NOVI	_	_	_	_	_	_	_	_	B-LOC
 175	BEOGRAD	_	_	_	_	_	_	_	_	I-LOC
-176	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-177	Srbija	_	_	_	_	_	_	_	_	I-LOC
+176	,	,	PUNCT	Z	_	_	_	_	_	O
+177	Srbija	_	_	_	_	_	_	_	_	B-LOC
 178	Pretežna	_	_	_	_	_	_	_	_	O
 179	delatnost	_	_	_	_	_	_	_	SpaceAfter=No	O
 180	:	:	PUNCT	Z	_	_	_	_	_	O
@@ -835,7 +835,7 @@
 116	TIGAR	_	_	_	_	_	_	_	_	B-ORG
 117	AD	_	_	_	_	_	_	_	_	I-ORG
 118	PIROT	_	_	_	_	_	_	_	_	I-ORG
-119	OGRANAK	_	_	_	_	_	_	_	_	I-ORG
+119	OGRANAK	_	_	_	_	_	_	_	_	O
 120	-	-	PUNCT	Z	_	_	_	_	_	O
 121	PREDSTAVNIŠTVO	_	_	_	_	_	_	_	_	O
 122	BEOGRAD	_	_	_	_	_	_	_	_	B-LOC
@@ -848,17 +848,17 @@
 129	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
 130	sprat	_	_	_	_	_	_	_	_	I-LOC
 131	5	_	_	_	_	_	_	_	_	I-LOC
-132	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-133	BEOGRAD	_	_	_	_	_	_	_	_	I-LOC
-134	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-LOC
-135	STARI	_	_	_	_	_	_	_	_	I-LOC
+132	,	,	PUNCT	Z	_	_	_	_	_	O
+133	BEOGRAD	_	_	_	_	_	_	_	_	B-LOC
+134	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+135	STARI	_	_	_	_	_	_	_	_	B-LOC
 136	GRAD	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-137	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-LOC
-138	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-139	STARI	_	_	_	_	_	_	_	_	I-LOC
+137	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+138	,	,	PUNCT	Z	_	_	_	_	_	O
+139	STARI	_	_	_	_	_	_	_	_	B-LOC
 140	GRAD	_	_	_	_	_	_	_	_	I-LOC
-141	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-142	Srbija	_	_	_	_	_	_	_	_	I-LOC
+141	,	,	PUNCT	Z	_	_	_	_	_	O
+142	Srbija	_	_	_	_	_	_	_	_	B-LOC
 143	Pretežna	_	_	_	_	_	_	_	_	O
 144	delatnost	_	_	_	_	_	_	_	SpaceAfter=No	O
 145	:	:	PUNCT	Z	_	_	_	_	_	O
@@ -908,11 +908,11 @@
 11	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
 12	stan	_	_	_	_	_	_	_	_	I-LOC
 13	2	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-14	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-15	NOVI	_	_	_	_	_	_	_	_	I-LOC
+14	,	,	PUNCT	Z	_	_	_	_	_	O
+15	NOVI	_	_	_	_	_	_	_	_	B-LOC
 16	SAD	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-17	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-18	Srbija	_	_	_	_	_	_	_	_	I-LOC
+17	,	,	PUNCT	Z	_	_	_	_	_	O
+18	Srbija	_	_	_	_	_	_	_	_	B-LOC
 19	Broj	_	_	_	_	_	_	_	_	O
 20	i	_	_	_	_	_	_	_	_	O
 21	naziv	_	_	_	_	_	_	_	_	O
@@ -1229,8 +1229,8 @@
 5	u	_	_	_	_	_	_	_	_	O
 6	Novom	_	_	_	_	_	_	_	_	B-LOC
 7	Beogradu	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-8	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-9	Omladinskih	_	_	_	_	_	_	_	_	I-LOC
+8	,	,	PUNCT	Z	_	_	_	_	_	O
+9	Omladinskih	_	_	_	_	_	_	_	_	B-LOC
 10	brigada	_	_	_	_	_	_	_	_	I-LOC
 11	broj	_	_	_	_	_	_	_	_	I-LOC
 12	1.	_	_	_	_	_	_	_	_	I-LOC
@@ -1264,14 +1264,14 @@
 18	engleskom	_	_	_	_	_	_	_	_	O
 19	jeziku	_	_	_	_	_	_	_	SpaceAfter=No	O
 20	:	:	PUNCT	Z	_	_	_	_	_	O
-21	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No	B-ORG
-22	CENTRAL	_	_	_	_	_	_	_	_	I-ORG
+21	„	„	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
+22	CENTRAL	_	_	_	_	_	_	_	_	B-ORG
 23	REGISTRY	_	_	_	_	_	_	_	_	I-ORG
 24	OF	_	_	_	_	_	_	_	_	I-ORG
 25	COMPULSORY	_	_	_	_	_	_	_	_	I-ORG
 26	SOCIAL	_	_	_	_	_	_	_	_	I-ORG
 27	INSURANCE	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
-28	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-ORG
+28	“	“	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 29	.	.	PUNCT	Z	_	_	_	_	_	O
 
 # newpar id = 8
@@ -1580,8 +1580,8 @@
 21	65/08	_	_	_	_	_	_	_	SpaceAfter=No	O
 22	)	)	PUNCT	Z	_	_	_	_	_	O
 23	Vlada	_	_	_	_	_	_	_	_	B-ORG
-24	Republike	_	_	_	_	_	_	_	_	B-ORG
-25	Srbije	_	_	_	_	_	_	_	_	B-ORG
+24	Republike	_	_	_	_	_	_	_	_	I-ORG
+25	Srbije	_	_	_	_	_	_	_	_	I-ORG
 26	donela	_	_	_	_	_	_	_	_	O
 27	je	_	_	_	_	_	_	_	_	O
 28	Odluku	_	_	_	_	_	_	_	_	O
@@ -2180,7 +2180,7 @@
 10	radničke	_	_	_	_	_	_	_	_	I-ORG
 11	partije	_	_	_	_	_	_	_	_	I-ORG
 12	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-13	HEP	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+13	HEP	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 14	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 15	.	.	PUNCT	Z	_	_	_	_	_	O
 
@@ -2202,7 +2202,7 @@
 14	ubila	_	_	_	_	_	_	_	_	O
 15	specijalna	_	_	_	_	_	_	_	_	O
 16	jedinica	_	_	_	_	_	_	_	_	O
-17	Žandarmerije	_	_	_	_	_	_	_	_	B-ORG
+17	Žandarmerije	_	_	_	_	_	_	_	_	O
 18	7.	_	_	_	_	_	_	_	_	O
 19	jula	_	_	_	_	_	_	_	_	O
 20	1991.	_	_	_	_	_	_	_	_	O
@@ -2524,7 +2524,7 @@
 37	stranke	_	_	_	_	_	_	_	_	I-ORG
 38	Kurda	_	_	_	_	_	_	_	_	I-ORG
 39	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-40	PSK	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+40	PSK	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 41	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 42	.	.	PUNCT	Z	_	_	_	_	_	O
 
@@ -2644,7 +2644,7 @@
 9	humanitarno	_	_	_	_	_	_	_	_	I-ORG
 10	pravo	_	_	_	_	_	_	_	_	I-ORG
 11	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-12	FHP	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+12	FHP	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 13	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 14	,	,	PUNCT	Z	_	_	_	_	_	O
 15	Centar	_	_	_	_	_	_	_	_	B-ORG
@@ -2652,7 +2652,7 @@
 17	prava	_	_	_	_	_	_	_	_	I-ORG
 18	manjina	_	_	_	_	_	_	_	_	I-ORG
 19	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-20	CPM	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+20	CPM	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 21	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 22	,	,	PUNCT	Z	_	_	_	_	_	O
 23	oba	_	_	_	_	_	_	_	_	O
@@ -2668,7 +2668,7 @@
 33	romska	_	_	_	_	_	_	_	_	I-ORG
 34	prava	_	_	_	_	_	_	_	_	I-ORG
 35	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-36	ERRC	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+36	ERRC	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 37	)	)	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 38	,	,	PUNCT	Z	_	_	_	_	_	O
 39	sa	_	_	_	_	_	_	_	_	O
@@ -3762,7 +3762,7 @@
 22	REPUBLIKE	_	_	_	_	_	_	_	_	I-ORG
 23	SRBIJE	_	_	_	_	_	_	_	_	I-ORG
 24	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
-25	Srbija	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+25	Srbija	_	_	_	_	_	_	_	SpaceAfter=No	B-ORG
 26	)	)	PUNCT	Z	_	_	_	_	_	O
 27	i	_	_	_	_	_	_	_	_	O
 28	VLADA	_	_	_	_	_	_	_	_	B-ORG
@@ -3772,7 +3772,7 @@
 32	BRITANIJE	_	_	_	_	_	_	_	_	I-ORG
 33	I	_	_	_	_	_	_	_	_	I-ORG
 34	SEVERNE	_	_	_	_	_	_	_	_	I-ORG
-35	IRSKE	_	_	_	_	_	_	_	_	O
+35	IRSKE	_	_	_	_	_	_	_	_	I-ORG
 36	(	(	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 37	Ujedinjeno	_	_	_	_	_	_	_	_	B-LOC
 38	Kraljevstvo	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
@@ -4117,17 +4117,17 @@
 18	Lokacija	_	_	_	_	_	_	_	_	B-LOC
 19	br.	_	_	_	_	_	_	_	_	I-LOC
 20	41	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-21	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-22	Yumeshima	_	_	_	_	_	_	_	_	I-LOC
+21	,	,	PUNCT	Z	_	_	_	_	_	O
+22	Yumeshima	_	_	_	_	_	_	_	_	B-LOC
 23	Naka	_	_	_	_	_	_	_	_	I-LOC
 24	1-chome	_	_	_	_	_	_	_	_	I-LOC
 25	Jisaki	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-26	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-27	Konohana-ku	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-28	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-29	Osaka	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-30	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-31	Japan	_	_	_	_	_	_	_	_	I-LOC
+26	,	,	PUNCT	Z	_	_	_	_	_	O
+27	Konohana-ku	_	_	_	_	_	_	_	SpaceAfter=No	B-LOC
+28	,	,	PUNCT	Z	_	_	_	_	_	O
+29	Osaka	_	_	_	_	_	_	_	SpaceAfter=No	B-LOC
+30	,	,	PUNCT	Z	_	_	_	_	_	O
+31	Japan	_	_	_	_	_	_	_	_	B-LOC
 32	Rok	_	_	_	_	_	_	_	_	O
 33	za	_	_	_	_	_	_	_	_	O
 34	podnošenje	_	_	_	_	_	_	_	_	O
@@ -4158,8 +4158,8 @@
 59	Paviljon	_	_	_	_	_	_	_	_	B-ORG
 60	Republike	_	_	_	_	_	_	_	_	I-ORG
 61	Srbije	_	_	_	_	_	_	_	_	I-ORG
-62	za	_	_	_	_	_	_	_	_	I-ORG
-63	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No	I-ORG
+62	za	_	_	_	_	_	_	_	_	O
+63	"	"	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 64	Ekspo	_	_	_	_	_	_	_	_	O
 65	2025	_	_	_	_	_	_	_	_	O
 66	Osaka	_	_	_	_	_	_	_	SpaceAfter=No	B-LOC
@@ -4233,13 +4233,13 @@
 62	za	_	_	_	_	_	_	_	_	I-ORG
 63	zaštitu	_	_	_	_	_	_	_	_	I-ORG
 64	potrošača	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
-65	,	,	PUNCT	Z	_	_	_	_	_	I-ORG
+65	,	,	PUNCT	Z	_	_	_	_	_	O
 66	Odeljenje	_	_	_	_	_	_	_	_	B-ORG
 67	za	_	_	_	_	_	_	_	_	I-ORG
 68	zaštitu	_	_	_	_	_	_	_	_	I-ORG
 69	potrošača	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
-70	,	,	PUNCT	Z	_	_	_	_	_	I-ORG
-71	Grupa	_	_	_	_	_	_	_	_	I-ORG
+70	,	,	PUNCT	Z	_	_	_	_	_	O
+71	Grupa	_	_	_	_	_	_	_	_	B-ORG
 72	za	_	_	_	_	_	_	_	_	I-ORG
 73	unapređenje	_	_	_	_	_	_	_	_	I-ORG
 74	politike	_	_	_	_	_	_	_	_	I-ORG
@@ -4291,8 +4291,8 @@
 33	i	_	_	_	_	_	_	_	_	I-ORG
 34	zaštitu	_	_	_	_	_	_	_	_	I-ORG
 35	potrošača	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
-36	,	,	PUNCT	Z	_	_	_	_	_	I-ORG
-37	Grupa	_	_	_	_	_	_	_	_	I-ORG
+36	,	,	PUNCT	Z	_	_	_	_	_	O
+37	Grupa	_	_	_	_	_	_	_	_	B-ORG
 38	za	_	_	_	_	_	_	_	_	I-ORG
 39	sprečavanje	_	_	_	_	_	_	_	_	I-ORG
 40	nelojalne	_	_	_	_	_	_	_	_	I-ORG
@@ -4349,11 +4349,11 @@
 19	Stepe	_	_	_	_	_	_	_	_	I-LOC
 20	br.	_	_	_	_	_	_	_	_	I-LOC
 21	412	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-22	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
-23	11	_	_	_	_	_	_	_	_	I-LOC
-24	000	_	_	_	_	_	_	_	_	I-LOC
+22	,	,	PUNCT	Z	_	_	_	_	_	O
+23	11	_	_	_	_	_	_	_	_	O
+24	000	_	_	_	_	_	_	_	_	O
 25	Beograd	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
-26	,	,	PUNCT	Z	_	_	_	_	_	I-LOC
+26	,	,	PUNCT	Z	_	_	_	_	_	O
 27	Srbija	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
 28	,	,	PUNCT	Z	_	_	_	_	_	O
 29	registrovana	_	_	_	_	_	_	_	_	O
@@ -5204,8 +5204,8 @@
 
 # sent_id = 1.4
 # text = Novi Sad, čiji su punomoćnici Vlado Tanasković i Nemanja Gavrilović, advokati iz ...
-1	Novi	_	_	_	_	_	_	_	_	I-ORG
-2	Sad	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+1	Novi	_	_	_	_	_	_	_	_	B-LOC
+2	Sad	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
 3	,	,	PUNCT	Z	_	_	_	_	_	O
 4	čiji	_	_	_	_	_	_	_	_	O
 5	su	_	_	_	_	_	_	_	_	O
@@ -5249,8 +5249,8 @@
 
 # sent_id = 1.7
 # text = Novi Sad, protiv tužilje-protivtužene AA iz ...
-1	Novi	_	_	_	_	_	_	_	_	I-ORG
-2	Sad	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+1	Novi	_	_	_	_	_	_	_	_	B-LOC
+2	Sad	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
 3	,	,	PUNCT	Z	_	_	_	_	_	O
 4	protiv	_	_	_	_	_	_	_	_	O
 5	tužilje-protivtužene	_	_	_	_	_	_	_	_	O
@@ -5284,8 +5284,8 @@
 
 # sent_id = 1.10
 # text = Novi Sad, izjavljenoj protiv presude Apelacionog suda u Kragujevcu Gž 787/23 od 16.05.2023. godine, u sednici održanoj 24.07.2025. godine, doneo je
-1	Novi	_	_	_	_	_	_	_	_	I-ORG
-2	Sad	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+1	Novi	_	_	_	_	_	_	_	_	B-LOC
+2	Sad	_	_	_	_	_	_	_	SpaceAfter=No	I-LOC
 3	,	,	PUNCT	Z	_	_	_	_	_	O
 4	izjavljenoj	_	_	_	_	_	_	_	_	O
 5	protiv	_	_	_	_	_	_	_	_	O
@@ -5332,7 +5332,7 @@
 
 # sent_id = 1.2
 # text = Beograd, čiji je punomoćnik Goran J. Delić advokat iz ...
-1	Beograd	_	_	_	_	_	_	_	SpaceAfter=No	I-ORG
+1	Beograd	_	_	_	_	_	_	_	SpaceAfter=No	B-LOC
 2	,	,	PUNCT	Z	_	_	_	_	_	O
 3	čiji	_	_	_	_	_	_	_	_	O
 4	je	_	_	_	_	_	_	_	_	O
@@ -5840,8 +5840,8 @@
 12	,	,	PUNCT	Z	_	_	_	_	_	O
 13	kao	_	_	_	_	_	_	_	_	O
 14	ni	_	_	_	_	_	_	_	_	O
-15	Republičkom	_	_	_	_	_	_	_	_	B-LOC
-16	javnom	_	_	_	_	_	_	_	_	I-LOC
+15	Republičkom	_	_	_	_	_	_	_	_	O
+16	javnom	_	_	_	_	_	_	_	_	O
 17	tužiocu	_	_	_	_	_	_	_	SpaceAfter=No	O
 18	.	.	PUNCT	Z	_	_	_	_	_	O
 

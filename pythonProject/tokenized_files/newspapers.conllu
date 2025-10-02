@@ -1975,7 +1975,7 @@
 33	poništenje	_	_	_	_	_	_	_	_	O
 34	vladinog	_	_	_	_	_	_	_	_	O
 35	zamrzavanja	_	_	_	_	_	_	_	_	O
-36	;	;	PUNCT	Z	_	_	_	_	SpaceAfter=No
+36	;	;	PUNCT	Z	_	_	_	_	SpaceAfter=No	O
 37	finansiranja	_	_	_	_	_	_	_	_	O
 38	tog	_	_	_	_	_	_	_	_	O
 39	univerziteta	_	_	_	_	_	_	_	SpaceAfter=No	O

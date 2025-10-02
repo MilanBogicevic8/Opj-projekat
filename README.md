@@ -28,6 +28,7 @@ Projekat se izrađuje u programskom jeziku **Python**.
      - CLASSLA (standardni i nestandardni jezik)  
      - BERTić-NER  
      - COMtext.SR NER (ekavica)
+     - SrpCNNER
    - Poređenje sa **baseline pristupom** zasnovanim na multinomijalnom naivnom Bajesu.  
    - Evaluacija metrikama preciznosti, odziva i F1 mere.  
 

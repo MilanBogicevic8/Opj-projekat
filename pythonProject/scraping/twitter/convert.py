@@ -25,6 +25,12 @@ def conllu_to_excel(input: Path, output: Path):
 
 def merge_conllu(inputs: list[Path], output: Path):
     output.write_text("\n".join(it.read_text() for it in inputs))
+def merge_domains():
+    root = Path(__file__).parent.parent.parent / "tokenized_files"
+    files = [root/f"{it}.conllu" for it in ["administrative_texts", "literature", "newspapers", "twitter"]]
+    output = root/"combined.conllu"
+    merge_conllu(files, output)
+
 
 def copy_conllu(input: Path, output: Path):
     left = input.read_text().split("\n")

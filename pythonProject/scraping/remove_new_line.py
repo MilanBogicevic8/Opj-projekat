@@ -1,20 +1,16 @@
 import os
 
-FOLDERS = ["administrative_documents/izvuceno_latinica", "literature", "newspapers/izvuceno", "twitter"]
-OUTPUT_FOLDER = "izbaceni_novi_red"
+
+FOLDERS = [os.path.join("administrative_documents", "izvuceno_latinica"), os.path.join("newspapers", "izvuceno"), "literature", "twitter"]
 
 
 for folder in FOLDERS:
     input_folder = os.path.join("data", folder)
     for filename in os.listdir(input_folder):
         if filename.endswith(".txt"):
-            input_path = os.path.join(input_folder, filename)
-            output_folder = os.path.join(OUTPUT_FOLDER, folder.split("/")[0])
-            output_path = os.path.join(output_folder, filename)
-            
-            os.makedirs(output_folder, exist_ok=True)
+            file = os.path.join(input_folder, filename)
 
-            with open(input_path, "r", encoding="utf-8") as f:
+            with open(file, "r", encoding="utf-8") as f:
                 content = f.read()
             
             # zameni samo \n, ostavi \n\n
@@ -22,7 +18,7 @@ for folder in FOLDERS:
             content = content.replace("\n", " ")
             content = content.replace("<NEWPARA>", "\n\n")
 
-            with open(output_path, "w", encoding="utf-8") as f:
+            with open(file, "w", encoding="utf-8") as f:
                 f.write(content)
 
             print(f"{filename} konvertovan.")

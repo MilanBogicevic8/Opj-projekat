@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+       B-LOC       0.58      0.79      0.67       111
+       B-ORG       0.20      0.47      0.28        55
+       B-PER       0.44      0.77      0.56       109
+       I-LOC       0.51      0.78      0.62        32
+       I-ORG       0.15      0.45      0.22        29
+       I-PER       0.64      0.91      0.75        69
+           O       0.99      0.93      0.96      4625
+
+    accuracy                           0.91      5030
+   macro avg       0.50      0.73      0.58      5030
+weighted avg       0.95      0.91      0.93      5030

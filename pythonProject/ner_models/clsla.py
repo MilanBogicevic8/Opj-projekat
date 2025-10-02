@@ -185,10 +185,12 @@ def conllu_to_input(input: Path) -> str:
     return " ".join(tokens)
 
 def evaluate(input: Path, output: Path, reports_output: Path):
+    reports_output.mkdir(exist_ok=True)
+    domain = output.name.split(".")[0]
     with pandas.ExcelWriter(output, engine='xlsxwriter') as writer:
         for type in ["standard", "nonstandard"]:
             for base in [False, True]:
-                table_name = f"{type}-" + ("base" if base else "full")
+                table_name = f"{type}_" + ("base" if base else "full")
                 model = globals()[type]
                 input_text = conllu_to_input(input)
                 TEMP.write_text(model(input_text).to_conll())
@@ -196,7 +198,7 @@ def evaluate(input: Path, output: Path, reports_output: Path):
                 stats_table = stats_table.round(2)
                 stats_table.to_excel(writer, sheet_name=f"{table_name}-stats", index=False)
                 diffs_table.to_excel(writer, sheet_name=f"{table_name}-diffs", index=False)
-                (reports_output/table_name).write_text(report)
+                (reports_output/f"{domain}_{table_name}").write_text(report)
 
 
 input_dir = Path(__file__).parent.parent/"tokenized_files"

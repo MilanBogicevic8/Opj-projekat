@@ -523,32 +523,6 @@
 1	SRAMOTA	_	_	_	_	_	_	_	_	O
 2	!!	!!	PUNCT	Z	_	_	_	_	_	O
 										
-# newpar id = 34										
-# sent_id = 34.1										
-# text = Narački DM  Dostava bilo kade vo Skopje.										
-1	Narački	_	_	_	_	_	_	_	_	O
-2	DM	_	_	_	_	_	_	_	_	O
-3	Dostava	_	_	_	_	_	_	_	_	O
-4	bilo	_	_	_	_	_	_	_	_	O
-5	kade	_	_	_	_	_	_	_	_	O
-6	vo	_	_	_	_	_	_	_	_	O
-7	Skopje	_	_	_	_	_	_	_	SpaceAfter=No	O
-8	.	.	PUNCT	Z	_	_	_	_	_	O
-										
-# sent_id = 34.2										
-# text = Cena: 600 denari.										
-1	Cena	_	_	_	_	_	_	_	SpaceAfter=No	O
-2	:	:	PUNCT	Z	_	_	_	_	_	O
-3	600	_	_	_	_	_	_	_	_	O
-4	denari	_	_	_	_	_	_	_	SpaceAfter=No	O
-5	.	.	PUNCT	Z	_	_	_	_	_	O
-										
-# sent_id = 34.3										
-# text = RT ako može										
-1	RT	_	_	_	_	_	_	_	_	O
-2	ako	_	_	_	_	_	_	_	_	O
-3	može	_	_	_	_	_	_	_	_	O
-										
 # newpar id = 35										
 # sent_id = 35.1										
 # text = Specijalno izdanje lista Borba od 16.02.1988 god. koji je ekspresno povučen iz prodaje.										
@@ -5840,44 +5814,7 @@
 13	građana	_	_	_	_	_	_	_	_	O
 14	Srbije	_	_	_	_	_	_	_	SpaceAfter=No	B-LOC
 15	!	!	PUNCT	Z	_	_	_	_	_	O
-										
-# newpar id = 316										
-# sent_id = 316.1										
-# text = Gi vidov pred nekoj den dodeka vozev bajk noќno i morav da se vratam so aparat, da gi fotnam kako što treba :)										
-1	Gi	_	_	_	_	_	_	_	_	O
-2	vidov	_	_	_	_	_	_	_	_	O
-3	pred	_	_	_	_	_	_	_	_	O
-4	nekoj	_	_	_	_	_	_	_	_	O
-5	den	_	_	_	_	_	_	_	_	O
-6	dodeka	_	_	_	_	_	_	_	_	O
-7	vozev	_	_	_	_	_	_	_	_	O
-8	bajk	_	_	_	_	_	_	_	_	O
-9	noќno	_	_	_	_	_	_	_	_	O
-10	i	_	_	_	_	_	_	_	_	O
-11	morav	_	_	_	_	_	_	_	_	O
-12	da	_	_	_	_	_	_	_	_	O
-13	se	_	_	_	_	_	_	_	_	O
-14	vratam	_	_	_	_	_	_	_	_	O
-15	so	_	_	_	_	_	_	_	_	O
-16	aparat	_	_	_	_	_	_	_	SpaceAfter=No	O
-17	,	,	PUNCT	Z	_	_	_	_	_	O
-18	da	_	_	_	_	_	_	_	_	O
-19	gi	_	_	_	_	_	_	_	_	O
-20	fotnam	_	_	_	_	_	_	_	_	O
-21	kako	_	_	_	_	_	_	_	_	O
-22	što	_	_	_	_	_	_	_	_	O
-23	treba	_	_	_	_	_	_	_	_	O
-24	:)	:)	SYM	Xe	_	_	_	_	_	O
-										
-# newpar id = 317										
-# sent_id = 317.1										
-# text = Nemav videno svetulki so godini										
-1	Nemav	_	_	_	_	_	_	_	_	O
-2	videno	_	_	_	_	_	_	_	_	O
-3	svetulki	_	_	_	_	_	_	_	_	O
-4	so	_	_	_	_	_	_	_	_	O
-5	godini	_	_	_	_	_	_	_	_	O
-										
+																				
 # newpar id = 318										
 # sent_id = 318.1										
 # text = Gromoglasno dovikivanje Španaca uz poruku “Kosovo - Srbija!										

@@ -1,4 +1,6 @@
+import classla
 from pathlib import Path
+import sklearn.metrics
 import re
 import pandas
 
@@ -100,7 +102,7 @@ def parse_token_tag_table(input: Path, base: bool = False) -> pandas.DataFrame:
             ret.append((token, tag))
     return pandas.DataFrame(ret, columns=[TOKEN, TAG])
 
-def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.DataFrame, pandas.DataFrame]:
+def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.DataFrame, pandas.DataFrame, str]:
     """
     Match expected NER annotation against result.
     Returns two tables.
@@ -117,6 +119,9 @@ def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.Dat
     expect_table = parse_token_tag_table(expect, base=base)
     result_table = parse_token_tag_table(result, base=base)
     diff_indices = diff(expect_table[TOKEN].to_list(), result_table[TOKEN].to_list())
+
+    report = str(sklearn.metrics.classification_report(expect_table[TAG], result_table[TAG]))
+
     diffs = pandas.DataFrame([(
         expect_table[TOKEN][i] if i else "",
         result_table[TOKEN][j] if j else "",
@@ -152,7 +157,7 @@ def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.Dat
     stats.append(("micro avg", micro_precision, micro_recall, 2*micro_precision*micro_recall/(micro_recall+micro_precision) if matches else 0))
     stats_df = pandas.DataFrame(stats, columns=[TAG, PRECISION, RECALL, F1_SCORE])
     
-    return stats_df, diffs
+    return stats_df, diffs, report
         
 def export_stats(expect: Path, result: Path, output: Path, base: bool=False):
     """
@@ -162,7 +167,44 @@ def export_stats(expect: Path, result: Path, output: Path, base: bool=False):
         output: The output path for the xlsx file.
     Returns: 
     """
-    stats, diffs = match_tags(expect, result, base=base)
+    stats, diffs, report = match_tags(expect, result, base=base)
     with pandas.ExcelWriter(output, engine='xlsxwriter') as writer:
         stats.to_excel(writer, sheet_name='Stats', index=False)
         diffs.to_excel(writer, sheet_name='Diffs', index=False)
+
+
+classla.download('sr')
+classla.download('sr', type="nonstandard")
+standard = classla.Pipeline('sr', processors='tokenize,ner', tokenize_pretokenized=True)
+nonstandard = classla.Pipeline('sr', processors='tokenize,ner', tokenize_pretokenized=True, type="nonstandard")
+TEMP=Path("/tmp/classla")
+
+def conllu_to_input(input: Path) -> str:
+    lines = [it for it in input.read_text().split("\n") if len(it) > 0 and not it.startswith("#")]
+    tokens = [it.split("\t")[1] for it in lines]
+    return " ".join(tokens)
+
+def evaluate(input: Path, output: Path, reports_output: Path):
+    with pandas.ExcelWriter(output, engine='xlsxwriter') as writer:
+        for type in ["standard", "nonstandard"]:
+            for base in [False, True]:
+                table_name = f"{type}-" + ("base" if base else "full")
+                model = globals()[type]
+                input_text = conllu_to_input(input)
+                TEMP.write_text(model(input_text).to_conll())
+                stats_table, diffs_table, report = match_tags(input, TEMP, base=base)
+                stats_table = stats_table.round(2)
+                stats_table.to_excel(writer, sheet_name=f"{table_name}-stats", index=False)
+                diffs_table.to_excel(writer, sheet_name=f"{table_name}-diffs", index=False)
+                (reports_output/table_name).write_text(report)
+
+
+input_dir = Path(__file__).parent.parent/"tokenized_files"
+output_dir = Path(__file__).parent.parent/"evaluation"/"classla"
+if __name__ == "__main__":
+    for input in ["administrative_texts", "literature", "newspapers", "twitter", "combined"]:
+        input_file = input_dir/f"{input}.conllu"
+        output_file = output_dir/f"{input}.xlsx"
+        reports_output = output_dir/"reports"
+        print(f"Writing from {input_file} to {output_file}")
+        evaluate(input_file, output_file, reports_output)

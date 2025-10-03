@@ -49,9 +49,6 @@ def calibrate():
             return
         
         annotations = [c[10] if len(c) == 11 else "" for c in cols]
-        if any(annotation  == "" for annotation in annotations):
-            print(f"Greska u na liniji {line_number} - u jednom od fajlova nedostaje anotacija. Prostale anotacije su {" ".join(annotations)}.")
-        
         # konverzija ćiriličnog O u  latinično
         annotations = [a if a != "О" else "O" for a in annotations]
         
@@ -63,14 +60,13 @@ def calibrate():
         if len(anotations_set) != 1:
             decision = max(annotations, key=annotations.count)
             rows.append([line_number, *tokens, *annotations, decision])
-            print(f"Greska u na liniji {line_number} - anotacije za token {tokens} se razlikuju: {annotations} - većinska odluka: {decision}")
 
     for f in all_files:
         f.close()
     
     df = pandas.DataFrame(rows, columns=["broj linije", "token", "Milan", "Milica", "Aleksa", "vecinska odluka"]) 
-    df.to_excel(os.path.join(FOLDER, "calibration.xlsx"), header=True, index=False)
-       
+    df.to_excel(os.path.join(FOLDER, "calibration.xlsx"), header=True, index=False) 
+    print("Kreiran Excel fajl sa rezultatima.")
     
     print("\nbinarni stepeni saglasnosti")
     binary_precentages = []

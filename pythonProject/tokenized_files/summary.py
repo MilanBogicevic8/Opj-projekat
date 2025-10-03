@@ -63,8 +63,9 @@ def summerize():
         rows.append([file, annotations["O"], annotations["I-PER"], annotations["B-PER"],annotations["I-ORG"], annotations["B-ORG"], annotations["I-LOC"], annotations["B-LOC"], per, org, loc, entities, all])
         
 
-    df = pandas.DataFrame(rows, columns=["domen", "O", "I-PER", "B-PER", "I-ORG", "B-ORG",  "I-LOC", "B-LOC", "PER", "ORG", "LOC", "ukupno NE", "ukupno tokena"]) 
+    df = pandas.DataFrame(rows, columns=["domen", "O", "I-PER", "B-PER", "I-ORG", "B-ORG",  "I-LOC", "B-LOC", "PER", "ORG", "LOC", "ukupno entiteta", "ukupno tokena"]) 
     df.to_excel(os.path.join(FOLDER, "summary.xlsx"), header=True, index=False)
+    print("Kreiran Excel fajl sa rezultatima.")
         
 
 # to_connlu()

@@ -43,8 +43,8 @@ if __name__ == "__main__":
         ignore_mismatched_sizes=True, 
         labels=labels,
         args = {
-                "train_batch_size": 4,
-                "eval_batch_size": 4,
+                "train_batch_size": 8,
+                "eval_batch_size": 8,
                 "use_multiprocessing": False,
                 "max_seq_length": 512
         }

@@ -1,0 +1,28 @@
+STRICT
+              precision    recall  f1-score   support
+
+         LOC       0.43      0.41      0.42       414
+         ORG       0.20      0.01      0.02       485
+         PER       0.39      0.45      0.42       419
+
+   micro avg       0.40      0.27      0.33      1318
+   macro avg       0.34      0.29      0.28      1318
+weighted avg       0.33      0.27      0.27      1318
+
+
+DEFAULT
+              precision    recall  f1-score   support
+
+         LOC       0.44      0.41      0.42       416
+         ORG       0.20      0.01      0.02       489
+         PER       0.39      0.45      0.42       419
+
+   micro avg       0.41      0.27      0.33      1324
+   macro avg       0.34      0.29      0.29      1324
+weighted avg       0.33      0.27      0.27      1324
+
+
+Accuracy: 0.89
+F1: 0.33
+Precision: 0.41
+Recall: 0.27

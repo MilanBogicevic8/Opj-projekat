@@ -122,7 +122,7 @@
 # text = SRETNIMO SE NA SRETENjE, SVI U KRAGUJEVAC‼️‼️‼️										
 1	SRETNIMO	_	_	_	_	_	_	_	_	O
 2	SE	_	_	_	_	_	_	_	_	O
-3		_	_	_	_	_	_	_	_	O
+3	NA	_	_	_	_	_	_	_	_	O
 4	SRETENjE	_	_	_	_	_	_	_	SpaceAfter=No	O
 5	,	,	PUNCT	Z	_	_	_	_	_	O
 6	SVI	_	_	_	_	_	_	_	_	O
@@ -6285,7 +6285,7 @@
 # text = NOVI NAPAD NA STUDENTE I INSTITUCIJU PRAVNOG FAKULTETA❗️										
 1	NOVI	_	_	_	_	_	_	_	_	O
 2	NAPAD	_	_	_	_	_	_	_	_	O
-3		_	_	_	_	_	_	_	_	O
+3	NA	_	_	_	_	_	_	_	_	O
 4	STUDENTE	_	_	_	_	_	_	_	_	O
 5	I	_	_	_	_	_	_	_	_	O
 6	INSTITUCIJU	_	_	_	_	_	_	_	_	O
@@ -6352,7 +6352,7 @@
 4	DEJAN	_	_	_	_	_	_	_	_	B-PER
 5	BODIROGA	_	_	_	_	_	_	_	_	I-PER
 6	DOLAZI	_	_	_	_	_	_	_	_	O
-7		_	_	_	_	_	_	_	_	O
+7	NA	_	_	_	_	_	_	_	_	O
 8	NAŠ	_	_	_	_	_	_	_	_	O
 9	FAKULTET	_	_	_	_	_	_	_	_	O
 10	29.1.	_	_	_	_	_	_	_	_	O

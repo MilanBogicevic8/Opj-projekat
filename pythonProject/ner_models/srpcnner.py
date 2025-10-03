@@ -19,6 +19,7 @@ def predict(nlp, domain):
     # doc = nlp("Milica studira na Elektrotehnickom fakultetu u Beogradu.")
 
     for tokens in domain.tokens:
+        # tokens = [token if token != "" else "NA" for token in tokens] # rec "NA"
         #preskoci tokenizaciju
         doc = Doc(nlp.vocab, words=tokens)
         doc = nlp.get_pipe("tok2vec")(doc)
@@ -37,7 +38,7 @@ def predict(nlp, domain):
 
 if __name__ == "__main__":
     """
-    skinuti model sa linka
+    preuzeti model sa linka
     https://live.european-language-grid.eu/catalogue/ld/9484/download/
     raspakovati i podesiti MODEL_FOLDER
     """

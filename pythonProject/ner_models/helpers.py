@@ -96,6 +96,13 @@ class Domain:
         print("Ucitani podaci za " + self.name)
 
 
+    def set_predictions(self, prediction_tokens, predictions, converted_predictions):
+        self.prediction_tokens = prediction_tokens
+        self.predictions = predictions
+        self.converted_predictions = converted_predictions
+        print("Gotova predikcija za " + self.name)
+
+
     def write_predictions(self):
         if os.path.exists(self.predictions_file):
             os.remove(self.predictions_file)
@@ -205,14 +212,15 @@ class Domain:
 
 
     @staticmethod
-    def read_from_predictions_no_IB():
-        annotations = []
-        predictions = []
-        for domain in Domain.all_domains:
-            df = pd.read_excel(domain.predictions_file)
-            annotations.extend([label[2:] if label != 'O' else 'O' for label in df[df.columns[4]].tolist()])
-            predictions.extend([label[2:] if label != 'O' else 'O' for  label in df[df.columns[3]].tolist()])
-        return annotations, predictions
+    def run(name, predict, model):
+        domains = Domain.instanitate(name)
+        for domain in domains:
+            domain.load_data()
+            result = predict(model, domain.tokens)
+            domain.set_predictions(* result)
+            domain.write_predictions()
+            domain.evaluate()
+        Domain.evaluate_all()
 
 
         

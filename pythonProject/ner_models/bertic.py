@@ -5,22 +5,22 @@ from helpers import Domain
 switch = {
     "I-MISC" : "O",
     "B-MISC" : "O",
-    "I-DERIV-PER" : "I-PER",
-    "B-DERIV-PER" : "B-PER",
 }
 
 
-def predict(model, domain):
-    preds_list, model_output = model.predict(domain.tokens, split_on_space=False)
+def predict(model, tokens):
+    prediction_tokens = []
+    predictions = []
+    converted_predictions = []
+    preds_list, model_output = model.predict(tokens, split_on_space=False)
 
     for pred in preds_list:
-        domain.prediction_tokens.append([list(word.keys())[0] for word in pred])
+        prediction_tokens.append([list(word.keys())[0] for word in pred])
         p = [list(word.values())[0] for word in pred]
-        domain.predictions.append(p)
+        predictions.append(p)
         p = [switch.get(word, word) for word in p]  #!
-        domain.converted_predictions.append(p) 
-    
-    print("Gotova predikcija za " + domain.name)
+        converted_predictions.append(p)
+    return prediction_tokens, predictions, converted_predictions
 
 
 if __name__ == "__main__":
@@ -32,20 +32,14 @@ if __name__ == "__main__":
         ignore_mismatched_sizes=True, 
         labels=labels,
         args = {
-                "train_batch_size": 8,
-                "eval_batch_size": 8,
+                "train_batch_size": 16,
+                "eval_batch_size": 16,
                 "use_multiprocessing": False,
                 "max_seq_length": 512
         }
     )
 
-    domains = Domain.instanitate("bertic")
-    for domain in domains:
-        domain.load_data()
-        predict(model, domain)
-        domain.write_predictions()
-        domain.evaluate()
-    Domain.evaluate_all()
+    domains = Domain.run("bertic", predict, model)
     
 
 

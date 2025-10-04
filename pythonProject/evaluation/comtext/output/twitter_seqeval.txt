@@ -14,7 +14,7 @@ DEFAULT
               precision    recall  f1-score   support
 
          LOC       0.69      0.77      0.73       111
-         ORG       0.44      0.40      0.42        55
+         ORG       0.45      0.40      0.42        55
          PER       0.84      0.77      0.80       109
 
    micro avg       0.70      0.69      0.70       275

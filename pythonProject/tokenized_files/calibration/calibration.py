@@ -2,19 +2,7 @@ import pandas
 import csv
 import os
 
-EXCEL_FILES = ["milan", "milica", "aleksa"]
-FOLDER = os.path.join("tokenized_files", "calibration")
-
-def to_connlu():
-    for file in EXCEL_FILES:
-        df = pandas.read_excel(os.path.join(FOLDER, "literature-" + file + ".xlsx"), header=None)
-        df = df.head(4015)
-        df.to_csv("literature-" + file + "-annotations.conllu", sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE, escapechar='\\')
-        print("Konvertovan "+ file)
-
-
-
-
+FOLDER = "."
 CONLLU_FILES = ["milan", "milica", "aleksa"] 
 
 binary = {

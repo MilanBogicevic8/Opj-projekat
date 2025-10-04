@@ -3,7 +3,7 @@ from spacy.tokens import Doc
 from helpers import *
 
 
-MODEL_FOLDER = "ner_models"
+MODEL_FOLDER = "."
 
 switch = {
     "I-PERS" : "I-PER",
@@ -15,23 +15,26 @@ switch = {
 }
 
 
-def predict(nlp, domain):
-    # doc = nlp("Milica studira na Elektrotehnickom fakultetu u Beogradu.")
+def predict(nlp, tokens):
+    prediction_tokens = []
+    predictions = []
+    converted_predictions = []
 
-    for tokens in domain.tokens:
+    for t in tokens:
         # tokens = [token if token != "" else "NA" for token in tokens] # rec "NA"
-        #preskoci tokenizaciju
-        doc = Doc(nlp.vocab, words=tokens)
+        #skip tokenization
+        doc = Doc(nlp.vocab, words=t) # spaces dont make a difference
+        # nlp.pipeline
         doc = nlp.get_pipe("tok2vec")(doc)
         doc = nlp.get_pipe("ner")(doc)
 
-        domain.prediction_tokens.append([token.text for token in doc])
+        prediction_tokens.append([token.text for token in doc])
         p = [(token.ent_iob_ + "-" + token.ent_type_) if token.ent_type_ != "O" else "O" for token in doc]
-        domain.predictions.append(p)
+        predictions.append(p)
         p = [switch.get(word, "O") for word in p] #!
-        domain.converted_predictions.append(p)
+        converted_predictions.append(p)
 
-    print("Gotova predikcija za " + domain.name)
+    return prediction_tokens, predictions, converted_predictions
 
 
 
@@ -44,12 +47,7 @@ if __name__ == "__main__":
     """
     nlp = spacy.load(os.path.join(MODEL_FOLDER, "SrpCNNER"))
     
-    domains = Domain.instanitate("srpcnner")
-    for domain in domains:
-        domain.load_data()
-        predict(nlp, domain)
-        domain.write_predictions()
-        domain.evaluate()
-    Domain.evaluate_all()
+    domains = Domain.run("srpcnner", predict, nlp)
+
 
 

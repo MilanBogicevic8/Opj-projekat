@@ -2,8 +2,10 @@ import pandas
 import csv
 import os
 
+FOLDER = "."
+
 EXCEL_FILES = ["administrative_texts", "newspapers"]
-FOLDER = "tokenized_files"
+CONLLU_FILES = ["administrative_texts", "newspapers", "twitter", "literature"]
 
 def to_connlu():
     for file in EXCEL_FILES:
@@ -12,11 +14,7 @@ def to_connlu():
         print("Konvertovan "+ file)
 
 
-CONLLU_FILES = ["administrative_texts", "newspapers", "twitter", "literature"]
-
-
-def summerize():
-    
+def summerize():    
     rows = []
     for file in CONLLU_FILES:
         annotations = {

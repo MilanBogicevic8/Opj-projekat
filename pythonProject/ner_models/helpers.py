@@ -12,7 +12,8 @@ domain_names = ["administrative_texts", "newspapers","twitter", "literature"]
 excel_columns = ["anotiran token", "token za predikciju", "predikcija", "konvertovana predikcija", "anotacija"]
 annotations = [ "O", "I-PER", "B-PER", "I-ORG", "B-ORG", "I-LOC", "B-LOC"]
 
-input_folder = "tokenized_files"
+input_folder = os.path.join("..", "tokenized_files")
+evaluation_folder = os.path.join("..", "evaluation")
 
 class Domain:
 
@@ -46,11 +47,9 @@ class Domain:
     @staticmethod
     def instanitate(model_name):
         Domain.model_name = model_name
-        Domain.evaluation_folder = os.path.join("evaluation", Domain.model_name)
-        os.makedirs(Domain.evaluation_folder, exist_ok=True)
-
-        Domain.predictions_folder = os.path.join(Domain.evaluation_folder, "predictions") 
-        Domain.output_folder = os.path.join(Domain.evaluation_folder, "output") 
+        Domain.model_folder = os.path.join(evaluation_folder, Domain.model_name)
+        Domain.predictions_folder = os.path.join(Domain.model_folder, "predictions") 
+        Domain.output_folder = os.path.join(Domain.model_folder, "output") 
         os.makedirs(Domain.predictions_folder, exist_ok=True)
         os.makedirs(Domain.output_folder, exist_ok=True)
 
@@ -84,8 +83,8 @@ class Domain:
                 token = cols[1]
                 annotation = cols[10]
 
-                if annotation not in annotations:
-                    print(f"Napomena u domenu {self.name} na liniji {line_number}: Koriscena nepostojeca anotacija: {token} = {annotation}")
+                if annotation not in annotations or token == "":
+                    print(f"Napomena u domenu {self.name} na liniji {line_number} - {token} : {annotation}.")
                     continue
                 
                 sentence_tokens.append(token)
@@ -95,6 +94,13 @@ class Domain:
                 self.annotations.append(sentence_annotations)
             
         print("Ucitani podaci za " + self.name)
+
+
+    def set_predictions(self, prediction_tokens, predictions, converted_predictions):
+        self.prediction_tokens = prediction_tokens
+        self.predictions = predictions
+        self.converted_predictions = converted_predictions
+        print("Gotova predikcija za " + self.name)
 
 
     def write_predictions(self):
@@ -206,14 +212,15 @@ class Domain:
 
 
     @staticmethod
-    def read_from_predictions_no_IB():
-        annotations = []
-        predictions = []
-        for domain in Domain.all_domains:
-            df = pd.read_excel(domain.predictions_file)
-            annotations.extend([label[2:] if label != 'O' else 'O' for label in df[df.columns[4]].tolist()])
-            predictions.extend([label[2:] if label != 'O' else 'O' for  label in df[df.columns[3]].tolist()])
-        return annotations, predictions
+    def run(name, predict, model):
+        domains = Domain.instanitate(name)
+        for domain in domains:
+            domain.load_data()
+            result = predict(model, domain.tokens)
+            domain.set_predictions(* result)
+            domain.write_predictions()
+            domain.evaluate()
+        Domain.evaluate_all()
 
 
         

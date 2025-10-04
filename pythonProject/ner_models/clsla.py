@@ -1,8 +1,10 @@
 import classla
 from pathlib import Path
-import sklearn.metrics
 import re
 import pandas
+import sklearn.metrics
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 TAGS_MAPPING = {
     "DERIV-PER": "PER",
@@ -102,7 +104,7 @@ def parse_token_tag_table(input: Path, base: bool = False) -> pandas.DataFrame:
             ret.append((token, tag))
     return pandas.DataFrame(ret, columns=[TOKEN, TAG])
 
-def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.DataFrame, pandas.DataFrame, str]:
+def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.DataFrame, pandas.DataFrame, pandas.DataFrame]:
     """
     Match expected NER annotation against result.
     Returns two tables.
@@ -110,8 +112,10 @@ def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.Dat
     A table with stats:
     Tag | Expected count | Result count | Precision | Recall | F1 Score
 
-    A table with differences in applied tags or parsed tokens:
+    A table with all tokens and tags:
     Expected token | Result token | Expected label | Result label
+
+    A table with differences in applied tags or parsed tokens, same schema as above.
 
     If a token is not matched by either of the inputs,
     the corresponding table entries will be empty.
@@ -120,16 +124,14 @@ def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.Dat
     result_table = parse_token_tag_table(result, base=base)
     diff_indices = diff(expect_table[TOKEN].to_list(), result_table[TOKEN].to_list())
 
-    report = str(sklearn.metrics.classification_report(expect_table[TAG], result_table[TAG]))
-
     diffs = pandas.DataFrame([(
-        expect_table[TOKEN][i] if i else "",
-        result_table[TOKEN][j] if j else "",
-        expect_table[TAG][i] if i else "",
-        result_table[TAG][j] if j else ""
+        expect_table[TOKEN][i] if i is not None else "",
+        result_table[TOKEN][j] if j is not None else "",
+        expect_table[TAG][i] if i is not None else "",
+        result_table[TAG][j] if j is not None else ""
     ) for i, j in diff_indices], columns=[EXPECTED_TOKEN, RESULT_TOKEN, EXPECTED_TAG, RESULT_TAG])
-    diffs = diffs[(diffs[EXPECTED_TOKEN] != diffs[RESULT_TOKEN]) | (diffs[EXPECTED_TAG] != diffs[RESULT_TAG])]
-    
+    only_diffs = diffs[diffs[EXPECTED_TAG] != diffs[RESULT_TAG]]
+
     tags = set(expect_table[TAG].unique()).union(result_table[TAG].unique()).difference({"O"})
     stats = []
     l=min(expect_table.shape[0], result_table.shape[0])
@@ -157,7 +159,7 @@ def match_tags(expect: Path, result: Path, base: bool=False) -> tuple[pandas.Dat
     stats.append(("micro avg", micro_precision, micro_recall, 2*micro_precision*micro_recall/(micro_recall+micro_precision) if matches else 0))
     stats_df = pandas.DataFrame(stats, columns=[TAG, PRECISION, RECALL, F1_SCORE])
     
-    return stats_df, diffs, report
+    return stats_df, diffs, only_diffs
         
 def export_stats(expect: Path, result: Path, output: Path, base: bool=False):
     """
@@ -167,10 +169,10 @@ def export_stats(expect: Path, result: Path, output: Path, base: bool=False):
         output: The output path for the xlsx file.
     Returns: 
     """
-    stats, diffs, report = match_tags(expect, result, base=base)
+    stats, _, only_diffs = match_tags(expect, result, base=base)
     with pandas.ExcelWriter(output, engine='xlsxwriter') as writer:
         stats.to_excel(writer, sheet_name='Stats', index=False)
-        diffs.to_excel(writer, sheet_name='Diffs', index=False)
+        only_diffs.to_excel(writer, sheet_name='Diffs', index=False)
 
 
 classla.download('sr')
@@ -194,10 +196,20 @@ def evaluate(input: Path, output: Path, reports_output: Path):
                 model = globals()[type]
                 input_text = conllu_to_input(input)
                 TEMP.write_text(model(input_text).to_conll())
-                stats_table, diffs_table, report = match_tags(input, TEMP, base=base)
+                stats_table, diffs, only_diffs = match_tags(input, TEMP, base=base)
+                report = str(sklearn.metrics.classification_report(diffs[EXPECTED_TAG], diffs[RESULT_TAG]))
+                if base:
+                    labels=["O", "PER", "ORG", "LOC"]
+                    cm = sklearn.metrics.confusion_matrix(diffs[EXPECTED_TAG], diffs[RESULT_TAG], labels=labels)
+                    plt.figure(figsize=(10,7))
+                    sns.heatmap(cm, annot=True, fmt='d', xticklabels=labels, yticklabels=labels, cmap="Blues")
+                    plt.ylabel('Expected')
+                    plt.xlabel('Predicted')
+                    plt.title(f'Confusion Matrix for {domain} - {table_name}')
+                    plt.show()
                 stats_table = stats_table.round(2)
                 stats_table.to_excel(writer, sheet_name=f"{table_name}-stats", index=False)
-                diffs_table.to_excel(writer, sheet_name=f"{table_name}-diffs", index=False)
+                only_diffs.to_excel(writer, sheet_name=f"{table_name}-diffs", index=False)
                 (reports_output/f"{domain}_{table_name}").write_text(report)
 
 

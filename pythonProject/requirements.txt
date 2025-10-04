@@ -6,7 +6,7 @@ openpyxl
 pandas
 classla
 XlsxWriter
-sklearn
+scikit-learn
 spacy
 simpletransformers
 seqeval

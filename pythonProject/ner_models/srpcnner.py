@@ -3,7 +3,7 @@ from spacy.tokens import Doc
 from helpers import *
 
 
-MODEL_FOLDER = "ner_models"
+MODEL_FOLDER = "."
 
 switch = {
     "I-PERS" : "I-PER",
@@ -16,12 +16,11 @@ switch = {
 
 
 def predict(nlp, domain):
-    # doc = nlp("Milica studira na Elektrotehnickom fakultetu u Beogradu.")
-
     for tokens in domain.tokens:
         # tokens = [token if token != "" else "NA" for token in tokens] # rec "NA"
-        #preskoci tokenizaciju
-        doc = Doc(nlp.vocab, words=tokens)
+        #skip tokenization
+        doc = Doc(nlp.vocab, words=tokens) # spaces dont make a difference
+        # nlp.pipeline
         doc = nlp.get_pipe("tok2vec")(doc)
         doc = nlp.get_pipe("ner")(doc)
 

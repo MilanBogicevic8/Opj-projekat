@@ -5,7 +5,7 @@ FOLDERS = [os.path.join("administrative_documents", "izvuceno_latinica"), os.pat
 
 
 for folder in FOLDERS:
-    input_folder = os.path.join("data", folder)
+    input_folder = os.path.join("..", "data", folder)
     for filename in os.listdir(input_folder):
         if filename.endswith(".txt"):
             file = os.path.join(input_folder, filename)

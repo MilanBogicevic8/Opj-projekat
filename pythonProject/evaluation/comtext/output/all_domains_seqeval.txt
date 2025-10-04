@@ -19,7 +19,7 @@ DEFAULT
 
    micro avg       0.77      0.69      0.73      1324
    macro avg       0.77      0.70      0.73      1324
-weighted avg       0.76      0.69      0.73      1324
+weighted avg       0.77      0.69      0.73      1324
 
 
 Accuracy: 0.96

@@ -28,19 +28,31 @@ def read_and_clean_excel(file_name):
 # Ekstrakcija karakteristika
 # ------------------------------
 def extract_features(tokens, index):
+    punctuation_marks = {'.', '?', '!', ';', ':'}
+
+    sentence_start = 0
+    for i in range(index - 1, -1, -1):
+        if tokens[i] in punctuation_marks:
+            sentence_start = i + 1
+            break
+
+    position_in_sentence = index - sentence_start
+
     token = tokens[index]
     features = {
         'token_lower': token.lower(),
         'is_capitalized': token[0].isupper(),
+        'is_capitalized_prev_token': tokens[index - 1][0].isupper() if index > 0 else False,
+        'is_capitalized_prev2_token': tokens[index - 2][0].isupper() if index > 1 else False,
         'has_hyphen': '-' in token,
         'prefix_1': token[0].lower(),
         'suffix_1': token[-1].lower(),
-        'position': index,
+        'position': position_in_sentence,
         'prev_token': tokens[index - 1].lower() if index > 0 else '<START>',
         'prev2_token': tokens[index - 2].lower() if index > 1 else '<START>',
     }
-    return features
 
+    return features
 
 # ------------------------------
 # Transformacija labela
